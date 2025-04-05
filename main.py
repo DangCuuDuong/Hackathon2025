@@ -87,9 +87,14 @@ st.markdown(
 
 
 
-    div[data-baseweb="button"][data-testid="stButton"][key="my_button"]{
-        align-items: center;
-        justify-content: center;
+    div.stButton > button[aria-label="📦 Save All Ingredients"] {
+        width: 100%; /* hoặc giá trị cụ thể như 300px */
+        max-width: 400px;  /* tránh vượt quá */
+        padding: 12px 24px;
+        font-size: 18px;
+        border-radius: 8px;
+        background-color: #FF5733;
+        color: white;
     }
 
     /* Thay đổi phong cách cho selectbox */

@@ -72,18 +72,20 @@ def get_page_home():
             main_data = json.load(f)
 
         ingredient_list = list(main_data.keys())
+        col1, col2, col3 = st.columns([2, 2, 1])  # tỉ lệ giữa 3 cột
 
-        if st.button("📦 Save All Ingredients", type="primary"):
-            data_to_save = {
-                "user_ingredients": ingredient_list
-            }
+        with col2:
+            if st.button("📦 Save All Ingredients", key="save_all_ingredients"):
+                data_to_save = {
+                    "user_ingredients": ingredient_list
+                }
 
-            # ⚠️ Sửa lỗi đường dẫn bị sai khoảng trắng
-            with open("Generate_Receipt/user_ingredients.json", "w", encoding="utf-8") as f:
-                json.dump(data_to_save, f, ensure_ascii=False, indent=4)
+                # ⚠️ Sửa lỗi đường dẫn bị sai khoảng trắng
+                with open("Generate_Receipt/user_ingredients.json", "w", encoding="utf-8") as f:
+                    json.dump(data_to_save, f, ensure_ascii=False, indent=4)
 
-            st.success("✅ All ingredients saved successfully!")
-            st.json(data_to_save)
+                st.toast("✅ All ingredients saved successfully!", icon="📦")
+                st.json(data_to_save)
 
     # --- GỢI Ý CÔNG THỨC ---
 
@@ -154,35 +156,40 @@ def get_page_home():
     def extract_quantity_number(qty_str):
         match = re.match(r"\s*(\d+)", qty_str)
         return int(match.group(1)) if match else 1
+    def cook_recipe():
+        used_ingredients = {}
+        for ing in selected_recipe.get("ingredients", []):
+            name = ing["name"]
+            quantity = extract_quantity_number(ing["quantity"])
+            used_ingredients[name] = -quantity  # số âm
+
+        # Lưu vào file
+        with open("Generate_Receipt/used_ingredients.json", "w", encoding="utf-8") as f:
+            json.dump(used_ingredients, f, ensure_ascii=False, indent=4)
+
+        st.success("✅ Cooking completed! Ingredients usage saved.")
+        st.json(used_ingredients)
+
+        from JSON_FILE.combine import combind_json
+        JSON_FLE = "JSON_FILE/main.json"
+        other_file = "Generate_Receipt/used_ingredients.json"
+        combind_json(JSON_FLE, other_file)
+
+        st.subheader("Current Ingredients")
+        with open('JSON_FILE/main.json', 'r') as f:
+            json_data = json.load(f)
+
+        # Chuyển thành DataFrame
+        df_components = pd.DataFrame(list(json_data.items()), columns=["name", "count"])
+        df_components = df_components.sort_values(by="count", ascending=False)
+        st.subheader("🧾 Current Ingredients")
+        st.dataframe(df_components)
 
     # NÚT "NẤU" - TRỪ NGUYÊN LIỆU
     with st.container():
         st.markdown("---")
-        if st.button("👨‍🍳 Cook this recipe"):
-            used_ingredients = {}
-            for ing in selected_recipe.get("ingredients", []):
-                name = ing["name"]
-                quantity = extract_quantity_number(ing["quantity"])
-                used_ingredients[name] = -quantity  # số âm
-
-            # Lưu vào file
-            with open("Generate_Receipt/used_ingredients.json", "w", encoding="utf-8") as f:
-                json.dump(used_ingredients, f, ensure_ascii=False, indent=4)
-
-            st.success("✅ Cooking completed! Ingredients usage saved.")
-            st.json(used_ingredients)
-
-            from JSON_FILE.combine import combind_json
-            JSON_FLE = "JSON_FILE/main.json"
-            other_file = "Generate_Receipt/used_ingredients.json"
-            combind_json(JSON_FLE, other_file)
-
-            st.subheader("Current Ingredients")
-            with open('JSON_FILE/main.json', 'r') as f:
-                json_data = json.load(f)
-
-            # Chuyển thành DataFrame
-            df_components = pd.DataFrame(list(json_data.items()), columns=["name", "count"])
-            df_components = df_components.sort_values(by="count", ascending=False)
-            st.subheader("🧾 Current Ingredients")
-            st.dataframe(df_components)
+        col1, col2, col3 =st.columns([2,2,1])
+        with col2:
+            if st.button("👨‍🍳 Cook this recipe"):
+                cook_recipe()
+    

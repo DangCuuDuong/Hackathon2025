@@ -1,10 +1,10 @@
 {
     "apple": 7759874,
     "banana": 2589696,
-    "beef": 2772,
+    "beef": 2372,
     "bread": 4096,
-    "carrot": 514972,
-    "egg": 4095,
+    "carrot": 514772,
+    "egg": 4093,
     "eggs": 3072,
     "fish": 3072,
     "pasta": 3072,
@@ -12,7 +12,7 @@
     "pork": 1024,
     "potato": 1848,
     "sugar": 1120,
-    "sweetpotato": 1024,
+    "sweetpotato": 824,
     "tomato": 1337244,
     "tuna": 8
 }
