@@ -26,10 +26,15 @@ def create_recommendation():
         return df
 
     # Input section
-    st.header("Add New Ingredient")
-    name = st.text_input("Ingredient name (e.g., Salt)")
-    count = st.number_input("Count", min_value=1, value=1, step=1)
-    add_components = st.button("Add Ingredient")
+    st.markdown("<div class='one1'>Add Ingredients</div>", unsafe_allow_html=True)
+    col1, col2, col3 = st.columns([3, 2, 1]) 
+
+    with col1:
+        name = st.text_input("Ingredient name (e.g., Salt)")
+    with col2:
+        count = st.number_input("Count", min_value=1, value=1, step=1)
+    with col3:
+        add_components = st.button("Add Ingredient")
 
     if add_components:
         if name and count > 0:
@@ -44,17 +49,16 @@ def create_recommendation():
             st.success(f"Added {count} {name} successfully!")
 
     # Display results
-    st.header("Components Prepare")
     if not componets_prepare.empty:
-        col1, col2 = st.columns(2)
-        with col1:
-            st.write("Name")
-            st.write(componets_prepare["name"].values)
-        with col2:
-            st.write("Count")
-            st.write(componets_prepare["count"].values)
-    else:
-        st.write("No ingredients added yet.")
+        st.markdown("<div class='one1'>Components Prepare</div>", unsafe_allow_html=True)
+        st.dataframe(componets_prepare, use_container_width=True)
+        # col1, col2 = st.columns(2)
+        # with col1:
+        #     st.write("Name")
+        #     st.write(componets_prepare["name"].values)
+        # with col2:
+        #     st.write("Count")
+        #     st.write(componets_prepare["count"].values)
 
     
 

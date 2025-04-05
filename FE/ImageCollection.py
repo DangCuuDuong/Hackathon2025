@@ -8,4 +8,4 @@ import pandas as pd
 def ImageCollection():
     st.subheader("Upload Image to Identify Ingredients")
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
-    return f"{uploaded_file.name}"  # Tên file được upload
+    return f"{uploaded_file}"  # Tên file được upload
