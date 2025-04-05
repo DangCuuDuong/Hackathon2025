@@ -57,13 +57,14 @@ You are a professional nutrition assistant. Please create a **3-day meal plan** 
 ---
 
 🧠 **Meal planning rules:**
-- Each day has 2 to 3 meals (breakfast, lunch, dinner)
-- Each meal includes 2 to 3 dishes
-- Meals in the same day can repeat dishes to save cooking effort
-- Prioritize available ingredients as much as possible
-- Respect preferences and avoid allergens
-- Try to meet nutritional goals as closely as possible
-- Keep recipes simple and easy to cook
+- Create a plan for 3 full days.
+- Each day MUST include 2 to 3 meals: **breakfast, lunch, and dinner**.
+- 🔥 Each meal MUST contain **2 to 3 different dishes (recipes)**. Do NOT generate only 1 dish per meal.
+- You MAY reuse dishes within the same day to save cooking effort.
+- Prioritize using the available ingredients as much as possible.
+- Avoid allergens and respect food dislikes.
+- Ensure nutritional targets are reasonably met.
+- Keep each recipe enough detailed and add numbers to each steps, healthy, and suitable for daily home cooking.
 
 ---
 
@@ -84,7 +85,8 @@ You are a professional nutrition assistant. Please create a **3-day meal plan** 
   }},
   ...
 ]
-Please generate data for all 3 days.
+
+Please strictly follow the rules above. Make sure **each meal includes at least 2 recipes**.
 """
 
 
@@ -113,7 +115,7 @@ def load_json_file(file_path):
 
 def main():
     try:
-        ingredients = load_json_file("ingredients.json")
+        ingredients = load_json_file("main.json")
         preferences = load_json_file("preferences.json")
         health = load_json_file("health.json")
     except Exception as e:

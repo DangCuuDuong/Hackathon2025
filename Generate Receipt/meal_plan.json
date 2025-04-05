@@ -6,51 +6,78 @@
                 "meal_name": "Breakfast",
                 "recipes": [
                     {
-                        "name": "Scrambled Tofu with Tomatoes",
-                        "description": "A protein-rich scrambled tofu with fresh tomatoes and onions.",
+                        "name": "Banana Oatmeal",
+                        "description": "A hearty bowl of oatmeal topped with slices of banana for a nutritious start.",
                         "nutrition": {
-                            "calories": "250 kcal",
-                            "protein": "20g",
-                            "carbs": "12g",
-                            "fat": "14g",
-                            "fiber": "3g",
-                            "sugar": "8g",
-                            "sodium": "300mg"
+                            "calories": "350 kcal",
+                            "protein": "10g",
+                            "carbs": "60g",
+                            "fat": "5g",
+                            "fiber": "7g",
+                            "sugar": "14g",
+                            "sodium": "5mg"
                         },
                         "ingredients": [
                             {
-                                "name": "tofu",
-                                "quantity": "200g"
+                                "name": "banana",
+                                "quantity": "1"
                             },
                             {
-                                "name": "tomato",
-                                "quantity": "100g"
-                            },
-                            {
-                                "name": "onion",
+                                "name": "oats",
                                 "quantity": "50g"
                             },
                             {
-                                "name": "garlic",
-                                "quantity": "1 clove"
-                            },
-                            {
-                                "name": "cooking oil",
-                                "quantity": "1 tbsp"
-                            },
-                            {
-                                "name": "salt",
-                                "quantity": "to taste"
-                            },
-                            {
-                                "name": "red pepper powder",
-                                "quantity": "1 tsp"
+                                "name": "water",
+                                "quantity": "300ml"
                             }
                         ],
                         "steps": [
-                            "Heat oil in a pan and sauté chopped onion and garlic until fragrant.",
-                            "Add diced tomatoes and tofu, and stir-fry for 5-7 minutes.",
-                            "Season with salt and red pepper powder. Serve hot."
+                            "Boil water and add oats, cooking for 5 minutes.",
+                            "Slice banana and add on top of cooked oats."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "banana"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Scrambled Eggs with Tomato",
+                        "description": "Fluffy scrambled eggs cooked with fresh tomatoes.",
+                        "nutrition": {
+                            "calories": "200 kcal",
+                            "protein": "15g",
+                            "carbs": "5g",
+                            "fat": "14g",
+                            "fiber": "1g",
+                            "sugar": "2g",
+                            "sodium": "140mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "eggs",
+                                "quantity": "2"
+                            },
+                            {
+                                "name": "tomato",
+                                "quantity": "1"
+                            },
+                            {
+                                "name": "olive oil",
+                                "quantity": "1 tbsp"
+                            }
+                        ],
+                        "steps": [
+                            "Chop tomato into small cubes.",
+                            "Heat olive oil in a pan, add chopped tomato, and cook for 2 minutes.",
+                            "Beat eggs and pour into the pan, stirring continuously until cooked."
                         ],
                         "spice_level": "medium",
                         "diet_type": "eat clean",
@@ -58,7 +85,7 @@
                             "muscle gain"
                         ],
                         "highlighted_ingredients": [
-                            "tofu"
+                            "eggs"
                         ],
                         "avoided_ingredients": [
                             "butter"
@@ -71,56 +98,34 @@
                 "meal_name": "Lunch",
                 "recipes": [
                     {
-                        "name": "Grilled Chicken Breast with Roasted Vegetables",
-                        "description": "A balanced meal featuring grilled chicken breast and roasted vegetables.",
+                        "name": "Grilled Chicken Breast",
+                        "description": "Juicy grilled chicken breast seasoned with garlic and ginger.",
                         "nutrition": {
-                            "calories": "600 kcal",
-                            "protein": "60g",
-                            "carbs": "40g",
-                            "fat": "20g",
-                            "fiber": "6g",
-                            "sugar": "10g",
-                            "sodium": "500mg"
+                            "calories": "300 kcal",
+                            "protein": "45g",
+                            "carbs": "2g",
+                            "fat": "12g",
+                            "fiber": "0g",
+                            "sugar": "0g",
+                            "sodium": "200mg"
                         },
                         "ingredients": [
                             {
-                                "name": "chicken",
+                                "name": "chicken breast",
                                 "quantity": "200g"
                             },
                             {
-                                "name": "potato",
-                                "quantity": "150g"
-                            },
-                            {
-                                "name": "carrot",
-                                "quantity": "100g"
-                            },
-                            {
-                                "name": "onion",
-                                "quantity": "50g"
-                            },
-                            {
                                 "name": "garlic",
-                                "quantity": "2 cloves"
+                                "quantity": "1 clove"
                             },
                             {
-                                "name": "cooking oil",
-                                "quantity": "2 tbsp"
-                            },
-                            {
-                                "name": "salt",
-                                "quantity": "to taste"
-                            },
-                            {
-                                "name": "red pepper powder",
+                                "name": "ginger",
                                 "quantity": "1 tsp"
                             }
                         ],
                         "steps": [
-                            "Preheat oven to 200°C (390°F).",
-                            "Season chicken with salt and red pepper powder, and grill until cooked through.",
-                            "Toss chopped vegetables in oil, garlic, salt, and roast for 25-30 minutes.",
-                            "Serve grilled chicken with roasted vegetables."
+                            "Marinate chicken with minced garlic and ginger for 30 minutes.",
+                            "Grill chicken on medium heat until fully cooked, about 6 minutes per side."
                         ],
                         "spice_level": "medium",
                         "diet_type": "eat clean",
@@ -134,6 +139,45 @@
                             "butter"
                         ],
                         "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Carrot and Pineapple Salad",
+                        "description": "A refreshing salad made with grated carrots and fresh pineapple chunks.",
+                        "nutrition": {
+                            "calories": "150 kcal",
+                            "protein": "2g",
+                            "carbs": "35g",
+                            "fat": "1g",
+                            "fiber": "5g",
+                            "sugar": "20g",
+                            "sodium": "30mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "carrot",
+                                "quantity": "2"
+                            },
+                            {
+                                "name": "pineapple",
+                                "quantity": "0.5"
+                            }
+                        ],
+                        "steps": [
+                            "Grate carrots and cut pineapple into small chunks.",
+                            "Mix together in a bowl and serve chilled."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "pineapple"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
                     }
                 ]
             },
@@ -141,52 +185,39 @@
                 "meal_name": "Dinner",
                 "recipes": [
                     {
-                        "name": "Beef Stir-fry with Vegetables",
-                        "description": "Quick stir-fried beef with carrots and onions, seasoned to perfection.",
+                        "name": "Tofu Stir-Fry",
+                        "description": "A nutritious stir-fry with tofu, eggplant, and a touch of garlic.",
                         "nutrition": {
-                            "calories": "550 kcal",
-                            "protein": "45g",
+                            "calories": "300 kcal",
+                            "protein": "20g",
                             "carbs": "30g",
-                            "fat": "25g",
-                            "fiber": "4g",
-                            "sugar": "8g",
-                            "sodium": "450mg"
+                            "fat": "12g",
+                            "fiber": "5g",
+                            "sugar": "5g",
+                            "sodium": "250mg"
                         },
                         "ingredients": [
                             {
-                                "name": "beef",
-                                "quantity": "200g"
+                                "name": "tofu",
+                                "quantity": "150g"
                             },
                             {
-                                "name": "carrot",
-                                "quantity": "100g"
-                            },
-                            {
-                                "name": "onion",
-                                "quantity": "50g"
+                                "name": "eggplant",
+                                "quantity": "1"
                             },
                             {
                                 "name": "garlic",
-                                "quantity": "2 cloves"
+                                "quantity": "1 clove"
                             },
                             {
-                                "name": "sesame oil",
-                                "quantity": "1 tbsp"
-                            },
-                            {
-                                "name": "salt",
-                                "quantity": "to taste"
-                            },
-                            {
-                                "name": "red pepper powder",
-                                "quantity": "1 tsp"
+                                "name": "soy sauce",
+                                "quantity": "2 tbsp"
                             }
                         ],
                         "steps": [
-                            "Heat sesame oil in a pan and sauté garlic until golden.",
-                            "Add slices of beef and stir-fry until browned.",
-                            "Add carrots and onions, season with salt and red pepper powder, and stir-fry for another 5-7 minutes.",
-                            "Serve hot."
+                            "Cut tofu and eggplant into cubes.",
+                            "Stir-fry garlic in a pan, then add tofu and eggplant.",
+                            "Add soy sauce and cook until vegetables are tender."
                         ],
                         "spice_level": "medium",
                         "diet_type": "eat clean",
@@ -194,7 +225,46 @@
                             "muscle gain"
                         ],
                         "highlighted_ingredients": [
-                            "beef"
+                            "tofu"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Steamed Rice",
+                        "description": "Simple steamed rice to complement the stir-fry.",
+                        "nutrition": {
+                            "calories": "200 kcal",
+                            "protein": "4g",
+                            "carbs": "44g",
+                            "fat": "0g",
+                            "fiber": "1g",
+                            "sugar": "0g",
+                            "sodium": "0mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "rice",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "water",
+                                "quantity": "200ml"
+                            }
+                        ],
+                        "steps": [
+                            "Rinse rice under cold water.",
+                            "Add rice and water to a pot, bring to a boil, then simmer until water is absorbed."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "rice"
                         ],
                         "avoided_ingredients": [
                             "butter"
@@ -212,52 +282,81 @@
                 "meal_name": "Breakfast",
                 "recipes": [
                     {
-                        "name": "Tofu and Sweet Potato Hash",
-                        "description": "A hearty breakfast of tofu and sweet potato hash with onions.",
+                        "name": "Pineapple Smoothie",
+                        "description": "A refreshing smoothie with pineapple and banana.",
                         "nutrition": {
-                            "calories": "300 kcal",
-                            "protein": "22g",
-                            "carbs": "35g",
-                            "fat": "10g",
+                            "calories": "250 kcal",
+                            "protein": "4g",
+                            "carbs": "60g",
+                            "fat": "1g",
                             "fiber": "5g",
-                            "sugar": "6g",
-                            "sodium": "350mg"
+                            "sugar": "40g",
+                            "sodium": "10mg"
                         },
                         "ingredients": [
                             {
-                                "name": "tofu",
-                                "quantity": "200g"
+                                "name": "pineapple",
+                                "quantity": "0.5"
                             },
                             {
-                                "name": "potato",
-                                "quantity": "150g"
+                                "name": "banana",
+                                "quantity": "1"
                             },
                             {
-                                "name": "onion",
-                                "quantity": "50g"
+                                "name": "water",
+                                "quantity": "200ml"
+                            }
+                        ],
+                        "steps": [
+                            "Combine pineapple, banana, and water in a blender.",
+                            "Blend until smooth and serve chilled."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "banana"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Egg and Tomato Sandwich",
+                        "description": "A simple sandwich with eggs and sliced tomatoes.",
+                        "nutrition": {
+                            "calories": "300 kcal",
+                            "protein": "18g",
+                            "carbs": "35g",
+                            "fat": "10g",
+                            "fiber": "4g",
+                            "sugar": "6g",
+                            "sodium": "500mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "eggs",
+                                "quantity": "1"
                             },
                             {
-                                "name": "garlic",
-                                "quantity": "1 clove"
+                                "name": "tomato",
+                                "quantity": "1"
                             },
                             {
-                                "name": "cooking oil",
-                                "quantity": "1 tbsp"
+                                "name": "bread",
+                                "quantity": "2 slices"
                             },
                             {
-                                "name": "salt",
-                                "quantity": "to taste"
-                            },
-                            {
-                                "name": "red pepper powder",
+                                "name": "olive oil",
                                 "quantity": "1 tsp"
                             }
                         ],
                         "steps": [
-                            "Dice tofu and potatoes into small cubes.",
-                            "Heat oil in a pan, add garlic and onion, and sauté until soft.",
-                            "Add tofu and potatoes, season with salt and red pepper powder, and cook until golden brown.",
-                            "Serve immediately."
+                            "Fry an egg in olive oil until cooked through.",
+                            "Slice tomato and layer with egg between bread slices."
                         ],
                         "spice_level": "medium",
                         "diet_type": "eat clean",
@@ -265,7 +364,7 @@
                             "muscle gain"
                         ],
                         "highlighted_ingredients": [
-                            "tofu"
+                            "tomato"
                         ],
                         "avoided_ingredients": [
                             "butter"
@@ -278,53 +377,35 @@
                 "meal_name": "Lunch",
                 "recipes": [
                     {
-                        "name": "Chicken and Carrot Stir-fry",
-                        "description": "A quick stir-fry of chicken breast with carrots, seasoned to taste.",
+                        "name": "Chicken and Sweet Potato",
+                        "description": "Grilled chicken breast served with roasted sweet potato.",
                         "nutrition": {
-                            "calories": "550 kcal",
-                            "protein": "50g",
-                            "carbs": "30g",
-                            "fat": "25g",
-                            "fiber": "4g",
+                            "calories": "400 kcal",
+                            "protein": "40g",
+                            "carbs": "45g",
+                            "fat": "10g",
+                            "fiber": "5g",
                             "sugar": "10g",
-                            "sodium": "400mg"
+                            "sodium": "300mg"
                         },
                         "ingredients": [
                             {
-                                "name": "chicken",
+                                "name": "chicken breast",
                                 "quantity": "200g"
                             },
                             {
-                                "name": "carrot",
-                                "quantity": "100g"
+                                "name": "sweet potato",
+                                "quantity": "1"
                             },
                             {
-                                "name": "onion",
-                                "quantity": "50g"
-                            },
-                            {
-                                "name": "garlic",
-                                "quantity": "2 cloves"
-                            },
-                            {
-                                "name": "cooking oil",
-                                "quantity": "2 tbsp"
-                            },
-                            {
-                                "name": "salt",
-                                "quantity": "to taste"
-                            },
-                            {
-                                "name": "red pepper powder",
-                                "quantity": "1 tsp"
+                                "name": "olive oil",
+                                "quantity": "1 tbsp"
                             }
                         ],
                         "steps": [
-                            "Slice chicken and carrots into thin strips.",
-                            "Heat oil in a pan, add garlic and onion, and sauté until fragrant.",
-                            "Add chicken strips and cook until no longer pink.",
-                            "Add carrots, season with salt and red pepper powder, and stir-fry for another 5 minutes.",
-                            "Serve hot."
+                            "Slice sweet potato and toss with olive oil.",
+                            "Roast in an oven at 200°C for 20 minutes.",
+                            "Grill chicken breast until fully cooked."
                         ],
                         "spice_level": "medium",
                         "diet_type": "eat clean",
@@ -332,7 +413,51 @@
                             "muscle gain"
                         ],
                         "highlighted_ingredients": [
-                            "chicken breast"
+                            "chicken breast",
+                            "sweet potato"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Carrot and Tomato Salad",
+                        "description": "A fresh salad with grated carrots and sliced tomatoes.",
+                        "nutrition": {
+                            "calories": "100 kcal",
+                            "protein": "2g",
+                            "carbs": "20g",
+                            "fat": "3g",
+                            "fiber": "4g",
+                            "sugar": "10g",
+                            "sodium": "30mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "carrot",
+                                "quantity": "1"
+                            },
+                            {
+                                "name": "tomato",
+                                "quantity": "1"
+                            },
+                            {
+                                "name": "olive oil",
+                                "quantity": "1 tsp"
+                            }
+                        ],
+                        "steps": [
+                            "Grate carrot and slice tomato.",
+                            "Toss with olive oil and serve fresh."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "carrot"
                         ],
                         "avoided_ingredients": [
                             "butter"
@@ -345,53 +470,39 @@
                 "meal_name": "Dinner",
                 "recipes": [
                     {
-                        "name": "Beef and Potato Casserole",
-                        "description": "A comforting casserole of beef and potatoes, baked to perfection.",
+                        "name": "Fish and Eggplant Stir-Fry",
+                        "description": "A savory stir-fry with fish fillets and eggplant.",
                         "nutrition": {
-                            "calories": "700 kcal",
-                            "protein": "55g",
-                            "carbs": "60g",
-                            "fat": "30g",
-                            "fiber": "5g",
-                            "sugar": "8g",
-                            "sodium": "500mg"
+                            "calories": "350 kcal",
+                            "protein": "30g",
+                            "carbs": "15g",
+                            "fat": "18g",
+                            "fiber": "4g",
+                            "sugar": "5g",
+                            "sodium": "350mg"
                         },
                         "ingredients": [
                             {
-                                "name": "beef",
-                                "quantity": "200g"
+                                "name": "fish",
+                                "quantity": "150g"
                             },
                             {
-                                "name": "potato",
-                                "quantity": "200g"
+                                "name": "eggplant",
+                                "quantity": "1"
                             },
                             {
-                                "name": "onion",
-                                "quantity": "50g"
-                            },
-                            {
-                                "name": "garlic",
-                                "quantity": "2 cloves"
-                            },
-                            {
-                                "name": "cooking oil",
+                                "name": "soy sauce",
                                 "quantity": "2 tbsp"
                             },
                             {
-                                "name": "salt",
-                                "quantity": "to taste"
-                            },
-                            {
-                                "name": "red pepper powder",
-                                "quantity": "1 tsp"
+                                "name": "olive oil",
+                                "quantity": "1 tbsp"
                             }
                         ],
                         "steps": [
-                            "Preheat oven to 180°C (355°F).",
-                            "In a pan, heat oil and sauté garlic and onion until translucent.",
-                            "Add beef, season with salt and red pepper powder, and cook until browned.",
-                            "Layer sliced potatoes in a baking dish, top with beef mixture, and bake for 25-30 minutes.",
-                            "Serve hot."
+                            "Slice eggplant and fish into bite-sized pieces.",
+                            "Stir-fry eggplant in olive oil until softened, then add fish and soy sauce.",
+                            "Cook until fish is fully done."
                         ],
                         "spice_level": "medium",
                         "diet_type": "eat clean",
@@ -399,7 +510,50 @@
                             "muscle gain"
                         ],
                         "highlighted_ingredients": [
-                            "beef"
+                            "fish"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Garlic Rice",
+                        "description": "Flavored rice with garlic for extra taste.",
+                        "nutrition": {
+                            "calories": "220 kcal",
+                            "protein": "5g",
+                            "carbs": "45g",
+                            "fat": "3g",
+                            "fiber": "1g",
+                            "sugar": "0g",
+                            "sodium": "100mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "rice",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "garlic",
+                                "quantity": "1 clove"
+                            },
+                            {
+                                "name": "olive oil",
+                                "quantity": "1 tsp"
+                            }
+                        ],
+                        "steps": [
+                            "Cook rice as per instructions.",
+                            "Sauté minced garlic in olive oil and mix with cooked rice."
+                        ],
+                        "spice_level": "medium",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "rice"
                         ],
                         "avoided_ingredients": [
                             "butter"
@@ -417,48 +571,74 @@
                 "meal_name": "Breakfast",
                 "recipes": [
                     {
-                        "name": "Tomato and Onion Omelette",
-                        "description": "A simple omelette with tomatoes and onions, perfect for a protein-rich breakfast.",
+                        "name": "Apple and Banana Bowl",
+                        "description": "A refreshing fruit bowl with apples and bananas.",
                         "nutrition": {
                             "calories": "200 kcal",
-                            "protein": "15g",
-                            "carbs": "10g",
-                            "fat": "12g",
-                            "fiber": "2g",
-                            "sugar": "6g",
-                            "sodium": "350mg"
+                            "protein": "2g",
+                            "carbs": "50g",
+                            "fat": "1g",
+                            "fiber": "7g",
+                            "sugar": "35g",
+                            "sodium": "5mg"
                         },
                         "ingredients": [
                             {
-                                "name": "egg",
+                                "name": "apple",
+                                "quantity": "1"
+                            },
+                            {
+                                "name": "banana",
+                                "quantity": "1"
+                            }
+                        ],
+                        "steps": [
+                            "Chop apple and banana into bite-sized pieces.",
+                            "Mix together in a bowl and serve fresh."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "apple"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Egg and Tomato Omelette",
+                        "description": "Classic omelette with tomatoes and eggs.",
+                        "nutrition": {
+                            "calories": "250 kcal",
+                            "protein": "15g",
+                            "carbs": "10g",
+                            "fat": "18g",
+                            "fiber": "2g",
+                            "sugar": "4g",
+                            "sodium": "210mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "eggs",
                                 "quantity": "2"
                             },
                             {
                                 "name": "tomato",
-                                "quantity": "100g"
+                                "quantity": "1"
                             },
                             {
-                                "name": "onion",
-                                "quantity": "50g"
-                            },
-                            {
-                                "name": "cooking oil",
+                                "name": "olive oil",
                                 "quantity": "1 tbsp"
-                            },
-                            {
-                                "name": "salt",
-                                "quantity": "to taste"
-                            },
-                            {
-                                "name": "red pepper powder",
-                                "quantity": "1 tsp"
                             }
                         ],
                         "steps": [
-                            "In a bowl, beat eggs with salt and red pepper powder.",
-                            "Heat oil in a pan, add chopped onions and tomatoes, and sauté for 3 minutes.",
-                            "Pour the egg mixture over vegetables and cook until set.",
-                            "Fold and serve hot."
+                            "Chop tomato into small pieces.",
+                            "Beat eggs and mix with chopped tomato.",
+                            "Cook the mixture in olive oil until the omelette is set."
                         ],
                         "spice_level": "medium",
                         "diet_type": "eat clean",
@@ -466,7 +646,7 @@
                             "muscle gain"
                         ],
                         "highlighted_ingredients": [
-                            "egg"
+                            "eggs"
                         ],
                         "avoided_ingredients": [
                             "butter"
@@ -479,44 +659,39 @@
                 "meal_name": "Lunch",
                 "recipes": [
                     {
-                        "name": "Tofu and Garlic Stir-fry",
-                        "description": "A light and flavorful tofu stir-fry with garlic and red pepper.",
+                        "name": "Beef and Potato Stew",
+                        "description": "Hearty stew with beef and potatoes.",
                         "nutrition": {
-                            "calories": "400 kcal",
-                            "protein": "30g",
-                            "carbs": "20g",
+                            "calories": "450 kcal",
+                            "protein": "40g",
+                            "carbs": "35g",
                             "fat": "20g",
-                            "fiber": "4g",
+                            "fiber": "5g",
                             "sugar": "5g",
-                            "sodium": "400mg"
+                            "sodium": "500mg"
                         },
                         "ingredients": [
                             {
-                                "name": "tofu",
+                                "name": "beef",
                                 "quantity": "200g"
                             },
                             {
+                                "name": "potato",
+                                "quantity": "1"
+                            },
+                            {
+                                "name": "onion",
+                                "quantity": "0.5"
+                            },
+                            {
                                 "name": "garlic",
-                                "quantity": "3 cloves"
-                            },
-                            {
-                                "name": "sesame oil",
-                                "quantity": "1 tbsp"
-                            },
-                            {
-                                "name": "salt",
-                                "quantity": "to taste"
-                            },
-                            {
-                                "name": "red pepper powder",
-                                "quantity": "1 tsp"
+                                "quantity": "1 clove"
                             }
                         ],
                         "steps": [
-                            "Cut tofu into cubes.",
-                            "Heat sesame oil in a pan, add minced garlic and sauté until golden.",
-                            "Add tofu cubes and season with salt and red pepper powder.",
-                            "Stir-fry until tofu is golden brown. Serve hot."
+                            "Cut beef and potato into cubes.",
+                            "Sauté onion and garlic in a pot, add beef, and brown.",
+                            "Add potatoes and water, simmer until beef is tender."
                         ],
                         "spice_level": "medium",
                         "diet_type": "eat clean",
@@ -524,7 +699,51 @@
                             "muscle gain"
                         ],
                         "highlighted_ingredients": [
-                            "tofu"
+                            "beef"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Tomato and Carrot Soup",
+                        "description": "A light soup made with tomatoes and carrots.",
+                        "nutrition": {
+                            "calories": "150 kcal",
+                            "protein": "3g",
+                            "carbs": "30g",
+                            "fat": "3g",
+                            "fiber": "5g",
+                            "sugar": "15g",
+                            "sodium": "400mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "tomato",
+                                "quantity": "2"
+                            },
+                            {
+                                "name": "carrot",
+                                "quantity": "1"
+                            },
+                            {
+                                "name": "olive oil",
+                                "quantity": "1 tbsp"
+                            }
+                        ],
+                        "steps": [
+                            "Chop tomatoes and carrots into small pieces.",
+                            "Cook in olive oil for 5 minutes, then add water and simmer until soft.",
+                            "Blend the mixture until smooth and serve."
+                        ],
+                        "spice_level": "medium",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "tomato"
                         ],
                         "avoided_ingredients": [
                             "butter"
@@ -537,49 +756,43 @@
                 "meal_name": "Dinner",
                 "recipes": [
                     {
-                        "name": "Chicken and Potato Bake",
-                        "description": "A hearty bake of chicken and potatoes, seasoned with garlic and spices.",
+                        "name": "Pork Stir-Fry with Rice",
+                        "description": "Stir-fried pork with vegetables served over rice.",
                         "nutrition": {
-                            "calories": "650 kcal",
-                            "protein": "55g",
+                            "calories": "500 kcal",
+                            "protein": "35g",
                             "carbs": "55g",
-                            "fat": "25g",
+                            "fat": "20g",
                             "fiber": "5g",
-                            "sugar": "7g",
-                            "sodium": "500mg"
+                            "sugar": "5g",
+                            "sodium": "550mg"
                         },
                         "ingredients": [
                             {
-                                "name": "chicken",
+                                "name": "pork",
                                 "quantity": "200g"
                             },
                             {
-                                "name": "potato",
-                                "quantity": "200g"
+                                "name": "carrot",
+                                "quantity": "1"
                             },
                             {
-                                "name": "garlic",
-                                "quantity": "2 cloves"
+                                "name": "onion",
+                                "quantity": "0.5"
                             },
                             {
-                                "name": "cooking oil",
+                                "name": "rice",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "soy sauce",
                                 "quantity": "2 tbsp"
-                            },
-                            {
-                                "name": "salt",
-                                "quantity": "to taste"
-                            },
-                            {
-                                "name": "red pepper powder",
-                                "quantity": "1 tsp"
                             }
                         ],
                         "steps": [
-                            "Preheat oven to 180°C (355°F).",
-                            "Season chicken with salt and red pepper powder.",
-                            "In a baking dish, layer sliced potatoes and seasoned chicken.",
-                            "Drizzle with oil, add minced garlic, and bake for 30-35 minutes.",
-                            "Serve hot."
+                            "Slice pork, carrot, and onion into thin strips.",
+                            "Stir-fry onion, then add pork and carrot, cooking until meat is done.",
+                            "Add soy sauce and serve over steamed rice."
                         ],
                         "spice_level": "medium",
                         "diet_type": "eat clean",
@@ -587,7 +800,46 @@
                             "muscle gain"
                         ],
                         "highlighted_ingredients": [
-                            "chicken breast"
+                            "pork"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Steamed Vegetables",
+                        "description": "Simple steamed carrots and tomatoes.",
+                        "nutrition": {
+                            "calories": "100 kcal",
+                            "protein": "2g",
+                            "carbs": "20g",
+                            "fat": "1g",
+                            "fiber": "4g",
+                            "sugar": "10g",
+                            "sodium": "20mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "carrot",
+                                "quantity": "1"
+                            },
+                            {
+                                "name": "tomato",
+                                "quantity": "1"
+                            }
+                        ],
+                        "steps": [
+                            "Chop carrot and tomato into large pieces.",
+                            "Steam for 5-7 minutes until tender."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "carrot"
                         ],
                         "avoided_ingredients": [
                             "butter"
