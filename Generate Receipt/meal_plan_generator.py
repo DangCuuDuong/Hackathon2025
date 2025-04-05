@@ -57,7 +57,7 @@ You are a professional nutrition assistant. Please create a **3-day meal plan** 
 ---
 
 🧠 **Meal planning rules:**
-- Create a plan for 3 full days.
+- Create a plan for 5 full days.
 - Each day MUST include 2 to 3 meals: **breakfast, lunch, and dinner**.
 - 🔥 Each meal MUST contain **2 to 3 different dishes (recipes)**. Do NOT generate only 1 dish per meal.
 - You MAY reuse dishes within the same day to save cooking effort.
