@@ -1,0 +1,327 @@
+[
+    {
+        "name": "Spicy Chicken and Tofu Stir-Fry",
+        "description": "A vibrant stir-fry featuring chicken and tofu, loaded with vegetables for a healthy dish.",
+        "nutrition": {
+            "calories": "450",
+            "protein": "40g",
+            "carbs": "30g",
+            "fat": "20g",
+            "fiber": "5g",
+            "sugar": "4g",
+            "sodium": "600mg"
+        },
+        "ingredients": [
+            {
+                "name": "chicken",
+                "quantity": "200g"
+            },
+            {
+                "name": "tofu",
+                "quantity": "100g"
+            },
+            {
+                "name": "onion",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "garlic",
+                "quantity": "2 cloves"
+            },
+            {
+                "name": "red pepper powder",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "sesame oil",
+                "quantity": "2 tbsp"
+            },
+            {
+                "name": "cooking oil",
+                "quantity": "1 tbsp"
+            }
+        ],
+        "steps": [
+            "1. Begin by washing the chicken. Cut it into bite-sized cubes.",
+            "2. Drain the tofu, then press and cut it into cubes.",
+            "3. Peel and slice the onion into thin strips.",
+            "4. Peel and finely chop the garlic.",
+            "5. Heat 1 tbsp of cooking oil in a large skillet over medium heat.",
+            "6. Add the cubed chicken to the pan and cook for about 5-7 minutes until browned, stirring occasionally.",
+            "7. Add the tofu to the skillet and cook for an additional 3-4 minutes until lightly golden.",
+            "8. Add the sliced onion and garlic to the skillet. Cook for about 2-3 minutes until the onion becomes translucent.",
+            "9. Sprinkle the red pepper powder and salt evenly over the stir-fry and mix well.",
+            "10. Drizzle the sesame oil over the stir-fry and toss everything together for another minute.",
+            "11. Remove from heat and serve hot."
+        ],
+        "spice_level": "medium",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "muscle gain",
+            "gym goer"
+        ],
+        "highlighted_ingredients": [
+            "chicken",
+            "tofu"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.foodnetwork.com/recipes"
+    },
+    {
+        "name": "Beef and Potato Stew",
+        "description": "A hearty stew filled with tender beef and nutritious potatoes and carrots.",
+        "nutrition": {
+            "calories": "500",
+            "protein": "35g",
+            "carbs": "45g",
+            "fat": "20g",
+            "fiber": "6g",
+            "sugar": "3g",
+            "sodium": "800mg"
+        },
+        "ingredients": [
+            {
+                "name": "beef",
+                "quantity": "300g"
+            },
+            {
+                "name": "potato",
+                "quantity": "2 medium"
+            },
+            {
+                "name": "carrot",
+                "quantity": "2 medium"
+            },
+            {
+                "name": "onion",
+                "quantity": "1 large"
+            },
+            {
+                "name": "garlic",
+                "quantity": "2 cloves"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "cooking oil",
+                "quantity": "2 tbsp"
+            },
+            {
+                "name": "water",
+                "quantity": "4 cups"
+            }
+        ],
+        "steps": [
+            "1. Start by cutting the beef into chunks and seasoning with salt.",
+            "2. Peel and chop the potatoes into cubes, and slice the carrots into rounds.",
+            "3. Peel and chop the onion and garlic.",
+            "4. Heat the cooking oil in a large pot over medium heat.",
+            "5. Add the beef and sear on all sides, about 5-6 minutes.",
+            "6. Add the onion and garlic to the pot and cook for 2-3 minutes until fragrant.",
+            "7. Pour in the water and bring the mixture to a boil.",
+            "8. Add the chopped potatoes and carrots, then reduce the heat to low.",
+            "9. Cover and let it simmer for about 1 hour or until the beef is tender.",
+            "10. Stir occasionally and adjust seasoning if needed before serving."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "muscle gain",
+            "diet"
+        ],
+        "highlighted_ingredients": [
+            "beef",
+            "potato"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.allrecipes.com/"
+    },
+    {
+        "name": "Tomato and Garlic Tofu Soup",
+        "description": "A comforting and healthy soup combining tofu, garlic, and tomatoes.",
+        "nutrition": {
+            "calories": "300",
+            "protein": "20g",
+            "carbs": "18g",
+            "fat": "15g",
+            "fiber": "3g",
+            "sugar": "5g",
+            "sodium": "500mg"
+        },
+        "ingredients": [
+            {
+                "name": "tofu",
+                "quantity": "200g"
+            },
+            {
+                "name": "tomato",
+                "quantity": "3 medium"
+            },
+            {
+                "name": "garlic",
+                "quantity": "3 cloves"
+            },
+            {
+                "name": "onion",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "cooking oil",
+                "quantity": "1 tbsp"
+            },
+            {
+                "name": "water",
+                "quantity": "4 cups"
+            }
+        ],
+        "steps": [
+            "1. Drain the tofu and cut into cubes.",
+            "2. Chop the tomatoes and onion, and mince the garlic.",
+            "3. In a pot, heat the cooking oil over medium heat.",
+            "4. Add the onion and garlic, cooking until the onion is translucent, about 3-4 minutes.",
+            "5. Add the chopped tomatoes and cook for 5 minutes until soft.",
+            "6. Pour in the water and bring to a boil.",
+            "7. Add the cubed tofu and salt, reduce heat, and simmer for 15 minutes.",
+            "8. Taste and adjust seasoning before serving warm."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "diet"
+        ],
+        "highlighted_ingredients": [
+            "tofu",
+            "tomato"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.foodnetwork.com/"
+    },
+    {
+        "name": "Garlic Beef Stir-Fry",
+        "description": "A quick and delicious stir-fry featuring tender beef sautéed with garlic and onions.",
+        "nutrition": {
+            "calories": "420",
+            "protein": "38g",
+            "carbs": "16g",
+            "fat": "25g",
+            "fiber": "3g",
+            "sugar": "2g",
+            "sodium": "600mg"
+        },
+        "ingredients": [
+            {
+                "name": "beef",
+                "quantity": "200g"
+            },
+            {
+                "name": "onion",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "garlic",
+                "quantity": "3 cloves"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "sesame oil",
+                "quantity": "2 tbsp"
+            },
+            {
+                "name": "cooking oil",
+                "quantity": "1 tbsp"
+            }
+        ],
+        "steps": [
+            "1. Slice the beef into thin strips and season with salt.",
+            "2. Peel and slice the onion into rings, and mince the garlic.",
+            "3. Heat 1 tbsp of cooking oil in a skillet over medium-high heat.",
+            "4. Add the beef strips and cook for about 3-4 minutes until browned.",
+            "5. Add the onion and garlic to the pan and cook for an additional 2-3 minutes until onion is soft.",
+            "6. Drizzle with sesame oil, mixing well, and cook for another minute.",
+            "7. Serve hot with a side of vegetables or rice if desired."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "muscle gain"
+        ],
+        "highlighted_ingredients": [
+            "beef",
+            "garlic"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.cookinglight.com/"
+    },
+    {
+        "name": "Carrot and Potato Bake",
+        "description": "A wholesome baked dish featuring carrots and potatoes seasoned with garlic and onions.",
+        "nutrition": {
+            "calories": "350",
+            "protein": "8g",
+            "carbs": "60g",
+            "fat": "10g",
+            "fiber": "8g",
+            "sugar": "5g",
+            "sodium": "250mg"
+        },
+        "ingredients": [
+            {
+                "name": "potato",
+                "quantity": "3 medium"
+            },
+            {
+                "name": "carrot",
+                "quantity": "3 medium"
+            },
+            {
+                "name": "onion",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "garlic",
+                "quantity": "2 cloves"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "cooking oil",
+                "quantity": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "1. Preheat the oven to 200°C (400°F).",
+            "2. Wash and peel the potatoes and carrots, then cut them into bite-sized pieces.",
+            "3. Peel and chop the onion, and mince the garlic.",
+            "4. In a large bowl, combine the potatoes, carrots, onion, garlic, salt, and oil, mixing well.",
+            "5. Spread the vegetable mixture evenly on a baking sheet.",
+            "6. Bake in the preheated oven for 25-30 minutes or until golden and tender, stirring halfway through.",
+            "7. Serve warm as a side dish or main course."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "diet"
+        ],
+        "highlighted_ingredients": [
+            "carrot",
+            "potato"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.foodandwine.com/"
+    }
+]

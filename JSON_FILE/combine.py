@@ -1,6 +1,5 @@
 import json
 
-
 def combind_json(main_file, other_file):
     # === Đọc dữ liệu từ file predict ===
     with open(other_file, 'r', encoding='utf-8') as f:
@@ -20,6 +19,9 @@ def combind_json(main_file, other_file):
         else:
             main_data[item] = qty   # Thêm mới
 
+    # === Loại bỏ những nguyên liệu có giá trị <= 0 ===
+    main_data = {k: v for k, v in main_data.items() if v > 0}
+
     # === Ghi lại vào main.json ===
     with open(main_file, 'w', encoding='utf-8') as f:
         json.dump(main_data, f, ensure_ascii=False, indent=4)
@@ -27,4 +29,3 @@ def combind_json(main_file, other_file):
     # === Xóa nội dung predict.json ===
     with open(other_file, 'w', encoding='utf-8') as f:
         json.dump({}, f)
-

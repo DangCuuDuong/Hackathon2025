@@ -1,0 +1,354 @@
+[
+    {
+        "name": "Beef and Vegetable Stir-fry",
+        "description": "A quick and nutritious stir-fry featuring beef and colorful vegetables.",
+        "nutrition": {
+            "calories": "350",
+            "protein": "30g",
+            "carbs": "25g",
+            "fat": "15g",
+            "fiber": "3g",
+            "sugar": "5g",
+            "sodium": "600mg"
+        },
+        "ingredients": [
+            {
+                "name": "beef",
+                "quantity": "200g"
+            },
+            {
+                "name": "carrot",
+                "quantity": "100g"
+            },
+            {
+                "name": "tomato",
+                "quantity": "100g"
+            },
+            {
+                "name": "potato",
+                "quantity": "150g"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "1. Slice the beef into thin strips (200g) and season with salt and pepper.",
+            "2. Peel and julienne the carrot (100g) and dice the tomato (100g).",
+            "3. Wash and cube the potato (150g).",
+            "4. Heat 1 tablespoon of olive oil in a large pan or wok over medium-high heat.",
+            "5. Add the beef and stir-fry for about 5 minutes until browned.",
+            "6. Add the potatoes and cook for an additional 5 minutes, stirring occasionally.",
+            "7. Add the carrots and tomatoes, then stir-fry for another 3-4 minutes until vegetables are tender.",
+            "8. Drizzle with the remaining olive oil before serving."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "muscle gain",
+            "diet",
+            "gym goer"
+        ],
+        "highlighted_ingredients": [
+            "beef"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/beef-stir-fry"
+    },
+    {
+        "name": "Pasta with Tomato and Carrot Sauce",
+        "description": "A hearty pasta dish with a savory sauce made from fresh tomatoes and carrots.",
+        "nutrition": {
+            "calories": "320",
+            "protein": "10g",
+            "carbs": "50g",
+            "fat": "10g",
+            "fiber": "5g",
+            "sugar": "7g",
+            "sodium": "250mg"
+        },
+        "ingredients": [
+            {
+                "name": "pasta",
+                "quantity": "200g"
+            },
+            {
+                "name": "tomato",
+                "quantity": "150g"
+            },
+            {
+                "name": "carrot",
+                "quantity": "100g"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "1 tbsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "to taste"
+            },
+            {
+                "name": "pepper",
+                "quantity": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Cook pasta (200g) according to package instructions until al dente.",
+            "2. Dice the tomatoes (150g) and peel the carrot (100g) before grating it.",
+            "3. In a skillet, heat 1 tablespoon of olive oil over medium heat.",
+            "4. Add the grated carrot and sauté for about 3-4 minutes until soft.",
+            "5. Add diced tomatoes and bring to a simmer for about 5 minutes.",
+            "6. Mix the cooked pasta into the sauce, season with salt and pepper to taste.",
+            "7. Serve warm."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "vegetarian",
+        "suitable_for": [
+            "diet",
+            "gym goer"
+        ],
+        "highlighted_ingredients": [
+            "pasta",
+            "tomato"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/pasta-tomato-sauce"
+    },
+    {
+        "name": "Fish Tacos with Pineapple Salsa",
+        "description": "Fresh fish tacos topped with a zesty pineapple salsa.",
+        "nutrition": {
+            "calories": "290",
+            "protein": "25g",
+            "carbs": "30g",
+            "fat": "10g",
+            "fiber": "4g",
+            "sugar": "5g",
+            "sodium": "450mg"
+        },
+        "ingredients": [
+            {
+                "name": "fish",
+                "quantity": "200g"
+            },
+            {
+                "name": "pineapple",
+                "quantity": "100g"
+            },
+            {
+                "name": "tomato",
+                "quantity": "100g"
+            },
+            {
+                "name": "bread",
+                "quantity": "2 pieces (tortilla)"
+            },
+            {
+                "name": "lime (optional)",
+                "quantity": "1"
+            },
+            {
+                "name": "salt",
+                "quantity": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Season the fish (200g) with salt, then grill or pan-fry over medium heat for about 5-7 minutes until cooked through.",
+            "2. Dice the pineapple (100g) and tomato (100g) into small pieces.",
+            "3. In a bowl, combine diced pineapple and tomato. Squeeze lime over the mixture if available and mix well.",
+            "4. Warm the tortillas (2 pieces) in a skillet for about 1-2 minutes until pliable.",
+            "5. Fill each tortilla with fish and top with pineapple salsa.",
+            "6. Serve immediately."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "diet",
+            "gym goer"
+        ],
+        "highlighted_ingredients": [
+            "fish",
+            "pineapple"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/fish-tacos"
+    },
+    {
+        "name": "Sweet Potato and Egg Frittata",
+        "description": "A healthy and filling frittata made with sweet potatoes and eggs.",
+        "nutrition": {
+            "calories": "280",
+            "protein": "16g",
+            "carbs": "24g",
+            "fat": "14g",
+            "fiber": "4g",
+            "sugar": "3g",
+            "sodium": "350mg"
+        },
+        "ingredients": [
+            {
+                "name": "sweetpotato",
+                "quantity": "200g"
+            },
+            {
+                "name": "eggs",
+                "quantity": "4"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "1 tbsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "to taste"
+            },
+            {
+                "name": "pepper",
+                "quantity": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 180°C (350°F).",
+            "2. Peel and cube the sweet potato (200g).",
+            "3. Heat 1 tablespoon of olive oil in an oven-safe skillet over medium heat.",
+            "4. Add the sweet potato cubes, season with salt and pepper, and sauté for about 10 minutes until tender.",
+            "5. In a bowl, whisk together the eggs (4) and pour over the sweet potatoes in the skillet.",
+            "6. Cook on the stovetop for about 5 minutes, then transfer to the oven.",
+            "7. Bake for 15-20 minutes until the eggs are set.",
+            "8. Allow to cool slightly before slicing and serving."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "diet",
+            "gym goer"
+        ],
+        "highlighted_ingredients": [
+            "eggs",
+            "sweet potato"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/sweet-potato-frittata"
+    },
+    {
+        "name": "Banana Oatmeal Pancakes",
+        "description": "Fluffy pancakes made with ripe bananas and oats, perfect for breakfast.",
+        "nutrition": {
+            "calories": "200",
+            "protein": "6g",
+            "carbs": "36g",
+            "fat": "4g",
+            "fiber": "4g",
+            "sugar": "6g",
+            "sodium": "140mg"
+        },
+        "ingredients": [
+            {
+                "name": "banana",
+                "quantity": "2"
+            },
+            {
+                "name": "egg",
+                "quantity": "1"
+            },
+            {
+                "name": "oats",
+                "quantity": "100g"
+            },
+            {
+                "name": "baking powder",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "milk",
+                "quantity": "100ml"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "for cooking"
+            }
+        ],
+        "steps": [
+            "1. Mash the bananas (2) in a bowl.",
+            "2. Add the egg (1), oats (100g), baking powder (1 tsp), and milk (100ml) to the bowl and mix well.",
+            "3. Heat a pan over medium heat and add a little olive oil.",
+            "4. Pour batter onto the pan (about 1/4 cup for each pancake) and cook for 2-3 minutes until bubbles form.",
+            "5. Flip the pancakes and cook for another 2-3 minutes until golden brown.",
+            "6. Serve with fresh fruit or syrup if desired."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "vegetarian",
+        "suitable_for": [
+            "diet",
+            "gym goer"
+        ],
+        "highlighted_ingredients": [
+            "banana"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/banana-pancakes"
+    },
+    {
+        "name": "Carrot and Tomato Soup",
+        "description": "A comforting soup made with fresh carrots and tomatoes, great for lunch.",
+        "nutrition": {
+            "calories": "180",
+            "protein": "4g",
+            "carbs": "32g",
+            "fat": "5g",
+            "fiber": "5g",
+            "sugar": "8g",
+            "sodium": "250mg"
+        },
+        "ingredients": [
+            {
+                "name": "carrot",
+                "quantity": "200g"
+            },
+            {
+                "name": "tomato",
+                "quantity": "200g"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "1 tbsp"
+            },
+            {
+                "name": "vegetable stock or water",
+                "quantity": "500ml"
+            },
+            {
+                "name": "salt",
+                "quantity": "to taste"
+            },
+            {
+                "name": "pepper",
+                "quantity": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Peel and chop the carrots (200g) and tomatoes (200g).",
+            "2. In a pot, heat 1 tablespoon of olive oil over medium heat.",
+            "3. Add the carrots and sauté for about 5 minutes.",
+            "4. Add the tomatoes and cook for another 5 minutes.",
+            "5. Pour in 500ml of vegetable stock or water and bring to a boil.",
+            "6. Reduce heat and simmer for about 20 minutes until carrots are tender.",
+            "7. Use an immersion blender to puree the soup until smooth.",
+            "8. Season with salt and pepper to taste before serving."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "vegetarian",
+        "suitable_for": [
+            "diet",
+            "gym goer"
+        ],
+        "highlighted_ingredients": [
+            "carrot",
+            "tomato"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/carrot-tomato-soup"
+    }
+]
