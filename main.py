@@ -298,11 +298,6 @@ if selected_sidebar == "Home":
 
     # NÚT "NẤU" - TRỪ NGUYÊN LIỆU
     with st.container():
-        col1, col2 = st.columns([3, 1])
-        with col1:
-            st.text_input("Change recipe name", key="recipe_name")
-        with col2:
-            st.button("Change recipe", key="change_recipe")
         st.markdown("---")
         if st.button("👨‍🍳 Cook this recipe"):
             used_ingredients = {}
