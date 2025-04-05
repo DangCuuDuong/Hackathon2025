@@ -157,9 +157,6 @@ elif selected_sidebar == "Collection By Image":
 
 
 
-
-
-
 # Footer
 st.markdown("---")
 st.markdown("© 2025 My App. All rights reserved.")

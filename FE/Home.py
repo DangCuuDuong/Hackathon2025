@@ -19,51 +19,66 @@ def get_page_home():
         st.markdown("<div class='one1'; >Current Ingredients</div>", unsafe_allow_html=True)
         st.dataframe(df_components, use_container_width=True)
 
+        # --- CHẾ ĐỘ ĂN UỐNG ---
+        with st.container():
+            col1, col2 = st.columns(2)
 
-    # --- CHẾ ĐỘ ĂN UỐNG ---
-    # --- DIET TYPE ---
-    with st.container():
+            with col1:
+                st.markdown("<div class='one2'>🥗 Suitable Diet Type</div>", unsafe_allow_html=True)
+                diet_option = st.selectbox(
+                    "Choose the diet you’re interested in:",
+                    [
+                        
+                        "Vegetarian",
+                        "Healthy",
+                        "Keto (Low Carb)",
+                        "High Protein",
+                        "Weight Loss",
+                        "Diabetic-friendly"
+                    ]
+                )
+
+            with col2:
+                st.markdown("<div class='one2'>🌶️ Your Spiciness Level</div>", unsafe_allow_html=True)
+                spicy_level = st.selectbox(
+                    "Choose your spiciness level:",
+                    [
+                        "none",
+                        "little",
+                        "medium",
+                        "high",
+                        "super hot"
+                    ]
+                )
+
+        # --- PERSONAL FOOD PREFERENCES ---
+        st.markdown("<div class='one1'>🍽️ Personal Food Preferences</div>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
 
         with col1:
-            st.markdown("<div class='one2'>🥗 Suitable Diet Type</div>", unsafe_allow_html=True)
-            diet_option = st.selectbox(
-                "Choose the diet you’re interested in:",
-                [
-                    "Normal",
-                    "Vegetarian",
-                    "Healthy",
-                    "Keto (Low Carb)",
-                    "High Protein",
-                    "Weight Loss",
-                    "Diabetic-friendly"
-                ]
-            )
-
+            favorite_dish = st.text_input("🥰 What is your favorite dish? (separate multiple with commas)")
+            favorite_dish = clean_ingredient_name(favorite_dish)
+        
         with col2:
-            st.markdown("<div class='one2'>🌶️ Your Spiciness Level</div>", unsafe_allow_html=True)
-            spicy_level = st.selectbox(
-                "Choose your spiciness level:",
-                [
-                    "none",
-                    "little",
-                    "medium",
-                    "high",
-                    "super hot"
-                ]
-            )
+            disliked_dish = st.text_input("⚠️ Any dish you dislike or are allergic to? (separate multiple with commas)")
+            disliked_dish = clean_ingredient_name(disliked_dish)
 
+        # Nút lưu preferences
+        if st.button("💾 Save Preferences"):
+            preferences = {
+                "spice_level": spicy_level,
+                "diet_type": diet_option,
+                "allergies_or_dislikes": [dish.strip() for dish in disliked_dish.split(",") if dish.strip()],
+                "favorite_foods": [dish.strip() for dish in favorite_dish.split(",") if dish.strip()]
+            }
 
-    # --- PERSONAL FOOD PREFERENCES ---
-    st.markdown("<div class='one1'>🍽️ Personal Food Preferences</div>", unsafe_allow_html=True)
-    col1, col2 = st.columns(2)
-    with col1:
-        favorite_dish = st.text_input("🥰 What is your favorite dish? (separate multiple with commas)")
-        favorite_dish = clean_ingredient_name(favorite_dish)  # Chuẩn hóa tên món ăn
-    with col2: 
-        disliked_dish = st.text_input("⚠️ Any dish you dislike or are allergic to? (separate multiple with commas)")
-        disliked_dish = clean_ingredient_name(disliked_dish)  # Chuẩn hóa tên món ăn
+            filename = "Generate_Receipt/preferences.json"
+            os.makedirs(os.path.dirname(filename), exist_ok=True)
 
+            with open(filename, "w", encoding="utf-8") as f:
+                json.dump(preferences, f, indent=4, ensure_ascii=False)
+
+            st.success("✅ Preferences saved successfully!")
     main_json_path = "JSON_FILE/main.json"
 
     # Lưu user ingredients từ main.json

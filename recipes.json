@@ -1,49 +1,51 @@
 [
     {
-        "name": "Beef and Vegetable Stir Fry",
-        "description": "A hearty stir fry packed with beef and colorful vegetables for a nutritious meal.",
+        "name": "Beef and Vegetable Stir-Fry",
+        "description": "A quick and healthy stir-fry with beef and a mix of colorful vegetables.",
         "nutrition": {
             "calories": "450",
             "protein": "35g",
-            "carbs": "40g",
+            "carbs": "30g",
             "fat": "20g",
             "fiber": "5g",
             "sugar": "5g",
-            "sodium": "100mg"
+            "sodium": "500mg"
         },
         "ingredients": [
             {
                 "name": "beef",
-                "quantity": "200g"
+                "quantity": "150g"
             },
             {
                 "name": "carrot",
+                "quantity": "50g"
+            },
+            {
+                "name": "sweetpotato",
                 "quantity": "100g"
+            },
+            {
+                "name": "tomato",
+                "quantity": "1 medium"
             },
             {
                 "name": "potato",
                 "quantity": "100g"
             },
             {
-                "name": "tomato",
-                "quantity": "100g"
-            },
-            {
                 "name": "egg",
-                "quantity": "2"
+                "quantity": "1 large"
             }
         ],
         "steps": [
-            "1. Wash the carrot and potato thoroughly under running water.",
-            "2. Peel the potato and carrot, then cut them into thin strips.",
-            "3. Dice the tomato.",
-            "4. Slice the beef into thin strips.",
-            "5. In a pan, heat a tablespoon of oil over medium-high heat.",
-            "6. Add the beef strips to the pan and cook until browned, about 5 minutes.",
-            "7. Add the carrot and potato strips, stirring frequently, and cook for another 5 minutes.",
-            "8. Add the diced tomato and stir well, cooking for an additional 3 minutes.",
-            "9. In a separate bowl, beat the eggs and pour them into the pan, mixing them with the beef and vegetables.",
-            "10. Cook until the eggs are fully set, about 2-3 minutes. Serve hot."
+            "1. Thinly slice the beef into strips and marinate with a little salt for 10 minutes.",
+            "2. Peel and julienne the carrot and sweet potato. Dice the tomato and potato.",
+            "3. Heat a non-stick pan over medium heat and add a little oil.",
+            "4. Add the marinated beef to the pan and stir-fry for 3-4 minutes until browned.",
+            "5. Add the carrots, sweet potato, and potatoes to the pan and stir-fry for another 5 minutes.",
+            "6. Once vegetables are slightly tender, add the tomato and stir in.",
+            "7. In a separate bowl, beat the egg and scramble it in the pan until just set.",
+            "8. Combine all ingredients, stir well, and serve warm."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
@@ -53,55 +55,57 @@
         ],
         "highlighted_ingredients": [
             "beef",
-            "carrot",
-            "potato"
+            "sweetpotato"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/beef-vegetable-stir-fry"
+        "reference": "https://www.example.com/beef-vegetable-stirfry"
     },
     {
         "name": "Tuna Pasta Salad",
-        "description": "A refreshing salad combining tuna and pasta with fresh vegetables.",
+        "description": "A fresh and light pasta salad with tuna and vegetables.",
         "nutrition": {
             "calories": "350",
-            "protein": "30g",
-            "carbs": "40g",
+            "protein": "28g",
+            "carbs": "45g",
             "fat": "10g",
             "fiber": "4g",
             "sugar": "3g",
-            "sodium": "500mg"
+            "sodium": "600mg"
         },
         "ingredients": [
             {
                 "name": "pasta",
-                "quantity": "150g"
+                "quantity": "100g"
             },
             {
                 "name": "tuna",
-                "quantity": "150g"
+                "quantity": "100g"
             },
             {
                 "name": "tomato",
-                "quantity": "100g"
+                "quantity": "1 medium"
             },
             {
-                "name": "sweetpotato",
-                "quantity": "100g"
+                "name": "carrot",
+                "quantity": "50g"
+            },
+            {
+                "name": "pineapple",
+                "quantity": "50g"
             }
         ],
         "steps": [
-            "1. Boil a pot of salted water, then add 150g of pasta and cook according to package instructions (about 8-10 minutes) until al dente.",
-            "2. While the pasta cooks, dice the tomato and peel, cube the sweetpotato.",
-            "3. In a separate pot, steam the sweetpotato cubes for about 10 minutes until tender.",
-            "4. Drain the pasta and rinse under cold water to cool it down.",
-            "5. In a large bowl, combine the drained tuna, diced tomato, steamed sweetpotato, and the cooled pasta.",
-            "6. Mix well, adding salt and pepper to taste. Serve chilled."
+            "1. Cook the pasta in salted boiling water according to package instructions until al dente. Drain and set aside.",
+            "2. While pasta is cooking, drain the tuna and set aside.",
+            "3. Dice the tomato and finely grate the carrot.",
+            "4. In a large mixing bowl, combine cooked pasta, tuna, diced tomato, grated carrot, and chunks of pineapple.",
+            "5. Toss everything together and drizzle with olive oil and lemon juice (if desired).",
+            "6. Serve chilled or at room temperature."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "diet",
-            "gym goer"
+            "diet"
         ],
         "highlighted_ingredients": [
             "tuna",
@@ -111,193 +115,45 @@
         "reference": "https://www.example.com/tuna-pasta-salad"
     },
     {
-        "name": "Egg and Vegetable Breakfast Sandwich",
-        "description": "A nutritious sandwich loaded with eggs and fresh vegetables.",
+        "name": "Egg and Potato Frittata",
+        "description": "A delicious and filling frittata made with eggs, potatoes, and vegetables.",
         "nutrition": {
             "calories": "300",
-            "protein": "16g",
-            "carbs": "30g",
-            "fat": "12g",
-            "fiber": "4g",
-            "sugar": "2g",
-            "sodium": "350mg"
-        },
-        "ingredients": [
-            {
-                "name": "eggs",
-                "quantity": "2"
-            },
-            {
-                "name": "bread",
-                "quantity": "2 slices"
-            },
-            {
-                "name": "tomato",
-                "quantity": "50g"
-            },
-            {
-                "name": "carrot",
-                "quantity": "30g"
-            }
-        ],
-        "steps": [
-            "1. Crack 2 eggs into a bowl and whisk them until well combined.",
-            "2. Heat a pan over medium heat with a little oil or butter.",
-            "3. Pour the eggs into the hot pan and let them sit for about 1-2 minutes until starting to set.",
-            "4. Grate the carrot and dice the tomato.",
-            "5. Add the grated carrot and diced tomato to the eggs, allow to cook for another 2-3 minutes until the eggs are fully cooked.",
-            "6. Toast the slices of bread.",
-            "7. Once cooked, place the egg mixture on a slice of toasted bread, then top with the other slice. Serve warm."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "eat clean",
-        "suitable_for": [
-            "diet",
-            "gym goer"
-        ],
-        "highlighted_ingredients": [
-            "eggs",
-            "tomato"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.example.com/egg-vegetable-sandwich"
-    },
-    {
-        "name": "Fish and Sweetpotato Cakes",
-        "description": "Crunchy cakes made from fish and sweetpotato, perfect as a snack or meal.",
-        "nutrition": {
-            "calories": "400",
-            "protein": "30g",
-            "carbs": "50g",
-            "fat": "10g",
-            "fiber": "8g",
-            "sugar": "5g",
-            "sodium": "300mg"
-        },
-        "ingredients": [
-            {
-                "name": "fish",
-                "quantity": "200g"
-            },
-            {
-                "name": "sweetpotato",
-                "quantity": "200g"
-            },
-            {
-                "name": "egg",
-                "quantity": "1"
-            },
-            {
-                "name": "bread",
-                "quantity": "50g"
-            }
-        ],
-        "steps": [
-            "1. Peel and cube the sweetpotato, then steam for about 15 minutes until soft.",
-            "2. In a bowl, mash the steamed sweetpotatoes.",
-            "3. Add in the fish (cooked if needed), 1 beaten egg, and breadcrumbs made from the bread.",
-            "4. Mix thoroughly until well combined.",
-            "5. Shape the mixture into small cakes.",
-            "6. Heat oil in a pan over medium heat, then fry the cakes for about 4-5 minutes on each side until golden brown.",
-            "7. Serve hot with a side of salad or dipping sauce."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "eat clean",
-        "suitable_for": [
-            "muscle gain"
-        ],
-        "highlighted_ingredients": [
-            "fish",
-            "sweetpotato"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.example.com/fish-sweetpotato-cakes"
-    },
-    {
-        "name": "Pineapple Beef Stir Fry",
-        "description": "A tropical variation of a classic beef stir-fry with sweet pineapple.",
-        "nutrition": {
-            "calories": "500",
-            "protein": "40g",
-            "carbs": "40g",
-            "fat": "22g",
+            "protein": "20g",
+            "carbs": "25g",
+            "fat": "15g",
             "fiber": "3g",
-            "sugar": "10g",
+            "sugar": "2g",
             "sodium": "400mg"
         },
         "ingredients": [
             {
-                "name": "beef",
-                "quantity": "200g"
-            },
-            {
-                "name": "pineapple",
-                "quantity": "100g"
-            },
-            {
-                "name": "carrot",
-                "quantity": "100g"
-            },
-            {
-                "name": "tomato",
-                "quantity": "100g"
-            }
-        ],
-        "steps": [
-            "1. Wash and peel the carrot, then cut it into thin strips.",
-            "2. Cut the pineapple into small chunks.",
-            "3. Slice the beef into strips, season lightly with salt.",
-            "4. Heat a tablespoon of oil in a stir-fry pan over medium-high heat.",
-            "5. Add the beef stripes and cook for about 4-5 minutes until browned.",
-            "6. Add the carrot strips and pineapple chunks; cook for another 4 minutes, stirring frequently.",
-            "7. Add diced tomato, cook for an additional 3-4 minutes, mixing well to combine flavors.",
-            "8. Serve hot over a bed of rice or on its own."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "eat clean",
-        "suitable_for": [
-            "muscle gain"
-        ],
-        "highlighted_ingredients": [
-            "beef",
-            "pineapple"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.example.com/pineapple-beef-stir-fry"
-    },
-    {
-        "name": "Tuna and Potato Cakes",
-        "description": "Delicious and filling tuna cakes, blending potatoes and tuna for a unique dish.",
-        "nutrition": {
-            "calories": "300",
-            "protein": "25g",
-            "carbs": "30g",
-            "fat": "10g",
-            "fiber": "5g",
-            "sugar": "3g",
-            "sodium": "250mg"
-        },
-        "ingredients": [
-            {
-                "name": "tuna",
-                "quantity": "200g"
+                "name": "eggs",
+                "quantity": "4 large"
             },
             {
                 "name": "potato",
-                "quantity": "200g"
+                "quantity": "150g"
             },
             {
-                "name": "egg",
-                "quantity": "1"
+                "name": "carrot",
+                "quantity": "50g"
+            },
+            {
+                "name": "tomato",
+                "quantity": "1 medium"
             }
         ],
         "steps": [
-            "1. Peel and dice the potato, then boil in salted water for about 15 minutes until tender.",
-            "2. Drain and mash the boiled potato in a bowl.",
-            "3. In the bowl with mashed potato, add the drained tuna and 1 beaten egg.",
-            "4. Mix until well combined and form into small patties.",
-            "5. Heat oil in a pan and fry the patties over medium heat for about 4-5 minutes on each side until golden brown.",
-            "6. Serve warm with a salad or your favorite sauce."
+            "1. Preheat the oven to 180°C (350°F).",
+            "2. Peel the potato and cut it into small cubes. Boil the cubes for about 10 minutes until tender, then drain.",
+            "3. In a mixing bowl, whisk together the eggs and season with salt and pepper.",
+            "4. In an oven-proof skillet, sauté the chopped carrot until it softens slightly.",
+            "5. Add boiled potatoes and diced tomato to the skillet, mixing to combine.",
+            "6. Pour the egg mixture over the sautéed vegetables in the skillet.",
+            "7. Cook on the stovetop for about 5 minutes until the edges start to set.",
+            "8. Transfer the skillet to the preheated oven and bake for 15-20 minutes until the center is set.",
+            "9. Allow to cool for a few minutes before slicing and serving."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
@@ -305,10 +161,158 @@
             "diet"
         ],
         "highlighted_ingredients": [
-            "tuna",
+            "eggs",
             "potato"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/tuna-potato-cakes"
+        "reference": "https://www.example.com/egg-potato-frittata"
+    },
+    {
+        "name": "Baked Fish with Sweet Potato",
+        "description": "A healthy baked dish with fish and sweet potatoes, flavored with herbs or lemon.",
+        "nutrition": {
+            "calories": "400",
+            "protein": "30g",
+            "carbs": "45g",
+            "fat": "10g",
+            "fiber": "7g",
+            "sugar": "5g",
+            "sodium": "300mg"
+        },
+        "ingredients": [
+            {
+                "name": "fish",
+                "quantity": "150g"
+            },
+            {
+                "name": "sweetpotato",
+                "quantity": "200g"
+            },
+            {
+                "name": "tomato",
+                "quantity": "1 medium"
+            }
+        ],
+        "steps": [
+            "1. Preheat the oven to 200°C (400°F).",
+            "2. Peel and cut the sweet potato into wedges. Boil for 10 minutes then drain.",
+            "3. Place the fish on a baking tray lined with parchment paper.",
+            "4. Season the fish with salt, pepper, and lemon juice.",
+            "5. Arrange the sweet potato wedges around the fish on the tray.",
+            "6. Slice the tomato and place on top of the fish and sweet potatoes.",
+            "7. Bake in the oven for 20-25 minutes or until the fish is cooked through and flaky.",
+            "8. Serve warm with a wedge of lemon on the side."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "diet"
+        ],
+        "highlighted_ingredients": [
+            "fish",
+            "sweetpotato"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/baked-fish-sweet-potato"
+    },
+    {
+        "name": "Fruit Smoothie",
+        "description": "A refreshing smoothie with a mix of fruits.",
+        "nutrition": {
+            "calories": "200",
+            "protein": "3g",
+            "carbs": "50g",
+            "fat": "1g",
+            "fiber": "5g",
+            "sugar": "30g",
+            "sodium": "10mg"
+        },
+        "ingredients": [
+            {
+                "name": "banana",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "apple",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "pineapple",
+                "quantity": "100g"
+            },
+            {
+                "name": "sugar",
+                "quantity": "1 tsp"
+            }
+        ],
+        "steps": [
+            "1. Peel the banana and slice it into pieces.",
+            "2. Core and chop the apple into chunks.",
+            "3. In a blender, add the banana, apple, pineapple, and sugar.",
+            "4. Blend on high until smooth and creamy, adding water or ice for desired consistency.",
+            "5. Pour into a glass and serve immediately."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "diet"
+        ],
+        "highlighted_ingredients": [
+            "banana",
+            "apple"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/fruit-smoothie"
+    },
+    {
+        "name": "Mixed Vegetable Soup",
+        "description": "A warm and hearty vegetable soup made with seasonal veggies.",
+        "nutrition": {
+            "calories": "180",
+            "protein": "5g",
+            "carbs": "30g",
+            "fat": "5g",
+            "fiber": "6g",
+            "sugar": "6g",
+            "sodium": "400mg"
+        },
+        "ingredients": [
+            {
+                "name": "carrot",
+                "quantity": "50g"
+            },
+            {
+                "name": "potato",
+                "quantity": "100g"
+            },
+            {
+                "name": "tomato",
+                "quantity": "2 medium"
+            },
+            {
+                "name": "sweetpotato",
+                "quantity": "100g"
+            }
+        ],
+        "steps": [
+            "1. Peel and chop the carrot, potato, and sweet potato into small pieces.",
+            "2. Dice the tomatoes.",
+            "3. In a large pot, add 4 cups of water and bring to a boil.",
+            "4. Add the chopped vegetables to the pot and season with salt and pepper.",
+            "5. Reduce heat and simmer for 20-25 minutes until vegetables are tender.",
+            "6. Blend the soup if you prefer a smooth texture, or leave it chunky.",
+            "7. Serve hot, garnished with fresh herbs if available."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "diet"
+        ],
+        "highlighted_ingredients": [
+            "tomato",
+            "carrot"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/mixed-vegetable-soup"
     }
 ]

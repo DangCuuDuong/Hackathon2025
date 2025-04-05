@@ -1,10 +1,10 @@
 {
-    "spice_level": "super hot",
+    "spice_level": "none",
     "diet_type": "Vegetarian",
     "allergies_or_dislikes": [
-        "dog"
+        "egg"
     ],
     "favorite_foods": [
-        "beef"
+        "dog"
     ]
 }
