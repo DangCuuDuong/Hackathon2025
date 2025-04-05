@@ -1,3 +1,4 @@
+import json
 import streamlit as st
 import pandas as pd
 import os
@@ -51,26 +52,29 @@ def create_recommendation():
     # Display results
     if not componets_prepare.empty:
         st.markdown("<div class='one1'>Components Prepare</div>", unsafe_allow_html=True)
-        st.dataframe(componets_prepare, use_container_width=True)
-        # col1, col2 = st.columns(2)
-        # with col1:
-        #     st.write("Name")
-        #     st.write(componets_prepare["name"].values)
-        # with col2:
-        #     st.write("Count")
-        #     st.write(componets_prepare["count"].values)
+        tempshow = componets_prepare.rename(columns={"name": "Food Name", "count": "Kg"})
+        st.dataframe(tempshow.reset_index(drop=True), use_container_width=True)
 
     
 
 
     # Export button
     if st.button("Merge Ingredients"):
-        df_main = pd.read_csv(CSV_PATH, encoding='utf-8-sig')
-        df_combined = pd.concat([df_main, componets_prepare], ignore_index=True)
-        df_main = df_combined.groupby('name', as_index=False)['count'].sum()
-        df_main.to_csv(CSV_PATH, index=False, encoding='utf-8-sig')
-        componets_prepare = pd.DataFrame(columns=componets_prepare.columns)
-        output_json(df_main)
+        with open("JSON_FILE/main.json", "r") as f:
+            json_data = json.load(f)
+
+        for index, row in componets_prepare.iterrows():
+            name = str(row["name"])
+            count = int(row["count"])
+            if name in json_data:
+                json_data[name] += count
+            else:
+                json_data[name] = count
+
+        with open("data.json", "w") as f:
+            json.dump(json_data, f, indent=4)
+
+        st.success("Merged successfully!")
 
 
 def output_json(df):

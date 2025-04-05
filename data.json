@@ -1,14 +1,15 @@
 {
     "apple": 7578,
-    "banana": 2529,
-    "carrot": 502,
-    "tomato": 1305,
+    "banana": 3529,
+    "carrot": 503,
+    "tomato": 1306,
     "pineapple": 2,
+    "beef": 1,
     "fish": 3,
     "pork": 1,
     "bread": 4,
     "pasta": 3,
-    "potato": 1,
+    "potato": 2,
     "sweetpotato": 1,
     "eggs": 3
 }

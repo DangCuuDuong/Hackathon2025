@@ -1,72 +1,184 @@
 [
     {
-        "name": "Beef and Vegetable Stir-fry",
-        "description": "A quick and nutritious stir-fry featuring beef and colorful vegetables.",
+        "name": "Fish and Potato Bake",
+        "description": "Enjoy a hearty fish and potato bake, combining tender fish fillets with flavorful, baked potatoes.",
         "nutrition": {
-            "calories": "350",
-            "protein": "30g",
-            "carbs": "25g",
-            "fat": "15g",
-            "fiber": "3g",
-            "sugar": "5g",
-            "sodium": "600mg"
+            "calories": "400",
+            "protein": "35g",
+            "carbs": "50g",
+            "fat": "10g",
+            "fiber": "5g",
+            "sugar": "2g",
+            "sodium": "200mg"
         },
         "ingredients": [
             {
-                "name": "beef",
+                "name": "fish fillets",
                 "quantity": "200g"
             },
             {
-                "name": "carrot",
-                "quantity": "100g"
+                "name": "potato",
+                "quantity": "300g"
             },
             {
                 "name": "tomato",
                 "quantity": "100g"
             },
             {
-                "name": "potato",
-                "quantity": "150g"
+                "name": "carrot",
+                "quantity": "100g"
             },
             {
                 "name": "olive oil",
-                "quantity": "2 tbsp"
+                "quantity": "2tbsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "1tsp"
             }
         ],
         "steps": [
-            "1. Slice the beef into thin strips (200g) and season with salt and pepper.",
-            "2. Peel and julienne the carrot (100g) and dice the tomato (100g).",
-            "3. Wash and cube the potato (150g).",
-            "4. Heat 1 tablespoon of olive oil in a large pan or wok over medium-high heat.",
-            "5. Add the beef and stir-fry for about 5 minutes until browned.",
-            "6. Add the potatoes and cook for an additional 5 minutes, stirring occasionally.",
-            "7. Add the carrots and tomatoes, then stir-fry for another 3-4 minutes until vegetables are tender.",
-            "8. Drizzle with the remaining olive oil before serving."
+            "Step 1: Preheat the oven to 200°C (400°F).",
+            "Step 2: Wash and peel the potatoes and carrots. Cut the potatoes into cubes and carrots into thin slices.",
+            "Step 3: In a baking dish, toss the potatoes and carrots with 1 tablespoon of olive oil and salt.",
+            "Step 4: Place the baking dish in the oven and bake for 25 minutes.",
+            "Step 5: While the vegetables bake, season the fish fillets with salt and any preferred herbs.",
+            "Step 6: After 25 minutes, add the seasoned fish on top of the vegetables and scatter chopped tomatoes over everything.",
+            "Step 7: Drizzle with the remaining olive oil, then return the dish to the oven for an additional 15-20 minutes until the fish is cooked through.",
+            "Step 8: Remove from the oven, let cool slightly, then serve hot."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "muscle gain",
-            "diet",
-            "gym goer"
+            "high protein",
+            "low-carb"
         ],
         "highlighted_ingredients": [
-            "beef"
+            "fish",
+            "potato"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/beef-stir-fry"
+        "reference": "https://www.example.com/fish-potato-bake"
+    },
+    {
+        "name": "Sweet Potato and Egg Scramble",
+        "description": "A nutritious and filling breakfast scramble featuring sweet potatoes and eggs.",
+        "nutrition": {
+            "calories": "350",
+            "protein": "20g",
+            "carbs": "45g",
+            "fat": "10g",
+            "fiber": "6g",
+            "sugar": "5g",
+            "sodium": "150mg"
+        },
+        "ingredients": [
+            {
+                "name": "sweet potato",
+                "quantity": "200g"
+            },
+            {
+                "name": "eggs",
+                "quantity": "3"
+            },
+            {
+                "name": "tomato",
+                "quantity": "100g"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "1tbsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "1tsp"
+            }
+        ],
+        "steps": [
+            "Step 1: Wash and peel the sweet potato. Cut it into small cubes.",
+            "Step 2: Heat olive oil in a skillet over medium heat and add the sweet potato cubes.",
+            "Step 3: Cook for about 10 min, stirring occasionally, until tender.",
+            "Step 4: While the sweet potato is cooking, beat the eggs in a bowl with salt.",
+            "Step 5: Once the sweet potatoes are soft, reduce heat to low and pour in the eggs.",
+            "Step 6: Stir continuously until the eggs are cooked through.",
+            "Step 7: Chop the tomatoes and fold them into the scramble just before serving.",
+            "Step 8: Serve warm with toast if desired."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "high protein",
+            "breakfast"
+        ],
+        "highlighted_ingredients": [
+            "sweet potato",
+            "eggs"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/sweet-potato-egg-scramble"
+    },
+    {
+        "name": "Fruit and Yogurt Parfait",
+        "description": "A refreshing parfait layered with fruits and yogurt for a healthy snack or breakfast.",
+        "nutrition": {
+            "calories": "220",
+            "protein": "10g",
+            "carbs": "40g",
+            "fat": "5g",
+            "fiber": "4g",
+            "sugar": "12g",
+            "sodium": "90mg"
+        },
+        "ingredients": [
+            {
+                "name": "banana",
+                "quantity": "1"
+            },
+            {
+                "name": "apple",
+                "quantity": "1"
+            },
+            {
+                "name": "pineapple",
+                "quantity": "100g"
+            },
+            {
+                "name": "yogurt",
+                "quantity": "150g"
+            }
+        ],
+        "steps": [
+            "Step 1: Peel and slice the banana and apple into thin rounds.",
+            "Step 2: Cut the pineapple into small pieces if not pre-cut.",
+            "Step 3: In a glass or bowl, layer a quarter of the yogurt at the bottom.",
+            "Step 4: Add a layer of banana, then a layer of apple, and then a layer of pineapple.",
+            "Step 5: Repeat the layering process until all ingredients are used, finishing with yogurt on top.",
+            "Step 6: Serve immediately, or refrigerate for a chilled treat."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "snack",
+            "breakfast"
+        ],
+        "highlighted_ingredients": [
+            "banana",
+            "apple"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/fruit-yogurt-parfait"
     },
     {
         "name": "Pasta with Tomato and Carrot Sauce",
-        "description": "A hearty pasta dish with a savory sauce made from fresh tomatoes and carrots.",
+        "description": "A vibrant pasta dish featuring a delicious tomato and carrot sauce, perfect for a light lunch.",
         "nutrition": {
-            "calories": "320",
-            "protein": "10g",
-            "carbs": "50g",
-            "fat": "10g",
-            "fiber": "5g",
-            "sugar": "7g",
-            "sodium": "250mg"
+            "calories": "350",
+            "protein": "12g",
+            "carbs": "65g",
+            "fat": "6g",
+            "fiber": "7g",
+            "sugar": "8g",
+            "sodium": "150mg"
         },
         "ingredients": [
             {
@@ -75,7 +187,7 @@
             },
             {
                 "name": "tomato",
-                "quantity": "150g"
+                "quantity": "200g"
             },
             {
                 "name": "carrot",
@@ -83,58 +195,53 @@
             },
             {
                 "name": "olive oil",
-                "quantity": "1 tbsp"
+                "quantity": "1tbsp"
             },
             {
                 "name": "salt",
-                "quantity": "to taste"
-            },
-            {
-                "name": "pepper",
-                "quantity": "to taste"
+                "quantity": "1tsp"
             }
         ],
         "steps": [
-            "1. Cook pasta (200g) according to package instructions until al dente.",
-            "2. Dice the tomatoes (150g) and peel the carrot (100g) before grating it.",
-            "3. In a skillet, heat 1 tablespoon of olive oil over medium heat.",
-            "4. Add the grated carrot and sauté for about 3-4 minutes until soft.",
-            "5. Add diced tomatoes and bring to a simmer for about 5 minutes.",
-            "6. Mix the cooked pasta into the sauce, season with salt and pepper to taste.",
-            "7. Serve warm."
+            "Step 1: Cook the pasta according to package instructions, then drain and set aside.",
+            "Step 2: Wash and chop the tomatoes and peel and dice the carrot.",
+            "Step 3: In a pan, heat olive oil over medium heat, add the diced carrot, and cook for about 5 minutes.",
+            "Step 4: Add the chopped tomatoes and salt to the pan, simmer for about 10 minutes, stirring occasionally.",
+            "Step 5: Once the sauce has thickened, stir in the cooked pasta until well coated.",
+            "Step 6: Serve warm with additional salt if needed."
         ],
         "spice_level": "not spicy",
-        "diet_type": "vegetarian",
+        "diet_type": "eat clean",
         "suitable_for": [
-            "diet",
-            "gym goer"
+            "light meal",
+            "lunch"
         ],
         "highlighted_ingredients": [
             "pasta",
             "tomato"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/pasta-tomato-sauce"
+        "reference": "https://www.example.com/pasta-tomato-carrot-sauce"
     },
     {
-        "name": "Fish Tacos with Pineapple Salsa",
-        "description": "Fresh fish tacos topped with a zesty pineapple salsa.",
+        "name": "Pork Stir-Fry with Vegetables",
+        "description": "A quick and healthy stir-fry featuring pork combined with fresh vegetables.",
         "nutrition": {
-            "calories": "290",
-            "protein": "25g",
-            "carbs": "30g",
-            "fat": "10g",
+            "calories": "450",
+            "protein": "30g",
+            "carbs": "35g",
+            "fat": "20g",
             "fiber": "4g",
             "sugar": "5g",
-            "sodium": "450mg"
+            "sodium": "300mg"
         },
         "ingredients": [
             {
-                "name": "fish",
+                "name": "pork",
                 "quantity": "200g"
             },
             {
-                "name": "pineapple",
+                "name": "carrot",
                 "quantity": "100g"
             },
             {
@@ -142,213 +249,93 @@
                 "quantity": "100g"
             },
             {
-                "name": "bread",
-                "quantity": "2 pieces (tortilla)"
-            },
-            {
-                "name": "lime (optional)",
-                "quantity": "1"
-            },
-            {
-                "name": "salt",
-                "quantity": "to taste"
-            }
-        ],
-        "steps": [
-            "1. Season the fish (200g) with salt, then grill or pan-fry over medium heat for about 5-7 minutes until cooked through.",
-            "2. Dice the pineapple (100g) and tomato (100g) into small pieces.",
-            "3. In a bowl, combine diced pineapple and tomato. Squeeze lime over the mixture if available and mix well.",
-            "4. Warm the tortillas (2 pieces) in a skillet for about 1-2 minutes until pliable.",
-            "5. Fill each tortilla with fish and top with pineapple salsa.",
-            "6. Serve immediately."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "eat clean",
-        "suitable_for": [
-            "diet",
-            "gym goer"
-        ],
-        "highlighted_ingredients": [
-            "fish",
-            "pineapple"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.example.com/fish-tacos"
-    },
-    {
-        "name": "Sweet Potato and Egg Frittata",
-        "description": "A healthy and filling frittata made with sweet potatoes and eggs.",
-        "nutrition": {
-            "calories": "280",
-            "protein": "16g",
-            "carbs": "24g",
-            "fat": "14g",
-            "fiber": "4g",
-            "sugar": "3g",
-            "sodium": "350mg"
-        },
-        "ingredients": [
-            {
-                "name": "sweetpotato",
-                "quantity": "200g"
-            },
-            {
-                "name": "eggs",
-                "quantity": "4"
-            },
-            {
                 "name": "olive oil",
-                "quantity": "1 tbsp"
+                "quantity": "1tbsp"
             },
             {
                 "name": "salt",
-                "quantity": "to taste"
-            },
-            {
-                "name": "pepper",
-                "quantity": "to taste"
+                "quantity": "1tsp"
             }
         ],
         "steps": [
-            "1. Preheat your oven to 180°C (350°F).",
-            "2. Peel and cube the sweet potato (200g).",
-            "3. Heat 1 tablespoon of olive oil in an oven-safe skillet over medium heat.",
-            "4. Add the sweet potato cubes, season with salt and pepper, and sauté for about 10 minutes until tender.",
-            "5. In a bowl, whisk together the eggs (4) and pour over the sweet potatoes in the skillet.",
-            "6. Cook on the stovetop for about 5 minutes, then transfer to the oven.",
-            "7. Bake for 15-20 minutes until the eggs are set.",
-            "8. Allow to cool slightly before slicing and serving."
+            "Step 1: Wash and julienne the carrots and chop the tomatoes.",
+            "Step 2: Heat olive oil in a skillet over medium-high heat.",
+            "Step 3: Slice the pork into thin strips and add to the skillet, cooking for about 5 minutes or until browned.",
+            "Step 4: Add the carrots and cook for an additional 3 minutes.",
+            "Step 5: Add the chopped tomatoes and salt, stir-frying for another 2 minutes.",
+            "Step 6: Serve hot over rice or on its own."
         ],
         "spice_level": "not spicy",
-        "diet_type": "eat clean",
+        "diet_type": "high protein",
         "suitable_for": [
-            "diet",
+            "dinner",
             "gym goer"
         ],
         "highlighted_ingredients": [
-            "eggs",
-            "sweet potato"
+            "pork",
+            "carrot"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/sweet-potato-frittata"
+        "reference": "https://www.example.com/pork-stir-fry"
     },
     {
-        "name": "Banana Oatmeal Pancakes",
-        "description": "Fluffy pancakes made with ripe bananas and oats, perfect for breakfast.",
+        "name": "Vegetable and Egg Fried Rice",
+        "description": "A quick and delicious vegetable and egg fried rice, perfect for using up leftovers.",
         "nutrition": {
-            "calories": "200",
-            "protein": "6g",
-            "carbs": "36g",
-            "fat": "4g",
-            "fiber": "4g",
-            "sugar": "6g",
-            "sodium": "140mg"
+            "calories": "350",
+            "protein": "12g",
+            "carbs": "55g",
+            "fat": "10g",
+            "fiber": "3g",
+            "sugar": "2g",
+            "sodium": "400mg"
         },
         "ingredients": [
             {
-                "name": "banana",
-                "quantity": "2"
+                "name": "rice",
+                "quantity": "200g"
             },
             {
                 "name": "egg",
-                "quantity": "1"
+                "quantity": "2"
             },
             {
-                "name": "oats",
+                "name": "carrot",
                 "quantity": "100g"
             },
             {
-                "name": "baking powder",
-                "quantity": "1 tsp"
-            },
-            {
-                "name": "milk",
-                "quantity": "100ml"
-            },
-            {
-                "name": "olive oil",
-                "quantity": "for cooking"
-            }
-        ],
-        "steps": [
-            "1. Mash the bananas (2) in a bowl.",
-            "2. Add the egg (1), oats (100g), baking powder (1 tsp), and milk (100ml) to the bowl and mix well.",
-            "3. Heat a pan over medium heat and add a little olive oil.",
-            "4. Pour batter onto the pan (about 1/4 cup for each pancake) and cook for 2-3 minutes until bubbles form.",
-            "5. Flip the pancakes and cook for another 2-3 minutes until golden brown.",
-            "6. Serve with fresh fruit or syrup if desired."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "vegetarian",
-        "suitable_for": [
-            "diet",
-            "gym goer"
-        ],
-        "highlighted_ingredients": [
-            "banana"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.example.com/banana-pancakes"
-    },
-    {
-        "name": "Carrot and Tomato Soup",
-        "description": "A comforting soup made with fresh carrots and tomatoes, great for lunch.",
-        "nutrition": {
-            "calories": "180",
-            "protein": "4g",
-            "carbs": "32g",
-            "fat": "5g",
-            "fiber": "5g",
-            "sugar": "8g",
-            "sodium": "250mg"
-        },
-        "ingredients": [
-            {
-                "name": "carrot",
-                "quantity": "200g"
-            },
-            {
                 "name": "tomato",
-                "quantity": "200g"
+                "quantity": "100g"
             },
             {
                 "name": "olive oil",
-                "quantity": "1 tbsp"
+                "quantity": "1tbsp"
             },
             {
-                "name": "vegetable stock or water",
-                "quantity": "500ml"
-            },
-            {
-                "name": "salt",
-                "quantity": "to taste"
-            },
-            {
-                "name": "pepper",
-                "quantity": "to taste"
+                "name": "soy sauce",
+                "quantity": "1tbsp"
             }
         ],
         "steps": [
-            "1. Peel and chop the carrots (200g) and tomatoes (200g).",
-            "2. In a pot, heat 1 tablespoon of olive oil over medium heat.",
-            "3. Add the carrots and sauté for about 5 minutes.",
-            "4. Add the tomatoes and cook for another 5 minutes.",
-            "5. Pour in 500ml of vegetable stock or water and bring to a boil.",
-            "6. Reduce heat and simmer for about 20 minutes until carrots are tender.",
-            "7. Use an immersion blender to puree the soup until smooth.",
-            "8. Season with salt and pepper to taste before serving."
+            "Step 1: Cook rice according to package instructions and set aside.",
+            "Step 2: Wash, peel and dice the carrot, chop the tomato.",
+            "Step 3: In a skillet, heat olive oil over medium heat.",
+            "Step 4: Beat the eggs and scramble them in the skillet, then remove and set aside.",
+            "Step 5: In the same skillet, add the diced carrot and cook for 3-4 minutes.",
+            "Step 6: Add the cooked rice, tomatoes, scrambled eggs, and soy sauce, mixing well for another 3 minutes until heated through.",
+            "Step 7: Serve immediately."
         ],
         "spice_level": "not spicy",
-        "diet_type": "vegetarian",
+        "diet_type": "eat clean",
         "suitable_for": [
-            "diet",
-            "gym goer"
+            "lunch",
+            "quick meal"
         ],
         "highlighted_ingredients": [
-            "carrot",
-            "tomato"
+            "egg",
+            "carrot"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/carrot-tomato-soup"
+        "reference": "https://www.example.com/vegetable-fried-rice"
     }
 ]
