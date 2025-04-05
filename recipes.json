@@ -1,15 +1,15 @@
 [
     {
-        "name": "Fish and Potato Bake",
-        "description": "Enjoy a hearty fish and potato bake, combining tender fish fillets with flavorful, baked potatoes.",
+        "name": "Beef and Vegetable Stir-Fry",
+        "description": "A quick and nutritious beef stir-fry with fresh vegetables, perfect for a balanced meal.",
         "nutrition": {
-            "calories": "400",
-            "protein": "35g",
-            "carbs": "50g",
-            "fat": "10g",
+            "calories": "600",
+            "protein": "40g",
+            "carbs": "45g",
+            "fat": "30g",
             "fiber": "5g",
-            "sugar": "2g",
-            "sodium": "200mg"
+            "sugar": "6g",
+            "sodium": "300mg"
         },
         "ingredients": [
             {
@@ -17,60 +17,58 @@
                 "quantity": "200g"
             },
             {
+                "name": "carrot",
+                "quantity": "100g"
+            },
+            {
                 "name": "potato",
-                "quantity": "300g"
+                "quantity": "100g"
             },
             {
                 "name": "tomato",
                 "quantity": "100g"
             },
             {
-                "name": "carrot",
-                "quantity": "100g"
+                "name": "egg",
+                "quantity": "1"
             },
             {
-                "name": "olive oil",
-                "quantity": "2tbsp"
-            },
-            {
-                "name": "salt",
-                "quantity": "1tsp"
+                "name": "sugar",
+                "quantity": "1 tsp"
             }
         ],
         "steps": [
-            "Step 1: Preheat the oven to 200°C (400°F).",
-            "Step 2: Wash and peel the potatoes and carrots. Cut the potatoes into cubes and carrots into thin slices.",
-            "Step 3: In a baking dish, toss the potatoes and carrots with 1 tablespoon of olive oil and salt.",
-            "Step 4: Place the baking dish in the oven and bake for 25 minutes.",
-            "Step 5: While the vegetables bake, season the fish fillets with salt and any preferred herbs.",
-            "Step 6: After 25 minutes, add the seasoned fish on top of the vegetables and scatter chopped tomatoes over everything.",
-            "Step 7: Drizzle with the remaining olive oil, then return the dish to the oven for an additional 15-20 minutes until the fish is cooked through.",
-            "Step 8: Remove from the oven, let cool slightly, then serve hot."
+            "1. Thinly slice the beef (200g) into strips. Wash and peel the carrot (100g) and potato (100g), then cut them into thin julienne sticks. Dice the tomato (100g).",
+            "2. In a pan, heat 1 tablespoon of oil over medium heat. Add the beef and stir-fry for about 3-4 minutes until browned. Remove and set aside.",
+            "3. In the same pan, add the carrot and potato, and stir-fry for about 5 minutes or until slightly tender.",
+            "4. Add the diced tomato to the pan and stir well, cooking for another 2 minutes.",
+            "5. Push the vegetables to one side of the pan and crack 1 egg into the empty space. Scramble the egg until fully cooked, then mix it with the vegetables.",
+            "6. Add the beef back into the pan along with 1 tsp of sugar, mixing everything together. Cook for an additional 2 minutes. Serve hot."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "high protein",
-            "low-carb"
+            "muscle gain",
+            "diet"
         ],
         "highlighted_ingredients": [
-            "fish",
-            "potato"
+            "beef",
+            "vegetables"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/fish-potato-bake"
+        "reference": "https://www.example.com/beef-vegetable-stir-fry"
     },
     {
-        "name": "Sweet Potato and Egg Scramble",
-        "description": "A nutritious and filling breakfast scramble featuring sweet potatoes and eggs.",
+        "name": "Pasta with Tuna and Tomato Sauce",
+        "description": "A simple and satisfying pasta dish combining protein-rich tuna with a fresh tomato sauce.",
         "nutrition": {
-            "calories": "350",
-            "protein": "20g",
-            "carbs": "45g",
+            "calories": "500",
+            "protein": "35g",
+            "carbs": "60g",
             "fat": "10g",
-            "fiber": "6g",
+            "fiber": "4g",
             "sugar": "5g",
-            "sodium": "150mg"
+            "sodium": "600mg"
         },
         "ingredients": [
             {
@@ -78,137 +76,117 @@
                 "quantity": "200g"
             },
             {
-                "name": "eggs",
-                "quantity": "3"
+                "name": "tuna",
+                "quantity": "1 can (around 150g)"
             },
             {
                 "name": "tomato",
-                "quantity": "100g"
-            },
-            {
-                "name": "olive oil",
-                "quantity": "1tbsp"
-            },
-            {
-                "name": "salt",
-                "quantity": "1tsp"
+                "quantity": "200g"
             }
         ],
         "steps": [
-            "Step 1: Wash and peel the sweet potato. Cut it into small cubes.",
-            "Step 2: Heat olive oil in a skillet over medium heat and add the sweet potato cubes.",
-            "Step 3: Cook for about 10 min, stirring occasionally, until tender.",
-            "Step 4: While the sweet potato is cooking, beat the eggs in a bowl with salt.",
-            "Step 5: Once the sweet potatoes are soft, reduce heat to low and pour in the eggs.",
-            "Step 6: Stir continuously until the eggs are cooked through.",
-            "Step 7: Chop the tomatoes and fold them into the scramble just before serving.",
-            "Step 8: Serve warm with toast if desired."
+            "1. Boil a large pot of salted water and add the pasta (200g), cooking according to the package instructions (usually about 8-10 minutes).",
+            "2. While the pasta is cooking, wash and dice the tomatoes (200g).",
+            "3. In a separate pan, heat 1 tablespoon of olive oil over medium heat. Add the diced tomatoes and cook for 5-7 minutes until they soften and form a sauce.",
+            "4. Drain the canned tuna (150g) and add it to the tomato sauce. Mix well and heat for another 2-3 minutes.",
+            "5. Once the pasta is cooked, drain it and combine it with the tuna and tomato sauce. Toss well to coat. Serve immediately."
         ],
         "spice_level": "not spicy",
-        "diet_type": "eat clean",
+        "diet_type": "low carb",
         "suitable_for": [
-            "high protein",
-            "breakfast"
+            "gym goer",
+            "diet"
         ],
         "highlighted_ingredients": [
-            "sweet potato",
-            "eggs"
+            "tuna",
+            "pasta"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/sweet-potato-egg-scramble"
+        "reference": "https://www.example.com/pasta-tuna-tomato"
     },
     {
-        "name": "Fruit and Yogurt Parfait",
-        "description": "A refreshing parfait layered with fruits and yogurt for a healthy snack or breakfast.",
+        "name": "Sweetpotato and Apple Bake",
+        "description": "A delicious and nutritious baked dish combining sweetpotato with juicy apples for a healthy dessert.",
         "nutrition": {
-            "calories": "220",
-            "protein": "10g",
-            "carbs": "40g",
-            "fat": "5g",
-            "fiber": "4g",
-            "sugar": "12g",
-            "sodium": "90mg"
+            "calories": "300",
+            "protein": "4g",
+            "carbs": "70g",
+            "fat": "1g",
+            "fiber": "6g",
+            "sugar": "20g",
+            "sodium": "5mg"
         },
         "ingredients": [
             {
-                "name": "banana",
-                "quantity": "1"
+                "name": "sweetpotato",
+                "quantity": "200g"
             },
             {
                 "name": "apple",
-                "quantity": "1"
+                "quantity": "1 large"
             },
             {
-                "name": "pineapple",
-                "quantity": "100g"
-            },
-            {
-                "name": "yogurt",
-                "quantity": "150g"
+                "name": "sugar",
+                "quantity": "2 tbsp"
             }
         ],
         "steps": [
-            "Step 1: Peel and slice the banana and apple into thin rounds.",
-            "Step 2: Cut the pineapple into small pieces if not pre-cut.",
-            "Step 3: In a glass or bowl, layer a quarter of the yogurt at the bottom.",
-            "Step 4: Add a layer of banana, then a layer of apple, and then a layer of pineapple.",
-            "Step 5: Repeat the layering process until all ingredients are used, finishing with yogurt on top.",
-            "Step 6: Serve immediately, or refrigerate for a chilled treat."
+            "1. Preheat the oven to 190°C (375°F).",
+            "2. Peel the sweetpotato (200g) and cut it into thin slices. Wash the apple (1 large), core it, and slice it thinly.",
+            "3. In a baking dish, layer the sweetpotato slices and apple slices alternately. Sprinkle 2 tablespoons of sugar evenly over the top.",
+            "4. Cover the dish with foil and bake in the preheated oven for 30 minutes.",
+            "5. After 30 minutes, remove the foil and bake for an additional 15 minutes, or until the sweetpotato is tender and the top is slightly caramelized.",
+            "6. Serve warm as a dessert or snack."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "snack",
-            "breakfast"
+            "diet"
         ],
         "highlighted_ingredients": [
-            "banana",
+            "sweetpotato",
             "apple"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/fruit-yogurt-parfait"
+        "reference": "https://www.example.com/sweetpotato-apple-bake"
     },
     {
-        "name": "Pasta with Tomato and Carrot Sauce",
-        "description": "A vibrant pasta dish featuring a delicious tomato and carrot sauce, perfect for a light lunch.",
+        "name": "Fish and Potato Cakes",
+        "description": "Crispy fish cakes made with tender potatoes, ideal as a light lunch or snack.",
         "nutrition": {
-            "calories": "350",
-            "protein": "12g",
-            "carbs": "65g",
-            "fat": "6g",
-            "fiber": "7g",
-            "sugar": "8g",
-            "sodium": "150mg"
+            "calories": "450",
+            "protein": "30g",
+            "carbs": "35g",
+            "fat": "15g",
+            "fiber": "4g",
+            "sugar": "2g",
+            "sodium": "300mg"
         },
         "ingredients": [
             {
-                "name": "pasta",
-                "quantity": "200g"
+                "name": "fish",
+                "quantity": "150g"
             },
             {
-                "name": "tomato",
-                "quantity": "200g"
+                "name": "potato",
+                "quantity": "150g"
             },
             {
-                "name": "carrot",
-                "quantity": "100g"
+                "name": "egg",
+                "quantity": "1"
             },
             {
-                "name": "olive oil",
-                "quantity": "1tbsp"
-            },
-            {
-                "name": "salt",
-                "quantity": "1tsp"
+                "name": "sugar",
+                "quantity": "1 tsp"
             }
         ],
         "steps": [
-            "Step 1: Cook the pasta according to package instructions, then drain and set aside.",
-            "Step 2: Wash and chop the tomatoes and peel and dice the carrot.",
-            "Step 3: In a pan, heat olive oil over medium heat, add the diced carrot, and cook for about 5 minutes.",
-            "Step 4: Add the chopped tomatoes and salt to the pan, simmer for about 10 minutes, stirring occasionally.",
-            "Step 5: Once the sauce has thickened, stir in the cooked pasta until well coated.",
-            "Step 6: Serve warm with additional salt if needed."
+            "1. Boil the potato (150g) until tender, about 15-20 minutes. Drain and mash in a bowl.",
+            "2. In another bowl, flake the cooked fish (150g) and mix it with the mashed potato.",
+            "3. Add 1 egg (1) and 1 teaspoon of sugar to the mixture, and stir until well combined.",
+            "4. Form the mixture into small cakes, about 2 inches wide.",
+            "5. Heat 1 tablespoon of oil in a frying pan over medium heat. Fry the fish cakes for about 4-5 minutes on each side until golden and crispy.",
+            "6. Serve while hot, optionally with a side salad."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
@@ -217,23 +195,74 @@
             "lunch"
         ],
         "highlighted_ingredients": [
-            "pasta",
-            "tomato"
+            "fish",
+            "potato"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/pasta-tomato-carrot-sauce"
+        "reference": "https://www.example.com/fish-potato-cakes"
     },
     {
-        "name": "Pork Stir-Fry with Vegetables",
-        "description": "A quick and healthy stir-fry featuring pork combined with fresh vegetables.",
+        "name": "Tuna Salad Sandwich",
+        "description": "A quick and easy sandwich filled with nutritious tuna and fresh vegetables.",
         "nutrition": {
-            "calories": "450",
-            "protein": "30g",
-            "carbs": "35g",
-            "fat": "20g",
-            "fiber": "4g",
-            "sugar": "5g",
-            "sodium": "300mg"
+            "calories": "350",
+            "protein": "25g",
+            "carbs": "30g",
+            "fat": "15g",
+            "fiber": "5g",
+            "sugar": "4g",
+            "sodium": "500mg"
+        },
+        "ingredients": [
+            {
+                "name": "tuna",
+                "quantity": "1 can (around 150g)"
+            },
+            {
+                "name": "bread",
+                "quantity": "2 slices"
+            },
+            {
+                "name": "tomato",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "egg",
+                "quantity": "1"
+            }
+        ],
+        "steps": [
+            "1. Drain the canned tuna (150g) into a bowl.",
+            "2. Wash and slice the tomato (1 medium).",
+            "3. Hard boil the egg (1) by placing it in a pot of boiling water for about 10 minutes, then cool it under cold water and peel.",
+            "4. Chop the boiled egg and add it to the bowl of tuna, mixing well.",
+            "5. Spread the tuna-egg mixture onto one slice of bread (2 slices total), adding sliced tomato on top before placing the second slice of bread over.",
+            "6. Cut the sandwich in half and serve."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "dinner",
+            "gym goer"
+        ],
+        "highlighted_ingredients": [
+            "tuna",
+            "bread"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/tuna-salad-sandwich"
+    },
+    {
+        "name": "Pork and Carrot Stir Fry",
+        "description": "Savory and vibrant stir-fried pork with fresh carrots, perfect for a filling dinner.",
+        "nutrition": {
+            "calories": "700",
+            "protein": "45g",
+            "carbs": "50g",
+            "fat": "35g",
+            "fiber": "6g",
+            "sugar": "8g",
+            "sodium": "400mg"
         },
         "ingredients": [
             {
@@ -245,97 +274,28 @@
                 "quantity": "100g"
             },
             {
-                "name": "tomato",
-                "quantity": "100g"
-            },
-            {
-                "name": "olive oil",
-                "quantity": "1tbsp"
-            },
-            {
-                "name": "salt",
-                "quantity": "1tsp"
+                "name": "egg",
+                "quantity": "1"
             }
         ],
         "steps": [
-            "Step 1: Wash and julienne the carrots and chop the tomatoes.",
-            "Step 2: Heat olive oil in a skillet over medium-high heat.",
-            "Step 3: Slice the pork into thin strips and add to the skillet, cooking for about 5 minutes or until browned.",
-            "Step 4: Add the carrots and cook for an additional 3 minutes.",
-            "Step 5: Add the chopped tomatoes and salt, stir-frying for another 2 minutes.",
-            "Step 6: Serve hot over rice or on its own."
+            "1. Thinly slice the pork (200g) into strips and wash, peel, and julienne the carrot (100g).",
+            "2. Heat 1 tablespoon of oil in a large pan over medium-high heat. Add the pork and stir-fry for about 5-7 minutes until nicely browned.",
+            "3. Add the carrot to the pan and cook for another 3-4 minutes, stirring frequently until the carrot is tender.",
+            "4. Crack 1 egg directly into the pan and scramble it with the pork and carrots until fully cooked, around 2-3 minutes.",
+            "5. Serve immediately as is or with rice or bread."
         ],
         "spice_level": "not spicy",
-        "diet_type": "high protein",
+        "diet_type": "eat clean",
         "suitable_for": [
-            "dinner",
-            "gym goer"
+            "muscle gain",
+            "diet"
         ],
         "highlighted_ingredients": [
             "pork",
             "carrot"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/pork-stir-fry"
-    },
-    {
-        "name": "Vegetable and Egg Fried Rice",
-        "description": "A quick and delicious vegetable and egg fried rice, perfect for using up leftovers.",
-        "nutrition": {
-            "calories": "350",
-            "protein": "12g",
-            "carbs": "55g",
-            "fat": "10g",
-            "fiber": "3g",
-            "sugar": "2g",
-            "sodium": "400mg"
-        },
-        "ingredients": [
-            {
-                "name": "rice",
-                "quantity": "200g"
-            },
-            {
-                "name": "egg",
-                "quantity": "2"
-            },
-            {
-                "name": "carrot",
-                "quantity": "100g"
-            },
-            {
-                "name": "tomato",
-                "quantity": "100g"
-            },
-            {
-                "name": "olive oil",
-                "quantity": "1tbsp"
-            },
-            {
-                "name": "soy sauce",
-                "quantity": "1tbsp"
-            }
-        ],
-        "steps": [
-            "Step 1: Cook rice according to package instructions and set aside.",
-            "Step 2: Wash, peel and dice the carrot, chop the tomato.",
-            "Step 3: In a skillet, heat olive oil over medium heat.",
-            "Step 4: Beat the eggs and scramble them in the skillet, then remove and set aside.",
-            "Step 5: In the same skillet, add the diced carrot and cook for 3-4 minutes.",
-            "Step 6: Add the cooked rice, tomatoes, scrambled eggs, and soy sauce, mixing well for another 3 minutes until heated through.",
-            "Step 7: Serve immediately."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "eat clean",
-        "suitable_for": [
-            "lunch",
-            "quick meal"
-        ],
-        "highlighted_ingredients": [
-            "egg",
-            "carrot"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.example.com/vegetable-fried-rice"
+        "reference": "https://www.example.com/pork-carrot-stir-fry"
     }
 ]

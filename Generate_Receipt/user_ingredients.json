@@ -2,15 +2,27 @@
     "user_ingredients": [
         "apple",
         "banana",
+<<<<<<< HEAD
         "carrot",
         "tomato",
         "pineapple",
         "fish",
         "pork",
+=======
+        "beef",
+>>>>>>> bd59cb13c0413d7a0e4d3681d81a07d8a47032bf
         "bread",
+        "carrot",
+        "egg",
+        "eggs",
+        "fish",
         "pasta",
+        "pineapple",
+        "pork",
         "potato",
+        "sugar",
         "sweetpotato",
-        "eggs"
+        "tomato",
+        "tuna"
     ]
 }
