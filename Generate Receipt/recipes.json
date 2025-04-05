@@ -1,0 +1,247 @@
+[
+    {
+        "name": "Spicy Chicken Stir-Fry",
+        "description": "A quick and flavorful stir-fry dish featuring chicken and vegetables with a kick of spice.",
+        "nutrition": {
+            "calories": "400",
+            "protein": "30g",
+            "carbs": "20g",
+            "fat": "20g",
+            "fiber": "3g",
+            "sugar": "2g",
+            "sodium": "600mg"
+        },
+        "ingredients": [
+            {
+                "name": "chicken",
+                "quantity": "200g"
+            },
+            {
+                "name": "onion",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "garlic",
+                "quantity": "3 cloves"
+            },
+            {
+                "name": "red pepper powder",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "sesame oil",
+                "quantity": "2 tbsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "1/2 tsp"
+            }
+        ],
+        "steps": [
+            "Step 1: Wash the chicken under cold water and pat dry with a paper towel. Cut the chicken into bite-sized pieces.",
+            "Step 2: Peel and slice the onion into thin strips. Peel the garlic and mince it.",
+            "Step 3: In a large skillet or wok, heat 2 tbsp of sesame oil over medium-high heat.",
+            "Step 4: Add the chicken pieces to the skillet and stir-fry for 5-7 minutes until cooked through and browned.",
+            "Step 5: Add the minced garlic and sliced onion to the skillet and stir-fry for an additional 3 minutes until the onions are translucent.",
+            "Step 6: Stir in 1 tsp of red pepper powder and 1/2 tsp of salt. Mix well to coat the chicken and vegetables.",
+            "Step 7: Cook for another 2 minutes, then remove from heat and serve hot."
+        ],
+        "spice_level": 2,
+        "reference": "https://www.example.com/spicy-chicken-stirfry"
+    },
+    {
+        "name": "Tofu and Vegetable Stir-Fry",
+        "description": "A colorful and healthy stir-fry with tofu and fresh vegetables, perfect for a quick meal.",
+        "nutrition": {
+            "calories": "350",
+            "protein": "20g",
+            "carbs": "30g",
+            "fat": "18g",
+            "fiber": "5g",
+            "sugar": "3g",
+            "sodium": "500mg"
+        },
+        "ingredients": [
+            {
+                "name": "tofu",
+                "quantity": "200g"
+            },
+            {
+                "name": "onion",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "garlic",
+                "quantity": "2 cloves"
+            },
+            {
+                "name": "carrot",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "sesame oil",
+                "quantity": "2 tbsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "1/2 tsp"
+            }
+        ],
+        "steps": [
+            "Step 1: Drain the tofu and press it gently between paper towels to remove excess moisture. Cut into cubes.",
+            "Step 2: Peel and slice the onion into thin rings. Peel and slice the carrot into thin julienne strips. Mince the garlic.",
+            "Step 3: In a large skillet, heat 2 tbsp of sesame oil over medium heat.",
+            "Step 4: Add the tofu cubes and cook for about 4-5 minutes until golden brown on all sides.",
+            "Step 5: Add the minced garlic, sliced onion, and carrot to the skillet. Stir-fry for 5 minutes until the vegetables are tender.",
+            "Step 6: Season with 1/2 tsp of salt and mix well. Cook for another 2 minutes.",
+            "Step 7: Remove from heat and serve it hot over rice or noodles."
+        ],
+        "spice_level": 1,
+        "reference": "https://www.example.com/tofu-vegetable-stirfry"
+    },
+    {
+        "name": "Beef and Tomato Skillet",
+        "description": "A simple yet hearty beef and tomato dish that's easy to prepare.",
+        "nutrition": {
+            "calories": "500",
+            "protein": "35g",
+            "carbs": "15g",
+            "fat": "30g",
+            "fiber": "2g",
+            "sugar": "5g",
+            "sodium": "700mg"
+        },
+        "ingredients": [
+            {
+                "name": "beef",
+                "quantity": "250g"
+            },
+            {
+                "name": "tomato",
+                "quantity": "2 medium"
+            },
+            {
+                "name": "onion",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "garlic",
+                "quantity": "3 cloves"
+            },
+            {
+                "name": "cooking oil",
+                "quantity": "2 tbsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 tsp"
+            }
+        ],
+        "steps": [
+            "Step 1: Wash the tomatoes and cut them into wedges. Peel and slice the onion into thin strips. Mince the garlic.",
+            "Step 2: Heat 2 tbsp of cooking oil in a large skillet over medium heat.",
+            "Step 3: Add beef to the skillet, seasoning with 1 tsp of salt. Cook for 5-7 minutes, stirring frequently until browned.",
+            "Step 4: Add the sliced onion and garlic to the skillet and cook for 3 minutes until the onion is translucent.",
+            "Step 5: Stir in the tomato wedges and cook for an additional 5-7 minutes until softened.",
+            "Step 6: Remove from heat and serve warm with bread or rice."
+        ],
+        "spice_level": 1,
+        "reference": "https://www.example.com/beef-tomato-skillet"
+    },
+    {
+        "name": "Garlic Mashed Potatoes",
+        "description": "Creamy mashed potatoes infused with garlic, making for a perfect side dish.",
+        "nutrition": {
+            "calories": "200",
+            "protein": "4g",
+            "carbs": "32g",
+            "fat": "8g",
+            "fiber": "3g",
+            "sugar": "2g",
+            "sodium": "400mg"
+        },
+        "ingredients": [
+            {
+                "name": "potato",
+                "quantity": "500g"
+            },
+            {
+                "name": "garlic",
+                "quantity": "4 cloves"
+            },
+            {
+                "name": "cooking oil",
+                "quantity": "2 tbsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 tsp"
+            }
+        ],
+        "steps": [
+            "Step 1: Peel the potatoes and cut them into even-sized cubes. Rinse under cold water.",
+            "Step 2: In a medium pot, place the potatoes and cover them with cold water. Add 1 tsp of salt.",
+            "Step 3: Bring to a boil over high heat. Once boiling, reduce heat to medium and simmer for 15-20 minutes until tender.",
+            "Step 4: While potatoes are boiling, peel and mince the garlic.",
+            "Step 5: In a small pan, heat 2 tbsp of cooking oil over low heat. Add the minced garlic and cook gently for about 2 minutes to infuse the oil.",
+            "Step 6: Drain the potatoes thoroughly and return them to the pot. Mash them well.",
+            "Step 7: Pour in the garlic-infused oil and mix until creamy. Adjust seasoning if necessary, then serve warm."
+        ],
+        "spice_level": 1,
+        "reference": "https://www.example.com/garlic-mashed-potatoes"
+    },
+    {
+        "name": "Spicy Carrot and Potato Stew",
+        "description": "A hearty stew made with carrots and potatoes, surprisingly flavorful and satisfying.",
+        "nutrition": {
+            "calories": "300",
+            "protein": "5g",
+            "carbs": "65g",
+            "fat": "12g",
+            "fiber": "10g",
+            "sugar": "4g",
+            "sodium": "500mg"
+        },
+        "ingredients": [
+            {
+                "name": "potato",
+                "quantity": "300g"
+            },
+            {
+                "name": "carrot",
+                "quantity": "200g"
+            },
+            {
+                "name": "onion",
+                "quantity": "1 medium"
+            },
+            {
+                "name": "garlic",
+                "quantity": "2 cloves"
+            },
+            {
+                "name": "salt",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "red pepper powder",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "cooking oil",
+                "quantity": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "Step 1: Peel the potato and carrot, then dice both into small cubes. Peel and dice the onion and mince the garlic.",
+            "Step 2: In a large pot, heat 2 tbsp of cooking oil over medium heat.",
+            "Step 3: Add the onion and garlic; sauté for 2-3 minutes until fragrant and translucent.",
+            "Step 4: Add the potatoes and carrots, stirring well. Cook for another 5 minutes.",
+            "Step 5: Sprinkle in 1 tsp of red pepper powder and 1 tsp of salt. Stir to combine.",
+            "Step 6: Add 2-3 cups of water to the pot, reducing heat to low. Cover and simmer for 20-25 minutes until vegetables are tender.",
+            "Step 7: Adjust seasoning if necessary and serve hot."
+        ],
+        "spice_level": 2,
+        "reference": "https://www.example.com/spicy-carrot-potato-stew"
+    }
+]
