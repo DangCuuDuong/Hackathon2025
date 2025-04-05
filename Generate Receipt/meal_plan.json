@@ -1,0 +1,601 @@
+[
+    {
+        "day": "Day 1",
+        "meals": [
+            {
+                "meal_name": "Breakfast",
+                "recipes": [
+                    {
+                        "name": "Scrambled Tofu with Tomatoes",
+                        "description": "A protein-rich scrambled tofu with fresh tomatoes and onions.",
+                        "nutrition": {
+                            "calories": "250 kcal",
+                            "protein": "20g",
+                            "carbs": "12g",
+                            "fat": "14g",
+                            "fiber": "3g",
+                            "sugar": "8g",
+                            "sodium": "300mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "tofu",
+                                "quantity": "200g"
+                            },
+                            {
+                                "name": "tomato",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "onion",
+                                "quantity": "50g"
+                            },
+                            {
+                                "name": "garlic",
+                                "quantity": "1 clove"
+                            },
+                            {
+                                "name": "cooking oil",
+                                "quantity": "1 tbsp"
+                            },
+                            {
+                                "name": "salt",
+                                "quantity": "to taste"
+                            },
+                            {
+                                "name": "red pepper powder",
+                                "quantity": "1 tsp"
+                            }
+                        ],
+                        "steps": [
+                            "Heat oil in a pan and sauté chopped onion and garlic until fragrant.",
+                            "Add diced tomatoes and tofu, and stir-fry for 5-7 minutes.",
+                            "Season with salt and red pepper powder. Serve hot."
+                        ],
+                        "spice_level": "medium",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "tofu"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Lunch",
+                "recipes": [
+                    {
+                        "name": "Grilled Chicken Breast with Roasted Vegetables",
+                        "description": "A balanced meal featuring grilled chicken breast and roasted vegetables.",
+                        "nutrition": {
+                            "calories": "600 kcal",
+                            "protein": "60g",
+                            "carbs": "40g",
+                            "fat": "20g",
+                            "fiber": "6g",
+                            "sugar": "10g",
+                            "sodium": "500mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "chicken",
+                                "quantity": "200g"
+                            },
+                            {
+                                "name": "potato",
+                                "quantity": "150g"
+                            },
+                            {
+                                "name": "carrot",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "onion",
+                                "quantity": "50g"
+                            },
+                            {
+                                "name": "garlic",
+                                "quantity": "2 cloves"
+                            },
+                            {
+                                "name": "cooking oil",
+                                "quantity": "2 tbsp"
+                            },
+                            {
+                                "name": "salt",
+                                "quantity": "to taste"
+                            },
+                            {
+                                "name": "red pepper powder",
+                                "quantity": "1 tsp"
+                            }
+                        ],
+                        "steps": [
+                            "Preheat oven to 200°C (390°F).",
+                            "Season chicken with salt and red pepper powder, and grill until cooked through.",
+                            "Toss chopped vegetables in oil, garlic, salt, and roast for 25-30 minutes.",
+                            "Serve grilled chicken with roasted vegetables."
+                        ],
+                        "spice_level": "medium",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "chicken breast"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Dinner",
+                "recipes": [
+                    {
+                        "name": "Beef Stir-fry with Vegetables",
+                        "description": "Quick stir-fried beef with carrots and onions, seasoned to perfection.",
+                        "nutrition": {
+                            "calories": "550 kcal",
+                            "protein": "45g",
+                            "carbs": "30g",
+                            "fat": "25g",
+                            "fiber": "4g",
+                            "sugar": "8g",
+                            "sodium": "450mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "beef",
+                                "quantity": "200g"
+                            },
+                            {
+                                "name": "carrot",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "onion",
+                                "quantity": "50g"
+                            },
+                            {
+                                "name": "garlic",
+                                "quantity": "2 cloves"
+                            },
+                            {
+                                "name": "sesame oil",
+                                "quantity": "1 tbsp"
+                            },
+                            {
+                                "name": "salt",
+                                "quantity": "to taste"
+                            },
+                            {
+                                "name": "red pepper powder",
+                                "quantity": "1 tsp"
+                            }
+                        ],
+                        "steps": [
+                            "Heat sesame oil in a pan and sauté garlic until golden.",
+                            "Add slices of beef and stir-fry until browned.",
+                            "Add carrots and onions, season with salt and red pepper powder, and stir-fry for another 5-7 minutes.",
+                            "Serve hot."
+                        ],
+                        "spice_level": "medium",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "beef"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Day 2",
+        "meals": [
+            {
+                "meal_name": "Breakfast",
+                "recipes": [
+                    {
+                        "name": "Tofu and Sweet Potato Hash",
+                        "description": "A hearty breakfast of tofu and sweet potato hash with onions.",
+                        "nutrition": {
+                            "calories": "300 kcal",
+                            "protein": "22g",
+                            "carbs": "35g",
+                            "fat": "10g",
+                            "fiber": "5g",
+                            "sugar": "6g",
+                            "sodium": "350mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "tofu",
+                                "quantity": "200g"
+                            },
+                            {
+                                "name": "potato",
+                                "quantity": "150g"
+                            },
+                            {
+                                "name": "onion",
+                                "quantity": "50g"
+                            },
+                            {
+                                "name": "garlic",
+                                "quantity": "1 clove"
+                            },
+                            {
+                                "name": "cooking oil",
+                                "quantity": "1 tbsp"
+                            },
+                            {
+                                "name": "salt",
+                                "quantity": "to taste"
+                            },
+                            {
+                                "name": "red pepper powder",
+                                "quantity": "1 tsp"
+                            }
+                        ],
+                        "steps": [
+                            "Dice tofu and potatoes into small cubes.",
+                            "Heat oil in a pan, add garlic and onion, and sauté until soft.",
+                            "Add tofu and potatoes, season with salt and red pepper powder, and cook until golden brown.",
+                            "Serve immediately."
+                        ],
+                        "spice_level": "medium",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "tofu"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Lunch",
+                "recipes": [
+                    {
+                        "name": "Chicken and Carrot Stir-fry",
+                        "description": "A quick stir-fry of chicken breast with carrots, seasoned to taste.",
+                        "nutrition": {
+                            "calories": "550 kcal",
+                            "protein": "50g",
+                            "carbs": "30g",
+                            "fat": "25g",
+                            "fiber": "4g",
+                            "sugar": "10g",
+                            "sodium": "400mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "chicken",
+                                "quantity": "200g"
+                            },
+                            {
+                                "name": "carrot",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "onion",
+                                "quantity": "50g"
+                            },
+                            {
+                                "name": "garlic",
+                                "quantity": "2 cloves"
+                            },
+                            {
+                                "name": "cooking oil",
+                                "quantity": "2 tbsp"
+                            },
+                            {
+                                "name": "salt",
+                                "quantity": "to taste"
+                            },
+                            {
+                                "name": "red pepper powder",
+                                "quantity": "1 tsp"
+                            }
+                        ],
+                        "steps": [
+                            "Slice chicken and carrots into thin strips.",
+                            "Heat oil in a pan, add garlic and onion, and sauté until fragrant.",
+                            "Add chicken strips and cook until no longer pink.",
+                            "Add carrots, season with salt and red pepper powder, and stir-fry for another 5 minutes.",
+                            "Serve hot."
+                        ],
+                        "spice_level": "medium",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "chicken breast"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Dinner",
+                "recipes": [
+                    {
+                        "name": "Beef and Potato Casserole",
+                        "description": "A comforting casserole of beef and potatoes, baked to perfection.",
+                        "nutrition": {
+                            "calories": "700 kcal",
+                            "protein": "55g",
+                            "carbs": "60g",
+                            "fat": "30g",
+                            "fiber": "5g",
+                            "sugar": "8g",
+                            "sodium": "500mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "beef",
+                                "quantity": "200g"
+                            },
+                            {
+                                "name": "potato",
+                                "quantity": "200g"
+                            },
+                            {
+                                "name": "onion",
+                                "quantity": "50g"
+                            },
+                            {
+                                "name": "garlic",
+                                "quantity": "2 cloves"
+                            },
+                            {
+                                "name": "cooking oil",
+                                "quantity": "2 tbsp"
+                            },
+                            {
+                                "name": "salt",
+                                "quantity": "to taste"
+                            },
+                            {
+                                "name": "red pepper powder",
+                                "quantity": "1 tsp"
+                            }
+                        ],
+                        "steps": [
+                            "Preheat oven to 180°C (355°F).",
+                            "In a pan, heat oil and sauté garlic and onion until translucent.",
+                            "Add beef, season with salt and red pepper powder, and cook until browned.",
+                            "Layer sliced potatoes in a baking dish, top with beef mixture, and bake for 25-30 minutes.",
+                            "Serve hot."
+                        ],
+                        "spice_level": "medium",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "beef"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Day 3",
+        "meals": [
+            {
+                "meal_name": "Breakfast",
+                "recipes": [
+                    {
+                        "name": "Tomato and Onion Omelette",
+                        "description": "A simple omelette with tomatoes and onions, perfect for a protein-rich breakfast.",
+                        "nutrition": {
+                            "calories": "200 kcal",
+                            "protein": "15g",
+                            "carbs": "10g",
+                            "fat": "12g",
+                            "fiber": "2g",
+                            "sugar": "6g",
+                            "sodium": "350mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "egg",
+                                "quantity": "2"
+                            },
+                            {
+                                "name": "tomato",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "onion",
+                                "quantity": "50g"
+                            },
+                            {
+                                "name": "cooking oil",
+                                "quantity": "1 tbsp"
+                            },
+                            {
+                                "name": "salt",
+                                "quantity": "to taste"
+                            },
+                            {
+                                "name": "red pepper powder",
+                                "quantity": "1 tsp"
+                            }
+                        ],
+                        "steps": [
+                            "In a bowl, beat eggs with salt and red pepper powder.",
+                            "Heat oil in a pan, add chopped onions and tomatoes, and sauté for 3 minutes.",
+                            "Pour the egg mixture over vegetables and cook until set.",
+                            "Fold and serve hot."
+                        ],
+                        "spice_level": "medium",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "egg"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Lunch",
+                "recipes": [
+                    {
+                        "name": "Tofu and Garlic Stir-fry",
+                        "description": "A light and flavorful tofu stir-fry with garlic and red pepper.",
+                        "nutrition": {
+                            "calories": "400 kcal",
+                            "protein": "30g",
+                            "carbs": "20g",
+                            "fat": "20g",
+                            "fiber": "4g",
+                            "sugar": "5g",
+                            "sodium": "400mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "tofu",
+                                "quantity": "200g"
+                            },
+                            {
+                                "name": "garlic",
+                                "quantity": "3 cloves"
+                            },
+                            {
+                                "name": "sesame oil",
+                                "quantity": "1 tbsp"
+                            },
+                            {
+                                "name": "salt",
+                                "quantity": "to taste"
+                            },
+                            {
+                                "name": "red pepper powder",
+                                "quantity": "1 tsp"
+                            }
+                        ],
+                        "steps": [
+                            "Cut tofu into cubes.",
+                            "Heat sesame oil in a pan, add minced garlic and sauté until golden.",
+                            "Add tofu cubes and season with salt and red pepper powder.",
+                            "Stir-fry until tofu is golden brown. Serve hot."
+                        ],
+                        "spice_level": "medium",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "tofu"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Dinner",
+                "recipes": [
+                    {
+                        "name": "Chicken and Potato Bake",
+                        "description": "A hearty bake of chicken and potatoes, seasoned with garlic and spices.",
+                        "nutrition": {
+                            "calories": "650 kcal",
+                            "protein": "55g",
+                            "carbs": "55g",
+                            "fat": "25g",
+                            "fiber": "5g",
+                            "sugar": "7g",
+                            "sodium": "500mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "chicken",
+                                "quantity": "200g"
+                            },
+                            {
+                                "name": "potato",
+                                "quantity": "200g"
+                            },
+                            {
+                                "name": "garlic",
+                                "quantity": "2 cloves"
+                            },
+                            {
+                                "name": "cooking oil",
+                                "quantity": "2 tbsp"
+                            },
+                            {
+                                "name": "salt",
+                                "quantity": "to taste"
+                            },
+                            {
+                                "name": "red pepper powder",
+                                "quantity": "1 tsp"
+                            }
+                        ],
+                        "steps": [
+                            "Preheat oven to 180°C (355°F).",
+                            "Season chicken with salt and red pepper powder.",
+                            "In a baking dish, layer sliced potatoes and seasoned chicken.",
+                            "Drizzle with oil, add minced garlic, and bake for 30-35 minutes.",
+                            "Serve hot."
+                        ],
+                        "spice_level": "medium",
+                        "diet_type": "eat clean",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "chicken breast"
+                        ],
+                        "avoided_ingredients": [
+                            "butter"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            }
+        ]
+    }
+]
