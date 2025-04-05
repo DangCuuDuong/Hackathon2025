@@ -50,8 +50,7 @@
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "muscle gain",
-            "diet"
+            "muscle gain"
         ],
         "highlighted_ingredients": [
             "beef",
@@ -106,13 +105,14 @@
         "diet_type": "eat clean",
         "suitable_for": [
             "diet"
+            "diet"
         ],
         "highlighted_ingredients": [
             "tuna",
             "pasta"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/tuna-pasta-salad"
+        "reference": ""
     },
     {
         "name": "Egg and Potato Frittata",
@@ -136,6 +136,7 @@
                 "quantity": "150g"
             },
             {
+                "name": "carrot",
                 "name": "carrot",
                 "quantity": "50g"
             },
@@ -185,8 +186,8 @@
                 "quantity": "150g"
             },
             {
-                "name": "sweetpotato",
-                "quantity": "200g"
+                "name": "pineapple",
+                "quantity": "100g"
             },
             {
                 "name": "tomato",
@@ -207,10 +208,11 @@
         "diet_type": "eat clean",
         "suitable_for": [
             "diet"
+            "diet"
         ],
         "highlighted_ingredients": [
             "fish",
-            "sweetpotato"
+            "pineapple"
         ],
         "avoided_ingredients": [],
         "reference": "https://www.example.com/baked-fish-sweet-potato"
@@ -237,8 +239,8 @@
                 "quantity": "1 medium"
             },
             {
-                "name": "pineapple",
-                "quantity": "100g"
+                "name": "potato",
+                "quantity": "250g"
             },
             {
                 "name": "sugar",
@@ -305,9 +307,7 @@
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
-        "suitable_for": [
-            "diet"
-        ],
+        "suitable_for": [],
         "highlighted_ingredients": [
             "tomato",
             "carrot"
