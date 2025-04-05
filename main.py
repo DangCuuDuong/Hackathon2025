@@ -1,4 +1,7 @@
-from BE.predict_food import predict_image
+from BE.predict_food import predict_multiple_objects
 
-result = predict_image('image.png')
-print("✅ Kết quả nhận diện:", result)
+image_path = 'image.png'  # Thay bằng đường dẫn ảnh của bạn
+counts = predict_multiple_objects(image_path)
+print("📊 Kết quả nhận diện và đếm vật thể:")
+for label, count in counts.items():
+    print(f" - {label}: {count}")
