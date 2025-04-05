@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fridget - Ingredients</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+      <!-- Back Button -->
+      <a href="index.html" class="btn btn-outline-secondary d-flex align-items-center">
+        <i class="bi bi-arrow-left me-2"></i> Back
+      </a>
+    </div>
+  </header>
+</head>
+<body>
+
+
+  <!-- Main Content -->
+  <div class="container mt-5">
+    <h2 class="mb-4">My Ingredients</h2>
+    <!-- Search and Add Section -->
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <input type="text" class="form-control" id="ingredientInput" placeholder="Enter ingredient (e.g., Salt)">
+      </div>
+      <div class="col-md-4">
+        <select class="form-select" id="categorySelect">
+          <option value="" disabled selected>Select category</option>
+          <option value="vegetables">Vegetables</option>
+          <option value="fruits">Fruits</option>
+          <option value="meat">Meat</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-success w-100" id="addButton">Add</button>
+      </div>
+    </div>
+    <!-- Image Upload Section -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Upload Ingredient Image</h5>
+              <input type="file" class="form-control mb-3" id="imageUpload" accept="image/*">
+              <div id="imagePreview" class="mb-3" style="display: none;">
+                <img id="previewImage" src="" alt="Preview" style="max-width: 200px; max-height: 200px;">
+                <p id="imageCategory" class="mt-2"></p>
+              </div>
+              <button class="btn btn-primary" id="classifyButton" disabled>Classify and Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Ingredients Grid -->
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Vegetables</h5>
+            <ul class="list-unstyled" id="vegetables">
+              <li>Carrot <span class="float-end remove-item"><i class="fas fa-times text-muted"></i></span></li>
+              <li>Tomato <span class="float-end remove-item"><i class="fas fa-times text-muted"></i></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Fruits</h5>
+            <ul class="list-unstyled" id="fruits">
+              <li class="no-ingredients text-muted">No Ingredients</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Meat</h5>
+            <ul class="list-unstyled" id="meat">
+              <li class="no-ingredients text-muted">No Ingredients</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Results Button -->
+  <div class="text-center mt-5">
+    <a href="results.html" class="btn btn-primary btn-lg" id="resultsButton">Kết quả</a>
+  </div>
+</div>
+
+  <!-- Toast Notification -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="successToast" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          <i class="fas fa-check-circle me-2"></i> New Ingredient Added!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="text-center py-4 mt-5">
+    <p>© 2025 My App. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
