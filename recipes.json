@@ -13,7 +13,7 @@
         },
         "ingredients": [
             {
-                "name": "beef",
+                "name": "fish fillets",
                 "quantity": "200g"
             },
             {
@@ -72,7 +72,7 @@
         },
         "ingredients": [
             {
-                "name": "pasta",
+                "name": "sweet potato",
                 "quantity": "200g"
             },
             {
@@ -191,8 +191,8 @@
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "diet",
-            "gym goer"
+            "light meal",
+            "lunch"
         ],
         "highlighted_ingredients": [
             "fish",
@@ -242,7 +242,7 @@
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "diet",
+            "dinner",
             "gym goer"
         ],
         "highlighted_ingredients": [
