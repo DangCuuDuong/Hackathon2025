@@ -48,7 +48,7 @@ def extract_quantity(quantity_str):
     return quantity_value
 
 # Test hàm với file input và output
-input_file = "meal_plan.json"  # Đảm bảo rằng file này tồn tại trong thư mục
-output_file = "processed_ingredients_plan.json"  # File lưu nguyên liệu đã xử lý
+input_file = "Generate_Receipt/meal_plan.json"  # Đảm bảo rằng file này tồn tại trong thư mục
+output_file = "Generate_Receipt/processed_ingredients_plan.json"  # File lưu nguyên liệu đã xử lý
 
 process_ingredients(input_file, output_file)

@@ -201,10 +201,9 @@ def get_page_home():
         st.dataframe(df_components)
 
     # NÚT "NẤU" - TRỪ NGUYÊN LIỆU
-    with st.container():
-        st.markdown("---")
-        col1, col2, col3 =st.columns([2,2,1])
-        with col2:
-            if st.button("👨‍🍳 Cook this recipe"):
-                cook_recipe()
+
+    col1, col2, col3 =st.columns([2,2,1])
+    with col2:
+        if st.button("👨‍🍳 Cook this recipe"):
+            cook_recipe()
     

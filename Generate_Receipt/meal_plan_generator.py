@@ -97,15 +97,27 @@ def get_meal_plan(ingredients, preferences, health):
         messages=[{"role": "user", "content": prompt}],
         temperature=0.7
     )
-    content = response.choices[0].message.content
+    content = response.choices[0].message.content.strip()
 
-    content = re.sub(r"```json\n(.*?)\n```", r"\1", content, flags=re.DOTALL).strip()
+    # Gỡ bỏ phần markdown nếu có
+    # Loại bỏ các khối code dạng ```json ... ```
+    if "```json" in content:
+        content = re.search(r"```json\s*(.*?)```", content, flags=re.DOTALL)
+        if content:
+            content = content.group(1).strip()
+        else:
+            print("⚠️ Không tìm thấy JSON bên trong khối code.")
+            return None
 
+    # Cố gắng parse JSON
     try:
         return json.loads(content)
     except json.JSONDecodeError as e:
         print("❌ JSON decode error:", e)
+        print("📝 Raw content:")
+        print(content[:1000])  # In ra 1000 ký tự đầu để debug
         return None
+
 
 
 def load_json_file(file_path):
@@ -115,9 +127,9 @@ def load_json_file(file_path):
 
 def main():
     try:
-        ingredients = load_json_file("main.json")
-        preferences = load_json_file("preferences.json")
-        health = load_json_file("health.json")
+        ingredients = load_json_file("JSON_FILE/main.json")
+        preferences = load_json_file("Generate_Receipt/preferences.json")
+        health = load_json_file("Generate_Receipt/health.json")
     except Exception as e:
         print("❌ Error loading input files:", e)
         return
@@ -125,12 +137,9 @@ def main():
     meal_plan = get_meal_plan(ingredients, preferences, health)
 
     if meal_plan:
-        with open("meal_plan.json", "w", encoding="utf-8") as f:
+        with open("Generate_Receipt/meal_plan.json", "w", encoding="utf-8") as f:
             json.dump(meal_plan, f, indent=4, ensure_ascii=False)
         print("✅ Meal plan successfully generated and saved to meal_plan.json")
     else:
         print("⚠️ Failed to generate meal plan.")
 
-
-if __name__ == "__main__":
-    main()

@@ -1,5 +1,6 @@
 # streamlit run c:/Users/Admin/Documents/Study/Projects/HK6/Hackathon2025/BE/main.py
 import streamlit as st
+st.set_page_config(page_title="Smart Refrigerator", page_icon="🍽️", layout="wide")
 import pandas as pd
 import os
 from pathlib import Path
@@ -12,7 +13,7 @@ from BE.input_clean import clean_ingredient_name
 import FE.Home as home
 import FE.RecommendationRecipe as rr
 
-st.set_page_config(page_title="Smart Refrigerator", page_icon="🍽️", layout="wide")
+
 
 
 st.markdown(
@@ -49,7 +50,7 @@ st.markdown(
     }
     
     .recipe_suggestion {
-        font-size: 30px !important;
+        font-size: 20px !important;
         font-weight: bold;
         color: #83d4e5; /* Màu sắc của tiêu đề */
         text-align: center;
@@ -150,14 +151,22 @@ elif selected_sidebar == "Recommendation Recipe":
 elif selected_sidebar == "Collection Component":
     clp.create_recommendation()
 elif selected_sidebar == "Collection By Image":
-    img = ic.ImageCollection()
-    
-    if img != None:
-        result = predict_objects_and_weight(img)
+# 👇 Đây là đoạn bạn đang dùng trong main.py
+    image_path = ic.ImageCollection()  # GỌI RA TRƯỚC
+
+    if image_path:  # CHẮC CHẮN ĐÃ ĐƯỢC GÁN
+        st.write("📂 Đường dẫn ảnh:", image_path)
+
+        result = predict_objects_and_weight(image_path)
+
         with open("JSON_FILE/predict.json", "w", encoding="utf-8") as f:
             json.dump(result, f, ensure_ascii=False, indent=4)
+        
         combind_json("JSON_FILE/main.json", "JSON_FILE/predict.json")
-    st.write(img)
+
+        st.success("✅ Đã xử lý xong ảnh!")
+    else:
+        st.warning("⚠️ Bạn chưa chọn ảnh hợp lệ.")
 
 
 

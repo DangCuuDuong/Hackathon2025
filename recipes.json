@@ -1,20 +1,28 @@
 [
     {
-        "name": "Beef and Vegetable Stir-Fry",
-        "description": "A quick and healthy stir-fry with beef and a mix of colorful vegetables.",
+        "name": "Pasta with Tuna and Vegetables",
+        "description": "A healthy pasta dish loaded with tuna and vegetables, perfect for a quick meal.",
         "nutrition": {
             "calories": "450",
-            "protein": "35g",
-            "carbs": "30g",
-            "fat": "20g",
+            "protein": "30g",
+            "carbs": "60g",
+            "fat": "10g",
             "fiber": "5g",
-            "sugar": "5g",
-            "sodium": "500mg"
+            "sugar": "3g",
+            "sodium": "400mg"
         },
         "ingredients": [
             {
-                "name": "beef",
+                "name": "pasta",
+                "quantity": "200g"
+            },
+            {
+                "name": "tuna",
                 "quantity": "150g"
+            },
+            {
+                "name": "tomato",
+                "quantity": "100g"
             },
             {
                 "name": "carrot",
@@ -25,294 +33,314 @@
                 "quantity": "100g"
             },
             {
-                "name": "tomato",
-                "quantity": "1 medium"
-            },
-            {
-                "name": "potato",
-                "quantity": "100g"
-            },
-            {
-                "name": "egg",
-                "quantity": "1 large"
+                "name": "olive oil",
+                "quantity": "20ml"
             }
         ],
         "steps": [
-            "1. Thinly slice the beef into strips and marinate with a little salt for 10 minutes.",
-            "2. Peel and julienne the carrot and sweet potato. Dice the tomato and potato.",
-            "3. Heat a non-stick pan over medium heat and add a little oil.",
-            "4. Add the marinated beef to the pan and stir-fry for 3-4 minutes until browned.",
-            "5. Add the carrots, sweet potato, and potatoes to the pan and stir-fry for another 5 minutes.",
-            "6. Once vegetables are slightly tender, add the tomato and stir in.",
-            "7. In a separate bowl, beat the egg and scramble it in the pan until just set.",
-            "8. Combine all ingredients, stir well, and serve warm."
+            "1. Bring a large pot of salted water to a boil. Add 200g of pasta and cook according to package instructions until al dente, usually around 8-10 minutes.",
+            "2. While the pasta cooks, wash and peel 50g of carrots. Cut them into thin slices.",
+            "3. Peel 100g of sweetpotato and cut it into small cubes.",
+            "4. Dice 100g of tomatoes.",
+            "5. In a large skillet, heat 20ml of olive oil over medium heat. Add the sliced carrots and sweetpotato cubes. Sauté for 5-7 minutes until they start to soften.",
+            "6. Add the diced tomatoes and 150g of drained tuna to the skillet. Stir and cook for another 3-5 minutes.",
+            "7. Once the pasta is cooked, reserve 1 cup of pasta water. Drain the pasta and add it to the skillet with the vegetables and tuna. Toss to combine, adding reserved pasta water as needed to create a light sauce.",
+            "8. Serve hot."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "muscle gain"
-        ],
-        "highlighted_ingredients": [
-            "beef",
-            "sweetpotato"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.example.com/beef-vegetable-stirfry"
-    },
-    {
-        "name": "Tuna Pasta Salad",
-        "description": "A fresh and light pasta salad with tuna and vegetables.",
-        "nutrition": {
-            "calories": "350",
-            "protein": "28g",
-            "carbs": "45g",
-            "fat": "10g",
-            "fiber": "4g",
-            "sugar": "3g",
-            "sodium": "600mg"
-        },
-        "ingredients": [
-            {
-                "name": "pasta",
-                "quantity": "100g"
-            },
-            {
-                "name": "tuna",
-                "quantity": "100g"
-            },
-            {
-                "name": "tomato",
-                "quantity": "1 medium"
-            },
-            {
-                "name": "carrot",
-                "quantity": "50g"
-            },
-            {
-                "name": "pineapple",
-                "quantity": "50g"
-            }
-        ],
-        "steps": [
-            "1. Cook the pasta in salted boiling water according to package instructions until al dente. Drain and set aside.",
-            "2. While pasta is cooking, drain the tuna and set aside.",
-            "3. Dice the tomato and finely grate the carrot.",
-            "4. In a large mixing bowl, combine cooked pasta, tuna, diced tomato, grated carrot, and chunks of pineapple.",
-            "5. Toss everything together and drizzle with olive oil and lemon juice (if desired).",
-            "6. Serve chilled or at room temperature."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "eat clean",
-        "suitable_for": [
-            "diet"
-            "diet"
+            "diet",
+            "gym goer"
         ],
         "highlighted_ingredients": [
             "tuna",
             "pasta"
         ],
         "avoided_ingredients": [],
-        "reference": ""
+        "reference": "N/A"
     },
     {
-        "name": "Egg and Potato Frittata",
-        "description": "A delicious and filling frittata made with eggs, potatoes, and vegetables.",
+        "name": "Egg and Potato Scramble",
+        "description": "A hearty and filling egg scramble with potatoes, perfect for breakfast or brunch.",
         "nutrition": {
-            "calories": "300",
-            "protein": "20g",
-            "carbs": "25g",
-            "fat": "15g",
-            "fiber": "3g",
+            "calories": "350",
+            "protein": "21g",
+            "carbs": "40g",
+            "fat": "14g",
+            "fiber": "5g",
             "sugar": "2g",
-            "sodium": "400mg"
+            "sodium": "380mg"
         },
         "ingredients": [
             {
                 "name": "eggs",
-                "quantity": "4 large"
+                "quantity": "4"
             },
             {
                 "name": "potato",
                 "quantity": "150g"
             },
             {
-                "name": "carrot",
-                "name": "carrot",
+                "name": "tomato",
                 "quantity": "50g"
             },
             {
-                "name": "tomato",
-                "quantity": "1 medium"
+                "name": "olive oil",
+                "quantity": "15ml"
+            },
+            {
+                "name": "salt",
+                "quantity": "to taste"
+            },
+            {
+                "name": "pepper",
+                "quantity": "to taste"
             }
         ],
         "steps": [
-            "1. Preheat the oven to 180°C (350°F).",
-            "2. Peel the potato and cut it into small cubes. Boil the cubes for about 10 minutes until tender, then drain.",
-            "3. In a mixing bowl, whisk together the eggs and season with salt and pepper.",
-            "4. In an oven-proof skillet, sauté the chopped carrot until it softens slightly.",
-            "5. Add boiled potatoes and diced tomato to the skillet, mixing to combine.",
-            "6. Pour the egg mixture over the sautéed vegetables in the skillet.",
-            "7. Cook on the stovetop for about 5 minutes until the edges start to set.",
-            "8. Transfer the skillet to the preheated oven and bake for 15-20 minutes until the center is set.",
-            "9. Allow to cool for a few minutes before slicing and serving."
+            "1. Wash and peel 150g of potato. Cut into small cubes.",
+            "2. In a skillet, heat 15ml of olive oil over medium heat. Add the diced potatoes and sprinkle with salt. Cook for about 10 minutes, stirring occasionally, until golden and cooked through.",
+            "3. Meanwhile, crack 4 eggs into a bowl, add salt and pepper, and beat until well combined.",
+            "4. Add 50g of diced tomatoes to the skillet with potatoes and cook for an additional 2 minutes.",
+            "5. Pour the beaten eggs over the potato mixture in the skillet. Allow to cook for a minute, then gently stir the mixture until the eggs are scrambled and fully cooked.",
+            "6. Serve hot."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
+            "muscle gain",
             "diet"
         ],
         "highlighted_ingredients": [
             "eggs",
-            "potato"
+            "potatoes"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/egg-potato-frittata"
+        "reference": "N/A"
     },
     {
-        "name": "Baked Fish with Sweet Potato",
-        "description": "A healthy baked dish with fish and sweet potatoes, flavored with herbs or lemon.",
+        "name": "Banana and Apple Smoothie",
+        "description": "A refreshing and nutritious smoothie made with banana and apple, perfect for breakfast.",
         "nutrition": {
-            "calories": "400",
-            "protein": "30g",
-            "carbs": "45g",
-            "fat": "10g",
-            "fiber": "7g",
-            "sugar": "5g",
-            "sodium": "300mg"
-        },
-        "ingredients": [
-            {
-                "name": "fish",
-                "quantity": "150g"
-            },
-            {
-                "name": "pineapple",
-                "quantity": "100g"
-            },
-            {
-                "name": "tomato",
-                "quantity": "1 medium"
-            }
-        ],
-        "steps": [
-            "1. Preheat the oven to 200°C (400°F).",
-            "2. Peel and cut the sweet potato into wedges. Boil for 10 minutes then drain.",
-            "3. Place the fish on a baking tray lined with parchment paper.",
-            "4. Season the fish with salt, pepper, and lemon juice.",
-            "5. Arrange the sweet potato wedges around the fish on the tray.",
-            "6. Slice the tomato and place on top of the fish and sweet potatoes.",
-            "7. Bake in the oven for 20-25 minutes or until the fish is cooked through and flaky.",
-            "8. Serve warm with a wedge of lemon on the side."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "eat clean",
-        "suitable_for": [
-            "diet"
-            "diet"
-        ],
-        "highlighted_ingredients": [
-            "fish",
-            "pineapple"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.example.com/baked-fish-sweet-potato"
-    },
-    {
-        "name": "Fruit Smoothie",
-        "description": "A refreshing smoothie with a mix of fruits.",
-        "nutrition": {
-            "calories": "200",
-            "protein": "3g",
-            "carbs": "50g",
+            "calories": "210",
+            "protein": "2g",
+            "carbs": "52g",
             "fat": "1g",
             "fiber": "5g",
-            "sugar": "30g",
-            "sodium": "10mg"
+            "sugar": "25g",
+            "sodium": "5mg"
         },
         "ingredients": [
             {
                 "name": "banana",
-                "quantity": "1 medium"
+                "quantity": "1"
             },
             {
                 "name": "apple",
-                "quantity": "1 medium"
-            },
-            {
-                "name": "potato",
-                "quantity": "250g"
+                "quantity": "1"
             },
             {
                 "name": "sugar",
                 "quantity": "1 tsp"
+            },
+            {
+                "name": "milk (or water)",
+                "quantity": "200ml"
             }
         ],
         "steps": [
-            "1. Peel the banana and slice it into pieces.",
-            "2. Core and chop the apple into chunks.",
-            "3. In a blender, add the banana, apple, pineapple, and sugar.",
-            "4. Blend on high until smooth and creamy, adding water or ice for desired consistency.",
-            "5. Pour into a glass and serve immediately."
+            "1. Peel and slice 1 banana.",
+            "2. Wash and core 1 apple, then cut it into pieces.",
+            "3. In a blender, combine the sliced banana, apple pieces, 200ml of milk (or water), and 1 tsp of sugar. Blend until smooth.",
+            "4. Pour into a glass and serve chilled."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "diet"
+            "diet",
+            "gym goer"
         ],
         "highlighted_ingredients": [
             "banana",
             "apple"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/fruit-smoothie"
+        "reference": "N/A"
     },
     {
-        "name": "Mixed Vegetable Soup",
-        "description": "A warm and hearty vegetable soup made with seasonal veggies.",
+        "name": "Sweet Potato and Beef Bake",
+        "description": "A nutritious dish featuring sweet potatoes and beef, baked to perfection.",
         "nutrition": {
-            "calories": "180",
-            "protein": "5g",
-            "carbs": "30g",
-            "fat": "5g",
+            "calories": "500",
+            "protein": "35g",
+            "carbs": "45g",
+            "fat": "20g",
             "fiber": "6g",
-            "sugar": "6g",
-            "sodium": "400mg"
+            "sugar": "4g",
+            "sodium": "500mg"
         },
         "ingredients": [
             {
-                "name": "carrot",
-                "quantity": "50g"
-            },
-            {
-                "name": "potato",
-                "quantity": "100g"
-            },
-            {
-                "name": "tomato",
-                "quantity": "2 medium"
-            },
-            {
                 "name": "sweetpotato",
+                "quantity": "250g"
+            },
+            {
+                "name": "beef",
+                "quantity": "200g"
+            },
+            {
+                "name": "carrot",
                 "quantity": "100g"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "30ml"
+            },
+            {
+                "name": "salt",
+                "quantity": "to taste"
+            },
+            {
+                "name": "pepper",
+                "quantity": "to taste"
             }
         ],
         "steps": [
-            "1. Peel and chop the carrot, potato, and sweet potato into small pieces.",
-            "2. Dice the tomatoes.",
-            "3. In a large pot, add 4 cups of water and bring to a boil.",
-            "4. Add the chopped vegetables to the pot and season with salt and pepper.",
-            "5. Reduce heat and simmer for 20-25 minutes until vegetables are tender.",
-            "6. Blend the soup if you prefer a smooth texture, or leave it chunky.",
-            "7. Serve hot, garnished with fresh herbs if available."
+            "1. Preheat your oven to 200°C (400°F).",
+            "2. Wash and peel 250g of sweetpotato. Cut into thin slices.",
+            "3. Wash and peel 100g of carrots, and slice them thinly.",
+            "4. In a large bowl, mix 200g of diced beef with 30ml of olive oil, salt, and pepper.",
+            "5. In a baking dish, layer the sweet potato slices and carrot slices evenly.",
+            "6. Top with the seasoned beef mixture.",
+            "7. Cover with foil and bake for 30 minutes. Then remove the foil and bake for an additional 15 minutes, or until the meat is cooked through and the sweet potatoes are tender.",
+            "8. Serve hot."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
-        "suitable_for": [],
+        "suitable_for": [
+            "muscle gain",
+            "diet"
+        ],
         "highlighted_ingredients": [
-            "tomato",
-            "carrot"
+            "sweetpotato",
+            "beef"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/mixed-vegetable-soup"
+        "reference": "N/A"
+    },
+    {
+        "name": "Fish and Potato Cakes",
+        "description": "Delicious cakes made from fish and potatoes, perfect as a snack or light meal.",
+        "nutrition": {
+            "calories": "320",
+            "protein": "25g",
+            "carbs": "35g",
+            "fat": "10g",
+            "fiber": "4g",
+            "sugar": "2g",
+            "sodium": "300mg"
+        },
+        "ingredients": [
+            {
+                "name": "fish",
+                "quantity": "200g"
+            },
+            {
+                "name": "potato",
+                "quantity": "150g"
+            },
+            {
+                "name": "egg",
+                "quantity": "1"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "20ml"
+            },
+            {
+                "name": "salt",
+                "quantity": "to taste"
+            },
+            {
+                "name": "pepper",
+                "quantity": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Wash and peel 150g of potato. Cut into cubes and boil in salted water for about 15 minutes, or until tender.",
+            "2. Drain the potatoes and mash them in a bowl.",
+            "3. In the same bowl, add 200g of cooked fish (shredded), 1 beaten egg, salt, and pepper. Mix well to combine.",
+            "4. Form the mixture into small cakes.",
+            "5. In a skillet, heat 20ml of olive oil over medium heat. Cook the fish cakes for about 4-5 minutes on each side, until golden brown.",
+            "6. Serve warm."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "muscle gain",
+            "diet"
+        ],
+        "highlighted_ingredients": [
+            "fish",
+            "potatoes"
+        ],
+        "avoided_ingredients": [],
+        "reference": "N/A"
+    },
+    {
+        "name": "Pineapple and Pork Skewers",
+        "description": "Savory pork skewers infused with the sweetness of pineapple, perfect for grilling.",
+        "nutrition": {
+            "calories": "430",
+            "protein": "38g",
+            "carbs": "52g",
+            "fat": "10g",
+            "fiber": "2g",
+            "sugar": "8g",
+            "sodium": "420mg"
+        },
+        "ingredients": [
+            {
+                "name": "pork",
+                "quantity": "200g"
+            },
+            {
+                "name": "pineapple",
+                "quantity": "150g"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "15ml"
+            },
+            {
+                "name": "salt",
+                "quantity": "to taste"
+            },
+            {
+                "name": "pepper",
+                "quantity": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Cut 200g of pork into 2cm cubes.",
+            "2. Cut 150g of pineapple into similar-sized cubes.",
+            "3. In a bowl, mix pork cubes with 15ml of olive oil, salt, and pepper.",
+            "4. Thread the pork and pineapple alternately onto skewers.",
+            "5. Preheat a grill or grill pan to medium heat. Grill the skewers for about 10-12 minutes, turning occasionally, until the pork is cooked and browned.",
+            "6. Serve hot."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "muscle gain",
+            "diet"
+        ],
+        "highlighted_ingredients": [
+            "pork",
+            "pineapple"
+        ],
+        "avoided_ingredients": [],
+        "reference": "N/A"
     }
 ]

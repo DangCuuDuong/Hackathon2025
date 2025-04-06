@@ -13,6 +13,8 @@ def output_json(df):
         json.dump(data_dict, f, ensure_ascii=False, indent=4)
 
 def create_recommendation():
+    componets_prepare = pd.DataFrame(columns=["Food Name", "Kg"]).astype({"Kg": int})
+
     if os.path.exists(CSV_PATH):
         df = pd.read_csv(CSV_PATH, encoding='utf-8-sig')
     else:
@@ -67,12 +69,11 @@ def create_recommendation():
             json.dump(add_data, f, ensure_ascii=False, indent=4)
 
         st.success(f"✅ Added {count} x {name}")
-    else:
-        st.warning("⚠️ Please enter a valid ingredient name.")
+    
 
 
     # ✅ Nút Merge
-    if st.button("🔄 Merge CSV ➜ main.json"):
+    if st.button("Update Ingredients"):
         if os.path.exists(CSV_PATH):
             # Đọc dữ liệu từ CSV
             df_csv = pd.read_csv(CSV_PATH, encoding='utf-8-sig')
@@ -86,7 +87,7 @@ def create_recommendation():
             # ✅ Ghi vào main.json (output)
             output_json(df_merged)
 
-            st.success("✅ Ingredients merged and saved to main.json.")
+            st.success("✅ Add done.")
             st.dataframe(df_merged)
         else:
             st.error("❌ Missing ingredients.csv file.")

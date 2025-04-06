@@ -1,10 +1,10 @@
 {
-    "spice_level": "none",
-    "diet_type": "Vegetarian",
+    "spice_level": "medium",
+    "diet_type": "High Protein",
     "allergies_or_dislikes": [
-        "egg"
+        "apple"
     ],
     "favorite_foods": [
-        "dog"
+        "egg"
     ]
 }
