@@ -1,0 +1,760 @@
+[
+    {
+        "day": "Day 1",
+        "meals": [
+            {
+                "meal_name": "Breakfast",
+                "recipes": [
+                    {
+                        "name": "Banana Pineapple Smoothie",
+                        "description": "A refreshing smoothie packed with carbs and fiber.",
+                        "nutrition": {
+                            "calories": "300 kcal",
+                            "protein": "5g",
+                            "carbs": "70g",
+                            "fat": "1g",
+                            "fiber": "6g",
+                            "sugar": "40g",
+                            "sodium": "10mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "banana",
+                                "quantity": "2"
+                            },
+                            {
+                                "name": "pineapple",
+                                "quantity": "150g"
+                            },
+                            {
+                                "name": "oats",
+                                "quantity": "50g"
+                            }
+                        ],
+                        "steps": [
+                            "Peel and slice the bananas.",
+                            "Blend bananas, pineapple, and oats with water until smooth."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "banana"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Tomato Toast",
+                        "description": "Simple and quick tomato toast for a light start.",
+                        "nutrition": {
+                            "calories": "180 kcal",
+                            "protein": "6g",
+                            "carbs": "30g",
+                            "fat": "3g",
+                            "fiber": "4g",
+                            "sugar": "4g",
+                            "sodium": "400mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "bread",
+                                "quantity": "2 slices"
+                            },
+                            {
+                                "name": "tomato",
+                                "quantity": "1"
+                            }
+                        ],
+                        "steps": [
+                            "Toast the bread slices.",
+                            "Slice the tomato and place on the toast."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "tomato"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Lunch",
+                "recipes": [
+                    {
+                        "name": "Vegetable Pasta",
+                        "description": "A hearty pasta dish with fresh vegetables.",
+                        "nutrition": {
+                            "calories": "500 kcal",
+                            "protein": "15g",
+                            "carbs": "80g",
+                            "fat": "10g",
+                            "fiber": "10g",
+                            "sugar": "8g",
+                            "sodium": "600mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "pasta",
+                                "quantity": "150g"
+                            },
+                            {
+                                "name": "carrot",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "tomato",
+                                "quantity": "2"
+                            }
+                        ],
+                        "steps": [
+                            "Boil pasta according to package instructions.",
+                            "Chop carrots and tomatoes, sauté in a pan with olive oil.",
+                            "Mix cooked pasta with vegetables."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "pasta"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Mashed Sweet Potatoes",
+                        "description": "Creamy mashed sweet potatoes as a side dish.",
+                        "nutrition": {
+                            "calories": "200 kcal",
+                            "protein": "3g",
+                            "carbs": "45g",
+                            "fat": "1g",
+                            "fiber": "6g",
+                            "sugar": "9g",
+                            "sodium": "40mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "sweetpotato",
+                                "quantity": "200g"
+                            }
+                        ],
+                        "steps": [
+                            "Peel and boil sweet potatoes until tender.",
+                            "Mash until smooth."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "sweetpotato"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Dinner",
+                "recipes": [
+                    {
+                        "name": "Tomato and Carrot Soup",
+                        "description": "A warm and comforting soup.",
+                        "nutrition": {
+                            "calories": "250 kcal",
+                            "protein": "6g",
+                            "carbs": "50g",
+                            "fat": "4g",
+                            "fiber": "12g",
+                            "sugar": "10g",
+                            "sodium": "800mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "tomato",
+                                "quantity": "3"
+                            },
+                            {
+                                "name": "carrot",
+                                "quantity": "100g"
+                            }
+                        ],
+                        "steps": [
+                            "Chop tomatoes and carrots.",
+                            "Simmer in water until soft, then blend until smooth."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "tomato"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Grilled Pineapple",
+                        "description": "Sweet and caramelized pineapple slices.",
+                        "nutrition": {
+                            "calories": "100 kcal",
+                            "protein": "1g",
+                            "carbs": "25g",
+                            "fat": "0g",
+                            "fiber": "2g",
+                            "sugar": "20g",
+                            "sodium": "5mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "pineapple",
+                                "quantity": "150g"
+                            }
+                        ],
+                        "steps": [
+                            "Slice the pineapple.",
+                            "Grill slices on a hot pan until caramelized."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "pineapple"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Day 2",
+        "meals": [
+            {
+                "meal_name": "Breakfast",
+                "recipes": [
+                    {
+                        "name": "Apple and Oatmeal",
+                        "description": "A nutritious and filling oatmeal with apples.",
+                        "nutrition": {
+                            "calories": "350 kcal",
+                            "protein": "10g",
+                            "carbs": "70g",
+                            "fat": "5g",
+                            "fiber": "10g",
+                            "sugar": "20g",
+                            "sodium": "10mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "oats",
+                                "quantity": "50g"
+                            },
+                            {
+                                "name": "apple",
+                                "quantity": "1"
+                            }
+                        ],
+                        "steps": [
+                            "Cook oats in water until soft.",
+                            "Chop apple and mix into the cooked oats."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "apple"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Pineapple and Banana Salad",
+                        "description": "A fresh fruit salad to start your day.",
+                        "nutrition": {
+                            "calories": "150 kcal",
+                            "protein": "2g",
+                            "carbs": "35g",
+                            "fat": "0g",
+                            "fiber": "4g",
+                            "sugar": "30g",
+                            "sodium": "5mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "pineapple",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "banana",
+                                "quantity": "1"
+                            }
+                        ],
+                        "steps": [
+                            "Chop pineapple and banana into bite-sized pieces.",
+                            "Mix in a bowl and serve."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "banana"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Lunch",
+                "recipes": [
+                    {
+                        "name": "Carrot and Tomato Sandwich",
+                        "description": "A crunchy and fresh vegetable sandwich.",
+                        "nutrition": {
+                            "calories": "300 kcal",
+                            "protein": "10g",
+                            "carbs": "50g",
+                            "fat": "5g",
+                            "fiber": "8g",
+                            "sugar": "8g",
+                            "sodium": "550mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "bread",
+                                "quantity": "2 slices"
+                            },
+                            {
+                                "name": "carrot",
+                                "quantity": "50g"
+                            },
+                            {
+                                "name": "tomato",
+                                "quantity": "1"
+                            }
+                        ],
+                        "steps": [
+                            "Grate carrot and slice tomato.",
+                            "Assemble on bread slices and serve."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "carrot"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Sweet Potato Fries",
+                        "description": "Baked sweet potato fries seasoned lightly.",
+                        "nutrition": {
+                            "calories": "180 kcal",
+                            "protein": "2g",
+                            "carbs": "40g",
+                            "fat": "3g",
+                            "fiber": "6g",
+                            "sugar": "8g",
+                            "sodium": "200mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "sweetpotato",
+                                "quantity": "150g"
+                            }
+                        ],
+                        "steps": [
+                            "Slice sweet potatoes into thin strips.",
+                            "Bake at 200°C until crispy."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "sweetpotato"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Dinner",
+                "recipes": [
+                    {
+                        "name": "Vegetable Stir Fry",
+                        "description": "A quick stir fry with a mix of available vegetables.",
+                        "nutrition": {
+                            "calories": "400 kcal",
+                            "protein": "15g",
+                            "carbs": "60g",
+                            "fat": "10g",
+                            "fiber": "12g",
+                            "sugar": "10g",
+                            "sodium": "450mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "carrot",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "tomato",
+                                "quantity": "2"
+                            },
+                            {
+                                "name": "pasta",
+                                "quantity": "100g"
+                            }
+                        ],
+                        "steps": [
+                            "Boil pasta until cooked.",
+                            "Stir fry chopped carrots and tomatoes, then add cooked pasta."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "pasta"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Baked Apples",
+                        "description": "Sliced apples baked with a hint of cinnamon.",
+                        "nutrition": {
+                            "calories": "150 kcal",
+                            "protein": "1g",
+                            "carbs": "40g",
+                            "fat": "1g",
+                            "fiber": "6g",
+                            "sugar": "30g",
+                            "sodium": "5mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "apple",
+                                "quantity": "2"
+                            }
+                        ],
+                        "steps": [
+                            "Slice apples and place on a baking tray.",
+                            "Bake at 180°C for 15 minutes."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "apple"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Day 3",
+        "meals": [
+            {
+                "meal_name": "Breakfast",
+                "recipes": [
+                    {
+                        "name": "Pineapple Oatmeal",
+                        "description": "Oatmeal topped with fresh pineapple.",
+                        "nutrition": {
+                            "calories": "350 kcal",
+                            "protein": "10g",
+                            "carbs": "75g",
+                            "fat": "5g",
+                            "fiber": "8g",
+                            "sugar": "18g",
+                            "sodium": "10mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "oats",
+                                "quantity": "50g"
+                            },
+                            {
+                                "name": "pineapple",
+                                "quantity": "150g"
+                            }
+                        ],
+                        "steps": [
+                            "Cook oats in water until soft.",
+                            "Top with chopped pineapple."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "pineapple"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Tomato and Banana Salad",
+                        "description": "A unique combination of tomato and banana.",
+                        "nutrition": {
+                            "calories": "120 kcal",
+                            "protein": "2g",
+                            "carbs": "30g",
+                            "fat": "0g",
+                            "fiber": "3g",
+                            "sugar": "20g",
+                            "sodium": "5mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "tomato",
+                                "quantity": "1"
+                            },
+                            {
+                                "name": "banana",
+                                "quantity": "1"
+                            }
+                        ],
+                        "steps": [
+                            "Chop tomato and banana.",
+                            "Mix in a bowl and serve."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "banana"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Lunch",
+                "recipes": [
+                    {
+                        "name": "Hearty Vegetable Stew",
+                        "description": "A filling stew with carrots, potatoes, and tomatoes.",
+                        "nutrition": {
+                            "calories": "450 kcal",
+                            "protein": "12g",
+                            "carbs": "80g",
+                            "fat": "10g",
+                            "fiber": "14g",
+                            "sugar": "12g",
+                            "sodium": "700mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "carrot",
+                                "quantity": "100g"
+                            },
+                            {
+                                "name": "potato",
+                                "quantity": "150g"
+                            },
+                            {
+                                "name": "tomato",
+                                "quantity": "2"
+                            }
+                        ],
+                        "steps": [
+                            "Chop carrots, potatoes, and tomatoes.",
+                            "Simmer in water until the vegetables are tender."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "potato"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Grilled Pineapple Rings",
+                        "description": "Sweet and juicy grilled pineapple rings.",
+                        "nutrition": {
+                            "calories": "100 kcal",
+                            "protein": "1g",
+                            "carbs": "25g",
+                            "fat": "0g",
+                            "fiber": "2g",
+                            "sugar": "20g",
+                            "sodium": "5mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "pineapple",
+                                "quantity": "100g"
+                            }
+                        ],
+                        "steps": [
+                            "Slice pineapple into rings.",
+                            "Grill until caramelized."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "pineapple"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            },
+            {
+                "meal_name": "Dinner",
+                "recipes": [
+                    {
+                        "name": "Potato and Carrot Mash",
+                        "description": "Creamy mash of potatoes and carrots.",
+                        "nutrition": {
+                            "calories": "250 kcal",
+                            "protein": "5g",
+                            "carbs": "50g",
+                            "fat": "5g",
+                            "fiber": "8g",
+                            "sugar": "6g",
+                            "sodium": "100mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "potato",
+                                "quantity": "200g"
+                            },
+                            {
+                                "name": "carrot",
+                                "quantity": "100g"
+                            }
+                        ],
+                        "steps": [
+                            "Boil potatoes and carrots until soft.",
+                            "Mash together with a little olive oil."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "potato"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    },
+                    {
+                        "name": "Tomato Salad",
+                        "description": "A fresh and simple tomato salad.",
+                        "nutrition": {
+                            "calories": "100 kcal",
+                            "protein": "2g",
+                            "carbs": "20g",
+                            "fat": "3g",
+                            "fiber": "3g",
+                            "sugar": "6g",
+                            "sodium": "150mg"
+                        },
+                        "ingredients": [
+                            {
+                                "name": "tomato",
+                                "quantity": "2"
+                            }
+                        ],
+                        "steps": [
+                            "Slice tomatoes and drizzle with olive oil."
+                        ],
+                        "spice_level": "none",
+                        "diet_type": "vegetarian",
+                        "suitable_for": [
+                            "muscle gain"
+                        ],
+                        "highlighted_ingredients": [
+                            "tomato"
+                        ],
+                        "avoided_ingredients": [
+                            "egg"
+                        ],
+                        "reference": "https://example.com"
+                    }
+                ]
+            }
+        ]
+    }
+]
