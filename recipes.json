@@ -1,15 +1,15 @@
 [
     {
-        "name": "Beef and Sweet Potato Stir Fry",
-        "description": "A hearty stir fry featuring tender beef and sweet potatoes tossed with fresh vegetables.",
+        "name": "Beef and Sweet Potato Hash",
+        "description": "A savory hash featuring tender beef and sweet potatoes, perfect for a hearty meal.",
         "nutrition": {
             "calories": "450",
-            "protein": "30g",
-            "carbs": "45g",
-            "fat": "15g",
+            "protein": "35g",
+            "carbs": "40g",
+            "fat": "20g",
             "fiber": "5g",
-            "sugar": "6g",
-            "sodium": "250mg"
+            "sugar": "5g",
+            "sodium": "200mg"
         },
         "ingredients": [
             {
@@ -18,79 +18,132 @@
             },
             {
                 "name": "sweetpotato",
-                "quantity": "150g"
+                "quantity": "200g"
             },
             {
                 "name": "carrot",
-                "quantity": "50g"
+                "quantity": "100g"
             },
             {
                 "name": "egg",
-                "quantity": "1"
-            },
-            {
-                "name": "pasta",
-                "quantity": "100g"
+                "quantity": "2"
             },
             {
                 "name": "tomato",
                 "quantity": "100g"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "2 tbsp"
             }
         ],
         "steps": [
-            "1. Wash the sweet potato and carrot thoroughly. Peel the sweet potato and cut it into small cubes.",
-            "2. Slice the beef into thin strips.",
-            "3. Heat a skillet over medium heat and add a tablespoon of oil. Add the beef strips and cook until browned, about 5 minutes.",
-            "4. Add the sweet potato and carrot cubes to the skillet. Stir-fry for about 10 minutes or until the sweet potatoes are tender.",
-            "5. In a separate pot, cook the pasta according to the package instructions. Drain and set aside.",
-            "6. Beat the egg in a small bowl and scramble it in the skillet for the last 2 minutes of cooking.",
-            "7. Add the cooked pasta and tomatoes to the skillet. Stir well to combine all ingredients and cook for an additional 2-3 minutes.",
-            "8. Season with salt and pepper to taste. Serve hot."
+            "Step 1: Peel and cube the sweet potato and carrot into small chunks (about 1cm).",
+            "Step 2: Cube the beef into bite-sized pieces.",
+            "Step 3: Heat 1 tablespoon of olive oil in a pan over medium heat.",
+            "Step 4: Add the beef to the pan and cook for about 5-7 minutes until browned.",
+            "Step 5: Add the sweet potato and carrot to the pan, stirring well, and cook for another 10-15 minutes until they are tender.",
+            "Step 6: In a separate pan, heat the remaining oil, crack in the eggs, and fry them sunny side up.",
+            "Step 7: Chop the tomato and add it to the hash mixture for the last 2 minutes of cooking.",
+            "Step 8: Serve the beef and sweet potato hash on a plate with a fried egg on top."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "muscle gain"
+            "muscle gain",
+            "gym goer"
         ],
         "highlighted_ingredients": [
             "beef",
             "sweet potato"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.eatclean.com/beef-sweetpotato-stir-fry"
+        "reference": "https://www.example.com/beef-sweetpotato-hash"
     },
     {
-        "name": "Tuna and Egg Salad",
-        "description": "A quick and nutritious salad combining tuna with eggs and fresh vegetables.",
+        "name": "Pasta with Tuna and Tomato",
+        "description": "A delicious and quick pasta dish made with tuna and fresh tomatoes.",
         "nutrition": {
-            "calories": "320",
-            "protein": "25g",
-            "carbs": "10g",
-            "fat": "22g",
-            "fiber": "3g",
-            "sugar": "2g",
+            "calories": "380",
+            "protein": "30g",
+            "carbs": "50g",
+            "fat": "8g",
+            "fiber": "4g",
+            "sugar": "3g",
             "sodium": "500mg"
         },
         "ingredients": [
+            {
+                "name": "pasta",
+                "quantity": "200g"
+            },
             {
                 "name": "tuna",
                 "quantity": "150g"
             },
             {
-                "name": "egg",
-                "quantity": "2"
-            },
-            {
                 "name": "tomato",
-                "quantity": "50g"
+                "quantity": "200g"
             },
             {
-                "name": "carrot",
-                "quantity": "50g"
+                "name": "olive oil",
+                "quantity": "2 tbsp"
             },
             {
-                "name": "bread",
-                "quantity": "2 slices"
+                "name": "salt",
+                "quantity": "to taste"
+            },
+            {
+                "name": "pepper",
+                "quantity": "to taste"
+            }
+        ],
+        "steps": [
+            "Step 1: Cook the pasta according to package instructions until al dente.",
+            "Step 2: While pasta is boiling, chop the tomatoes into small pieces.",
+            "Step 3: In a pan, heat olive oil over medium heat and add the chopped tomatoes.",
+            "Step 4: Cook the tomatoes for about 5-7 minutes until they soften.",
+            "Step 5: Drain the pasta and add it to the pan with the tomatoes.",
+            "Step 6: Add the tuna into the pasta, mixing well and heating just through.",
+            "Step 7: Season with salt and pepper to taste. Serve hot."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "diet",
+            "gym goer"
+        ],
+        "highlighted_ingredients": [
+            "tuna",
+            "tomato"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/pasta-tuna-tomato"
+    },
+    {
+        "name": "Apple and Banana Smoothie",
+        "description": "A refreshing and nutritious smoothie to kickstart your day.",
+        "nutrition": {
+            "calories": "210",
+            "protein": "5g",
+            "carbs": "36g",
+            "fat": "3g",
+            "fiber": "4g",
+            "sugar": "20g",
+            "sodium": "5mg"
+        },
+        "ingredients": [
+            {
+                "name": "apple",
+                "quantity": "1"
+            },
+            {
+                "name": "banana",
+                "quantity": "1"
+            },
+            {
+                "name": "water or milk",
+                "quantity": "200ml"
             },
             {
                 "name": "sugar",
@@ -98,228 +151,193 @@
             }
         ],
         "steps": [
-            "1. Boil the eggs in water for 10 minutes, then cool them under running water. Peel and chop them.",
-            "2. Drain the tuna and place it in a mixing bowl.",
-            "3. Dice the tomatoes and grate the carrot, then add them to the bowl with the tuna.",
-            "4. Add the chopped eggs to the bowl and sprinkle with a teaspoon of sugar, salt, and pepper to taste.",
-            "5. Toast the bread slices until golden brown.",
-            "6. Serve the salad on top of the toasted bread."
+            "Step 1: Wash the apple thoroughly and chop it into quarters, removing the core.",
+            "Step 2: Peel the banana and break it into pieces.",
+            "Step 3: Add the apple and banana pieces to a blender with 200ml of water or milk.",
+            "Step 4: Blend until smooth. If too thick, add more liquid.",
+            "Step 5: Taste and adjust sweetness with sugar if desired.",
+            "Step 6: Pour into a glass and serve immediately."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "diet"
+            "diet",
+            "breakfast"
         ],
         "highlighted_ingredients": [
-            "tuna",
-            "egg"
+            "apple",
+            "banana"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.recipes.com/tuna-egg-salad"
+        "reference": "https://www.example.com/apple-banana-smoothie"
     },
     {
-        "name": "Pasta with Tomato and Fish Sauce",
-        "description": "A quick pasta dish with a light tomato sauce and fish for added protein.",
+        "name": "Fish and Potato Bake",
+        "description": "A simple and healthy baked fish dish served with seasoned potatoes.",
         "nutrition": {
-            "calories": "400",
-            "protein": "20g",
-            "carbs": "60g",
-            "fat": "10g",
-            "fiber": "5g",
+            "calories": "300",
+            "protein": "25g",
+            "carbs": "35g",
+            "fat": "8g",
+            "fiber": "3g",
+            "sugar": "2g",
+            "sodium": "150mg"
+        },
+        "ingredients": [
+            {
+                "name": "fish",
+                "quantity": "200g"
+            },
+            {
+                "name": "potato",
+                "quantity": "2 medium (about 250g)"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "2 tbsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "to taste"
+            },
+            {
+                "name": "pepper",
+                "quantity": "to taste"
+            }
+        ],
+        "steps": [
+            "Step 1: Preheat the oven to 200°C (400°F).",
+            "Step 2: Wash and peel the potatoes, then slice them thinly (about 0.5cm).",
+            "Step 3: In a baking dish, layer the sliced potatoes at the bottom and drizzle with 1 tablespoon of olive oil, salt, and pepper.",
+            "Step 4: Place the fish on top of the potatoes and drizzle with the remaining olive oil, salt, and pepper.",
+            "Step 5: Cover with aluminum foil and bake for 25-30 minutes until the fish is cooked through and the potatoes are tender.",
+            "Step 6: Serve warm."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "diet",
+            "gym goer"
+        ],
+        "highlighted_ingredients": [
+            "fish",
+            "potato"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.example.com/fish-potato-bake"
+    },
+    {
+        "name": "Chicken and Carrot Stir-Fry",
+        "description": "A quick and nutritious stir-fry full of flavor and vibrant colors.",
+        "nutrition": {
+            "calories": "350",
+            "protein": "30g",
+            "carbs": "25g",
+            "fat": "15g",
+            "fiber": "4g",
             "sugar": "4g",
             "sodium": "300mg"
         },
         "ingredients": [
             {
-                "name": "pasta",
-                "quantity": "150g"
-            },
-            {
-                "name": "fish",
-                "quantity": "100g"
-            },
-            {
-                "name": "tomato",
-                "quantity": "100g"
+                "name": "checken",
+                "quantity": "200g"
             },
             {
                 "name": "carrot",
-                "quantity": "50g"
+                "quantity": "2 medium (about 150g)"
             },
             {
-                "name": "sugar",
-                "quantity": "1 tsp"
+                "name": "olive oil",
+                "quantity": "2 tbsp"
             },
             {
-                "name": "beef",
-                "quantity": "100g"
+                "name": "salt",
+                "quantity": "to taste"
+            },
+            {
+                "name": "pepper",
+                "quantity": "to taste"
             }
         ],
         "steps": [
-            "1. Cook the pasta according to the package instructions. Drain and set aside.",
-            "2. In a pan, heat a tablespoon of oil over medium heat and add diced fish. Cook for about 3-4 minutes until it’s cooked through.",
-            "3. Dice the tomatoes and add to the pan along with sugar, salt, and pepper. Stir for 5 minutes.",
-            "4. Grate the carrot and add it to the sauce, cooking for another 2-3 minutes.",
-            "5. Mix in the cooked pasta and combine well. Cook for an additional minute.",
-            "6. Optionally, serve with a side of sliced beef."
+            "Step 1: Cut the chicken into bite-sized pieces after washing it hygienically.",
+            "Step 2: Peel and slice the carrots into thin julienne strips.",
+            "Step 3: Heat olive oil in a large pan over medium-high heat.",
+            "Step 4: Add the chicken pieces, season with salt, and cook until browned (about 5-7 minutes).",
+            "Step 5: Add the carrots and stir-fry for an additional 5-7 minutes until the carrots are tender.",
+            "Step 6: Adjust seasoning with salt and pepper before serving."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "diet"
+            "diet",
+            "gym goer"
         ],
         "highlighted_ingredients": [
-            "fish",
-            "tomato"
+            "chicken",
+            "carrot"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.quickrecipes.com/pasta-fish-sauce"
+        "reference": "https://www.example.com/chicken-carrot-stir-fry"
     },
     {
-        "name": "Carrot and Pineapple Smoothie",
-        "description": "A refreshing smoothie that combines the sweetness of pineapple with the crunch of carrots.",
+        "name": "Pineapple and Egg Fried Rice",
+        "description": "A sweet and savory fried rice dish with pineapple and eggs.",
         "nutrition": {
-            "calories": "180",
-            "protein": "2g",
-            "carbs": "40g",
-            "fat": "1g",
-            "fiber": "5g",
-            "sugar": "30g",
-            "sodium": "60mg"
-        },
-        "ingredients": [
-            {
-                "name": "carrot",
-                "quantity": "100g"
-            },
-            {
-                "name": "pineapple",
-                "quantity": "150g"
-            },
-            {
-                "name": "sugar",
-                "quantity": "1 tsp"
-            },
-            {
-                "name": "egg",
-                "quantity": "1"
-            }
-        ],
-        "steps": [
-            "1. Peel and chop the carrot into smaller pieces.",
-            "2. Chop the pineapple into chunks.",
-            "3. Add the carrot pieces, pineapple chunks, and sugar into a blender.",
-            "4. Blend until smooth, adding water if necessary for desired consistency.",
-            "5. If using a raw egg, add it at the end and briefly blend again.",
-            "6. Pour into a glass and enjoy fresh."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "eat clean",
-        "suitable_for": [
-            "diet"
-        ],
-        "highlighted_ingredients": [
-            "carrot",
-            "pineapple"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.healthysmoothies.com/carrot-pineapple"
-    },
-    {
-        "name": "Banana and Egg Pancakes",
-        "description": "Healthy pancakes made with just bananas and eggs, perfect for a quick breakfast.",
-        "nutrition": {
-            "calories": "250",
-            "protein": "10g",
-            "carbs": "35g",
-            "fat": "9g",
-            "fiber": "3g",
-            "sugar": "10g",
-            "sodium": "200mg"
-        },
-        "ingredients": [
-            {
-                "name": "banana",
-                "quantity": "2"
-            },
-            {
-                "name": "egg",
-                "quantity": "2"
-            },
-            {
-                "name": "sugar",
-                "quantity": "1 tsp"
-            }
-        ],
-        "steps": [
-            "1. In a bowl, mash the bananas until smooth.",
-            "2. Crack the eggs into the bowl and mix until well combined.",
-            "3. Add sugar and mix again.",
-            "4. Heat a non-stick skillet over medium heat and pour a ladle of the mixture to form small pancakes.",
-            "5. Cook for 2-3 minutes on each side until golden brown.",
-            "6. Serve warm, optionally with fresh fruit."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "eat clean",
-        "suitable_for": [
-            "diet"
-        ],
-        "highlighted_ingredients": [
-            "banana",
-            "egg"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.simplepancakes.com/banana-egg"
-    },
-    {
-        "name": "Baked Potato with Beef and Tomato",
-        "description": "A wholesome baked potato filled with savory beef and fresh tomato.",
-        "nutrition": {
-            "calories": "550",
-            "protein": "35g",
+            "calories": "400",
+            "protein": "20g",
             "carbs": "60g",
-            "fat": "20g",
-            "fiber": "10g",
-            "sugar": "5g",
+            "fat": "10g",
+            "fiber": "2g",
+            "sugar": "8g",
             "sodium": "300mg"
         },
         "ingredients": [
             {
-                "name": "potato",
-                "quantity": "1"
+                "name": "rice",
+                "quantity": "2 cups (cooked)"
             },
             {
-                "name": "beef",
-                "quantity": "150g"
+                "name": "pineapple",
+                "quantity": "150g (diced)"
             },
             {
-                "name": "tomato",
-                "quantity": "100g"
+                "name": "egg",
+                "quantity": "2"
             },
             {
-                "name": "sugar",
-                "quantity": "1 tsp"
+                "name": "olive oil",
+                "quantity": "2 tbsp"
+            },
+            {
+                "name": "salt",
+                "quantity": "to taste"
+            },
+            {
+                "name": "pepper",
+                "quantity": "to taste"
             }
         ],
         "steps": [
-            "1. Preheat the oven to 200°C (400°F).",
-            "2. Wash the potato thoroughly and prick it with a fork several times.",
-            "3. Bake the potato for 45-60 minutes until tender.",
-            "4. Meanwhile, in a skillet, cook the beef with sugar, salt, and pepper for about 10 minutes until browned.",
-            "5. Dice the tomatoes and add them to the skillet, cooking for an additional 5 minutes.",
-            "6. Once the potato is baked, cut it open and fill it with the beef mixture.",
-            "7. Serve warm."
+            "Step 1: Heat the olive oil in a large skillet over medium heat.",
+            "Step 2: Scramble the eggs until fully cooked, then set aside.",
+            "Step 3: In the same skillet, add the cooked rice and pineapple, stirring occasionally.",
+            "Step 4: Mix the scrambled eggs back into the rice and pineapple mixture.",
+            "Step 5: Season with salt and pepper to taste, cooking until heated through, about 5 minutes.",
+            "Step 6: Serve hot with additional pineapple on top if desired."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "muscle gain"
+            "diet",
+            "quick meal"
         ],
         "highlighted_ingredients": [
-            "beef",
-            "potato"
+            "pineapple",
+            "egg"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.wholesomedishes.com/baked-beef-potato"
+        "reference": "https://www.example.com/pineapple-egg-fried-rice"
     }
 ]
