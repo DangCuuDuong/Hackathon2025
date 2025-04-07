@@ -1,0 +1,94 @@
+{
+    "banana": {
+        "quantity": -3,
+        "unit": "1"
+    },
+    "oats": {
+        "quantity": -50,
+        "unit": "50g"
+    },
+    "water": {
+        "quantity": -700,
+        "unit": "300ml"
+    },
+    "eggs": {
+        "quantity": -5,
+        "unit": "2"
+    },
+    "tomato": {
+        "quantity": -7,
+        "unit": "1"
+    },
+    "olive oil": {
+        "quantity": -8,
+        "unit": "1 tbsp"
+    },
+    "chicken breast": {
+        "quantity": -400,
+        "unit": "200g"
+    },
+    "garlic": {
+        "quantity": -4,
+        "unit": "1 clove"
+    },
+    "ginger": {
+        "quantity": -1,
+        "unit": "1 tsp"
+    },
+    "carrot": {
+        "quantity": -6,
+        "unit": "2"
+    },
+    "pineapple": {
+        "quantity": -10,
+        "unit": "0.5"
+    },
+    "tofu": {
+        "quantity": -150,
+        "unit": "150g"
+    },
+    "eggplant": {
+        "quantity": -2,
+        "unit": "1"
+    },
+    "soy sauce": {
+        "quantity": -6,
+        "unit": "2 tbsp"
+    },
+    "rice": {
+        "quantity": -300,
+        "unit": "100g"
+    },
+    "bread": {
+        "quantity": -2,
+        "unit": "2 slices"
+    },
+    "sweet potato": {
+        "quantity": -1,
+        "unit": "1"
+    },
+    "fish": {
+        "quantity": -150,
+        "unit": "150g"
+    },
+    "apple": {
+        "quantity": -1,
+        "unit": "1"
+    },
+    "beef": {
+        "quantity": -200,
+        "unit": "200g"
+    },
+    "potato": {
+        "quantity": -1,
+        "unit": "1"
+    },
+    "onion": {
+        "quantity": -10,
+        "unit": "0.5"
+    },
+    "pork": {
+        "quantity": -200,
+        "unit": "200g"
+    }
+}

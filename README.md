@@ -1,64 +1,73 @@
+# **HACKATHON 2025**
 
-# **HACKATHON 2025**  
-**Đề tài:** .  
+**Đề tài:** .
 
 ---
 
-## **Introduction**  
-Đây là project nhằm vận dụng các kiến thức đã học vào thực tế thông qua việc xây dựng một website bán hàng.  
-- Mục tiêu: Giúp sinh viên nắm vững kiến thức về Java Web, từ đó nâng cao khả năng phát triển ứng dụng thực tế.  
+## **Introduction**
+
+Đây là project nhằm vận dụng các kiến thức đã học vào thực tế thông qua việc xây dựng một website bán hàng.
+
+- Mục tiêu: Giúp sinh viên nắm vững kiến thức về Java Web, từ đó nâng cao khả năng phát triển ứng dụng thực tế.
 - Công nghệ được sử dụng:
-   - **Backend:** Servlet, JSP/JSTL, JPA  
-   - **Frontend:** Bootstrap  
-   - **Bảo mật:** HTTPS, TLS, JWT  
-   - **Database:** SQLServer, MySQL, PostgreSQL  
-   - **Khác:** OAuth, Sitemesh Decorator  
+  - **Backend:** Servlet, JSP/JSTL, JPA
+  - **Frontend:** Bootstrap
+  - **Bảo mật:** HTTPS, TLS, JWT
+  - **Database:** SQLServer, MySQL, PostgreSQL
+  - **Khác:** OAuth, Sitemesh Decorator
 
 ---
 
-## **Features**  
-- **Tính năng 1:** Website bán hàng các loại thực phẩm sạch với các chức năng cơ bản:  
-   - Xem sản phẩm  
-   - Tìm kiếm sản phẩm  
-   - Thêm vào giỏ hàng và thanh toán
-   - Trang quản trị của admin  
+## **Features**
 
-- **Tính năng 2:** Đăng nhập và xác thực OAuth với **Google** và **Facebook**.  
+- **Tính năng 1:** Website bán hàng các loại thực phẩm sạch với các chức năng cơ bản:
 
-- **Tính năng 3:** Bảo mật hệ thống với:  
-   - **HTTPS** và **TLS**  
-   - File cấu hình bảo mật: `Keystore.jks` và `.env`  
-   - Bộ lọc bảo mật **Filter** trong Servlet  
+  - Xem sản phẩm
+  - Tìm kiếm sản phẩm
+  - Thêm vào giỏ hàng và thanh toán
+  - Trang quản trị của admin
 
-- **Tính năng 4:** Tích hợp cơ sở dữ liệu **Cloud Database** để lưu trữ và truy xuất dữ liệu.  
+- **Tính năng 2:** Đăng nhập và xác thực OAuth với **Google** và **Facebook**.
 
----
+- **Tính năng 3:** Bảo mật hệ thống với:
 
-## **How To Setup**  
+  - **HTTPS** và **TLS**
+  - File cấu hình bảo mật: `Keystore.jks` và `.env`
+  - Bộ lọc bảo mật **Filter** trong Servlet
 
-### **Yêu Cầu Hệ Thống**  
-- **IDE Java:** Spring Tool Suite 4, Eclipse  
-- **Cơ sở dữ liệu:** SQLServer, MySQL hoặc PostgreSQL  
-- **Server:** Apache Tomcat 10.1.24 (khuyến khích)  
-- **Thư viện:** Apache Maven 3.9.9 (khuyến khích)  
-- **Java Development Kit (JDK):** JDK 22 (khuyến khích)  
+- **Tính năng 4:** Tích hợp cơ sở dữ liệu **Cloud Database** để lưu trữ và truy xuất dữ liệu.
 
 ---
 
-### **Steps**  
+## **How To Setup**
 
-1. **Clone Project**  
+### **Yêu Cầu Hệ Thống**
+
+- **IDE Java:** Spring Tool Suite 4, Eclipse
+- **Cơ sở dữ liệu:** SQLServer, MySQL hoặc PostgreSQL
+- **Server:** Apache Tomcat 10.1.24 (khuyến khích)
+- **Thư viện:** Apache Maven 3.9.9 (khuyến khích)
+- **Java Development Kit (JDK):** JDK 22 (khuyến khích)
+
+---
+
+### **Steps**
+
+1. **Clone Project**
+
    ```bash
    git clone https://github.com/duyhao76/HKT_Shop
    ```
 
-2. **Thêm File Cấu Hình Bảo Mật**  
-   - Thêm file `Client_Secret.env` vào thư mục `src/main/resource/`.
-   - Thêm file`keystore.jks` vào thư mục chứa Project.  
+2. **Thêm File Cấu Hình Bảo Mật**
 
-3. **Cấu Hình Server**  
-   - Mở file `server.xml` trong Apache Tomcat.  
-   - Tìm đến dòng 64 và thay thế đoạn `<Connector>...</Connector>` như sau:  
+   - Thêm file `Client_Secret.env` vào thư mục `src/main/resource/`.
+   - Thêm file`keystore.jks` vào thư mục chứa Project.
+
+3. **Cấu Hình Server**
+
+   - Mở file `server.xml` trong Apache Tomcat.
+   - Tìm đến dòng 64 và thay thế đoạn `<Connector>...</Connector>` như sau:
 
    ```xml
    <Connector connectionTimeout="20000" maxParameterCount="1000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
@@ -69,30 +78,31 @@
    </Connector>
    ```
 
-   - Thay đường dẫn `"certificateKeystoreFile="...\keystore.jks"` bằng đường dẫn thực tế tới file `keystore.jks`.  
+   - Thay đường dẫn `"certificateKeystoreFile="...\keystore.jks"` bằng đường dẫn thực tế tới file `keystore.jks`.
 
-4. **Cập Nhật Maven và Restart Server**  
-   - Update Maven Project.  
-   - Restart Apache Tomcat.  
+4. **Cập Nhật Maven và Restart Server**
+   - Update Maven Project.
+   - Restart Apache Tomcat.
 
 ---
 
-## **Cách Sử Dụng**  
-1. Chạy server trên Apache Tomcat.  
-2. Truy cập vào đường dẫn:  
+## **Cách Sử Dụng**
+
+1. Chạy server trên Apache Tomcat.
+2. Truy cập vào đường dẫn:
    ```plaintext
    https://localhost:8443/HKT_Shop/
    ```
 
 ---
 
-## **Cấu Trúc Thư Mục**  
+## **Cấu Trúc Thư Mục**
 
 ```bash
 HKT_Shop/
 │
 ├── src/                      # Mã nguồn chính
-│   ├── main/  
+│   ├── main/
 │   │   ├── java/             # Code backend
 │   │   │   └── vn/HKT/
 │   │   │       ├── configs/          # Cấu hình ứng dụng
@@ -115,24 +125,29 @@ HKT_Shop/
 ├── docs/                     # Tài liệu hướng dẫn
 ├── pom.xml                   # File cấu hình Maven
 ├── README.md                 # File mô tả dự án
-├── keystore.jks              # Chứng chỉ TSL 
+├── keystore.jks              # Chứng chỉ TSL
 └── .gitignore                # File bỏ qua khi commit lên GitHub
 ```
----
-
-## **Thông Tin Nhóm**  
-- **Thành viên:**  
-   1. Đăng Cửu Dương  
-   2. Trịnh Hửu Thọ
-   3. Phan Văn Quân
-   4. Hoàng Mạnh Tường 
----
-
-## **Liên Hệ**  
-- **Email:** trinhuutho@gmail.com  
-- **GitHub:** [https://github.com/username](https://github.com/TrinhHuuTho)  
 
 ---
 
-### **Ghi Chú**  
-Các tài nguyên như **keystore.jks** và **.env** cần được tạo trước khi chạy ứng dụng để đảm bảo bảo mật.  
+## **Thông Tin Nhóm**
+
+- **Thành viên:**
+  1.  Đăng Cửu Dương
+  2.  Trịnh Hửu Thọ
+  3.  Phan Văn Quân
+  4.  Hoàng Mạnh Tường
+
+---
+
+## **Liên Hệ**
+
+- **Email:** trinhuutho@gmail.com
+- **GitHub:** [https://github.com/username](https://github.com/TrinhHuuTho)
+
+---
+
+### **Ghi Chú**
+
+Các tài nguyên như **keystore.jks** và **.env** cần được tạo trước khi chạy ứng dụng để đảm bảo bảo mật.
