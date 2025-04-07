@@ -1,13 +1,6 @@
 import re
 
 def clean_ingredient_name(raw_input: str) -> str:
-    """
-    Chuẩn hóa tên nguyên liệu:
-    - Lowercase
-    - Xóa khoảng trắng 2 đầu
-    - Xóa ký tự đặc biệt
-    - Chuyển số nhiều cơ bản về số ít (tomatoes -> tomato)
-    """
     # Bỏ khoảng trắng và lowercase
     name = raw_input.strip().lower()
 

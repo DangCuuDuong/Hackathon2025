@@ -1,10 +1,6 @@
 {
     "spice_level": "medium",
-    "diet_type": "High Protein",
-    "allergies_or_dislikes": [
-        "apple"
-    ],
-    "favorite_foods": [
-        "egg"
-    ]
+    "diet_type": "Healthy",
+    "allergies_or_dislikes": [],
+    "favorite_foods": []
 }
