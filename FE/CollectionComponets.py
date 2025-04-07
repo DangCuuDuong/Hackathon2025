@@ -88,6 +88,6 @@ def create_recommendation():
             output_json(df_merged)
 
             st.success("✅ Add done.")
-            st.dataframe(df_merged)
+            st.dataframe(df_merged, use_container_width=True)
         else:
             st.error("❌ Missing ingredients.csv file.")

@@ -1,15 +1,15 @@
 [
     {
-        "name": "Beef and Vegetable Stir Fry",
-        "description": "A hearty stir fry featuring beef and a mix of colorful vegetables.",
+        "name": "Beef and Sweet Potato Stir Fry",
+        "description": "A hearty stir fry featuring tender beef and sweet potatoes tossed with fresh vegetables.",
         "nutrition": {
             "calories": "450",
-            "protein": "35g",
-            "carbs": "30g",
-            "fat": "20g",
+            "protein": "30g",
+            "carbs": "45g",
+            "fat": "15g",
             "fiber": "5g",
-            "sugar": "5g",
-            "sodium": "500mg"
+            "sugar": "6g",
+            "sodium": "250mg"
         },
         "ingredients": [
             {
@@ -17,29 +17,35 @@
                 "quantity": "200g"
             },
             {
-                "name": "carrot",
-                "quantity": "100g"
+                "name": "sweetpotato",
+                "quantity": "150g"
             },
             {
-                "name": "potato",
+                "name": "carrot",
+                "quantity": "50g"
+            },
+            {
+                "name": "egg",
+                "quantity": "1"
+            },
+            {
+                "name": "pasta",
                 "quantity": "100g"
             },
             {
                 "name": "tomato",
                 "quantity": "100g"
-            },
-            {
-                "name": "sugar",
-                "quantity": "1tsp"
             }
         ],
         "steps": [
-            "1. Slice the beef into thin strips. Wash and peel the carrot and potato, then cut them into thin julienne strips. Wash the tomato and chop it into cubes.",
-            "2. In a frying pan or wok, heat a tablespoon of oil over medium-high heat.",
-            "3. Add the beef to the pan and stir fry for about 3-4 minutes until browned.",
-            "4. Add the carrot and potato strips, stirring for another 5 minutes or until they are tender.",
-            "5. Finally, add the chopped tomato and sugar, cooking for an additional 2 minutes, stirring constantly.",
-            "6. Remove from heat and serve hot."
+            "1. Wash the sweet potato and carrot thoroughly. Peel the sweet potato and cut it into small cubes.",
+            "2. Slice the beef into thin strips.",
+            "3. Heat a skillet over medium heat and add a tablespoon of oil. Add the beef strips and cook until browned, about 5 minutes.",
+            "4. Add the sweet potato and carrot cubes to the skillet. Stir-fry for about 10 minutes or until the sweet potatoes are tender.",
+            "5. In a separate pot, cook the pasta according to the package instructions. Drain and set aside.",
+            "6. Beat the egg in a small bowl and scramble it in the skillet for the last 2 minutes of cooking.",
+            "7. Add the cooked pasta and tomatoes to the skillet. Stir well to combine all ingredients and cook for an additional 2-3 minutes.",
+            "8. Season with salt and pepper to taste. Serve hot."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
@@ -47,39 +53,44 @@
             "muscle gain"
         ],
         "highlighted_ingredients": [
-            "beef"
+            "beef",
+            "sweet potato"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/beef-vegetable-stirfry"
+        "reference": "https://www.eatclean.com/beef-sweetpotato-stir-fry"
     },
     {
-        "name": "Sweet Potato and Tuna Salad",
-        "description": "A refreshing salad combining tuna and roasted sweet potatoes with a touch of sweetness.",
+        "name": "Tuna and Egg Salad",
+        "description": "A quick and nutritious salad combining tuna with eggs and fresh vegetables.",
         "nutrition": {
-            "calories": "350",
-            "protein": "30g",
-            "carbs": "40g",
-            "fat": "10g",
-            "fiber": "6g",
-            "sugar": "8g",
-            "sodium": "300mg"
+            "calories": "320",
+            "protein": "25g",
+            "carbs": "10g",
+            "fat": "22g",
+            "fiber": "3g",
+            "sugar": "2g",
+            "sodium": "500mg"
         },
         "ingredients": [
             {
-                "name": "sweetpotato",
+                "name": "tuna",
                 "quantity": "150g"
             },
             {
-                "name": "tuna",
-                "quantity": "1 can"
+                "name": "egg",
+                "quantity": "2"
             },
             {
                 "name": "tomato",
-                "quantity": "100g"
+                "quantity": "50g"
             },
             {
-                "name": "egg",
-                "quantity": "1"
+                "name": "carrot",
+                "quantity": "50g"
+            },
+            {
+                "name": "bread",
+                "quantity": "2 slices"
             },
             {
                 "name": "sugar",
@@ -87,12 +98,12 @@
             }
         ],
         "steps": [
-            "1. Preheat your oven to 200°C (392°F).",
-            "2. Peel the sweet potato and cut it into cubes. Place them on a baking sheet.",
-            "3. Drizzle with a bit of oil and sprinkle with sugar. Roast in the oven for about 20-25 minutes or until tender.",
-            "4. In the meantime, boil the egg in water for 10 minutes, then cool and peel.",
-            "5. In a bowl, combine the canned tuna, chopped tomato, and roasted sweet potato once ready.",
-            "6. Chop the boiled egg and add it to the salad. Mix thoroughly and serve."
+            "1. Boil the eggs in water for 10 minutes, then cool them under running water. Peel and chop them.",
+            "2. Drain the tuna and place it in a mixing bowl.",
+            "3. Dice the tomatoes and grate the carrot, then add them to the bowl with the tuna.",
+            "4. Add the chopped eggs to the bowl and sprinkle with a teaspoon of sugar, salt, and pepper to taste.",
+            "5. Toast the bread slices until golden brown.",
+            "6. Serve the salad on top of the toasted bread."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
@@ -101,67 +112,21 @@
         ],
         "highlighted_ingredients": [
             "tuna",
-            "sweetpotato"
+            "egg"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/sweet-potato-tuna-salad"
+        "reference": "https://www.recipes.com/tuna-egg-salad"
     },
     {
-        "name": "Egg and Fish Breakfast Scramble",
-        "description": "A quick breakfast scramble featuring eggs and flaky fish.",
-        "nutrition": {
-            "calories": "300",
-            "protein": "25g",
-            "carbs": "10g",
-            "fat": "15g",
-            "fiber": "0g",
-            "sugar": "1g",
-            "sodium": "450mg"
-        },
-        "ingredients": [
-            {
-                "name": "egg",
-                "quantity": "3"
-            },
-            {
-                "name": "fish",
-                "quantity": "100g"
-            },
-            {
-                "name": "tomato",
-                "quantity": "50g"
-            }
-        ],
-        "steps": [
-            "1. Crack the eggs into a bowl and whisk well, adding a pinch of salt (if desired).",
-            "2. Heat a non-stick frying pan over medium heat and add the fish, cooking for about 3-4 minutes until flaky.",
-            "3. Add the chopped tomato and cook for an additional minute.",
-            "4. Pour the whisked eggs into the pan and stir gently.",
-            "5. Cook while stirring until the eggs are just set but still creamy.",
-            "6. Serve hot with toast or on its own."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "eat clean",
-        "suitable_for": [
-            "gym goer"
-        ],
-        "highlighted_ingredients": [
-            "egg",
-            "fish"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.example.com/egg-fish-scramble"
-    },
-    {
-        "name": "Pasta with Tomato and Egg",
-        "description": "A simple yet delicious pasta dish topped with fresh tomatoes and poached eggs.",
+        "name": "Pasta with Tomato and Fish Sauce",
+        "description": "A quick pasta dish with a light tomato sauce and fish for added protein.",
         "nutrition": {
             "calories": "400",
             "protein": "20g",
             "carbs": "60g",
             "fat": "10g",
-            "fiber": "4g",
-            "sugar": "5g",
+            "fiber": "5g",
+            "sugar": "4g",
             "sodium": "300mg"
         },
         "ingredients": [
@@ -170,8 +135,112 @@
                 "quantity": "150g"
             },
             {
+                "name": "fish",
+                "quantity": "100g"
+            },
+            {
                 "name": "tomato",
+                "quantity": "100g"
+            },
+            {
+                "name": "carrot",
+                "quantity": "50g"
+            },
+            {
+                "name": "sugar",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "beef",
+                "quantity": "100g"
+            }
+        ],
+        "steps": [
+            "1. Cook the pasta according to the package instructions. Drain and set aside.",
+            "2. In a pan, heat a tablespoon of oil over medium heat and add diced fish. Cook for about 3-4 minutes until it’s cooked through.",
+            "3. Dice the tomatoes and add to the pan along with sugar, salt, and pepper. Stir for 5 minutes.",
+            "4. Grate the carrot and add it to the sauce, cooking for another 2-3 minutes.",
+            "5. Mix in the cooked pasta and combine well. Cook for an additional minute.",
+            "6. Optionally, serve with a side of sliced beef."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "diet"
+        ],
+        "highlighted_ingredients": [
+            "fish",
+            "tomato"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.quickrecipes.com/pasta-fish-sauce"
+    },
+    {
+        "name": "Carrot and Pineapple Smoothie",
+        "description": "A refreshing smoothie that combines the sweetness of pineapple with the crunch of carrots.",
+        "nutrition": {
+            "calories": "180",
+            "protein": "2g",
+            "carbs": "40g",
+            "fat": "1g",
+            "fiber": "5g",
+            "sugar": "30g",
+            "sodium": "60mg"
+        },
+        "ingredients": [
+            {
+                "name": "carrot",
+                "quantity": "100g"
+            },
+            {
+                "name": "pineapple",
                 "quantity": "150g"
+            },
+            {
+                "name": "sugar",
+                "quantity": "1 tsp"
+            },
+            {
+                "name": "egg",
+                "quantity": "1"
+            }
+        ],
+        "steps": [
+            "1. Peel and chop the carrot into smaller pieces.",
+            "2. Chop the pineapple into chunks.",
+            "3. Add the carrot pieces, pineapple chunks, and sugar into a blender.",
+            "4. Blend until smooth, adding water if necessary for desired consistency.",
+            "5. If using a raw egg, add it at the end and briefly blend again.",
+            "6. Pour into a glass and enjoy fresh."
+        ],
+        "spice_level": "not spicy",
+        "diet_type": "eat clean",
+        "suitable_for": [
+            "diet"
+        ],
+        "highlighted_ingredients": [
+            "carrot",
+            "pineapple"
+        ],
+        "avoided_ingredients": [],
+        "reference": "https://www.healthysmoothies.com/carrot-pineapple"
+    },
+    {
+        "name": "Banana and Egg Pancakes",
+        "description": "Healthy pancakes made with just bananas and eggs, perfect for a quick breakfast.",
+        "nutrition": {
+            "calories": "250",
+            "protein": "10g",
+            "carbs": "35g",
+            "fat": "9g",
+            "fiber": "3g",
+            "sugar": "10g",
+            "sodium": "200mg"
+        },
+        "ingredients": [
+            {
+                "name": "banana",
+                "quantity": "2"
             },
             {
                 "name": "egg",
@@ -183,12 +252,12 @@
             }
         ],
         "steps": [
-            "1. Bring a pot of salted water to a boil and cook the pasta according to package instructions until al dente.",
-            "2. While the pasta is cooking, wash and chop the tomatoes.",
-            "3. In a small saucepan, poach the eggs in simmering water for about 4 minutes until the whites are set.",
-            "4. Drain the pasta and return to the pot, adding in the chopped tomatoes and sugar. Stir well.",
-            "5. Serve the pasta topped with the poached eggs.",
-            "6. Optionally, you can add a sprinkle of salt and pepper to enhance the flavors."
+            "1. In a bowl, mash the bananas until smooth.",
+            "2. Crack the eggs into the bowl and mix until well combined.",
+            "3. Add sugar and mix again.",
+            "4. Heat a non-stick skillet over medium heat and pour a ladle of the mixture to form small pancakes.",
+            "5. Cook for 2-3 minutes on each side until golden brown.",
+            "6. Serve warm, optionally with fresh fruit."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
@@ -196,78 +265,32 @@
             "diet"
         ],
         "highlighted_ingredients": [
-            "pasta",
+            "banana",
             "egg"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/pasta-tomato-egg"
+        "reference": "https://www.simplepancakes.com/banana-egg"
     },
     {
-        "name": "Banana and Apple Smoothie",
-        "description": "A fruity smoothie perfect for breakfast or a refreshing snack.",
+        "name": "Baked Potato with Beef and Tomato",
+        "description": "A wholesome baked potato filled with savory beef and fresh tomato.",
         "nutrition": {
-            "calories": "200",
-            "protein": "2g",
-            "carbs": "50g",
-            "fat": "1g",
-            "fiber": "4g",
-            "sugar": "20g",
-            "sodium": "5mg"
-        },
-        "ingredients": [
-            {
-                "name": "banana",
-                "quantity": "1"
-            },
-            {
-                "name": "apple",
-                "quantity": "1"
-            },
-            {
-                "name": "sugar",
-                "quantity": "1 tsp"
-            },
-            {
-                "name": "egg",
-                "quantity": "1"
-            }
-        ],
-        "steps": [
-            "1. Peel the banana and chop it into smaller pieces.",
-            "2. Wash and chop the apple, removing the core and seeds.",
-            "3. In a blender, combine the banana, apple, and sugar.",
-            "4. If desired, add a cup of water or ice to achieve your preferred smoothie consistency.",
-            "5. Blend until smooth and serve immediately."
-        ],
-        "spice_level": "not spicy",
-        "diet_type": "eat clean",
-        "suitable_for": [
-            "diet",
-            "gym goer"
-        ],
-        "highlighted_ingredients": [
-            "banana",
-            "apple"
-        ],
-        "avoided_ingredients": [],
-        "reference": "https://www.example.com/banana-apple-smoothie"
-    },
-    {
-        "name": "Tomato and Potato Bake",
-        "description": "A comforting baked dish with layers of tomatoes and potatoes.",
-        "nutrition": {
-            "calories": "250",
-            "protein": "6g",
-            "carbs": "45g",
-            "fat": "5g",
-            "fiber": "4g",
-            "sugar": "4g",
-            "sodium": "200mg"
+            "calories": "550",
+            "protein": "35g",
+            "carbs": "60g",
+            "fat": "20g",
+            "fiber": "10g",
+            "sugar": "5g",
+            "sodium": "300mg"
         },
         "ingredients": [
             {
                 "name": "potato",
-                "quantity": "200g"
+                "quantity": "1"
+            },
+            {
+                "name": "beef",
+                "quantity": "150g"
             },
             {
                 "name": "tomato",
@@ -279,24 +302,24 @@
             }
         ],
         "steps": [
-            "1. Preheat the oven to 180°C (356°F).",
-            "2. Peel the potato and slice it thinly (about 0.5 cm).",
-            "3. Wash and chop the tomatoes into slices.",
-            "4. In a baking dish, layer the potato and tomato slices alternately, sprinkling sugar between layers.",
-            "5. Cover the dish with aluminum foil and bake for 30 minutes.",
-            "6. Remove foil and bake for another 15 minutes until the potatoes are soft and golden on top.",
-            "7. Serve hot."
+            "1. Preheat the oven to 200°C (400°F).",
+            "2. Wash the potato thoroughly and prick it with a fork several times.",
+            "3. Bake the potato for 45-60 minutes until tender.",
+            "4. Meanwhile, in a skillet, cook the beef with sugar, salt, and pepper for about 10 minutes until browned.",
+            "5. Dice the tomatoes and add them to the skillet, cooking for an additional 5 minutes.",
+            "6. Once the potato is baked, cut it open and fill it with the beef mixture.",
+            "7. Serve warm."
         ],
         "spice_level": "not spicy",
         "diet_type": "eat clean",
         "suitable_for": [
-            "diet"
+            "muscle gain"
         ],
         "highlighted_ingredients": [
-            "potato",
-            "tomato"
+            "beef",
+            "potato"
         ],
         "avoided_ingredients": [],
-        "reference": "https://www.example.com/tomato-potato-bake"
+        "reference": "https://www.wholesomedishes.com/baked-beef-potato"
     }
 ]

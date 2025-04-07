@@ -1,6 +1,6 @@
 # streamlit run c:/Users/Admin/Documents/Study/Projects/HK6/Hackathon2025/BE/main.py
 import streamlit as st
-st.set_page_config(page_title="Smart Refrigerator", page_icon="🍽️", layout="wide")
+st.set_page_config(page_title="Smart Fridgey", page_icon="🍽️", layout="wide")
 import pandas as pd
 import os
 from pathlib import Path
@@ -165,8 +165,6 @@ elif selected_sidebar == "Collection By Image":
         combind_json("JSON_FILE/main.json", "JSON_FILE/predict.json")
 
         st.success("✅ Đã xử lý xong ảnh!")
-    else:
-        st.warning("⚠️ Bạn chưa chọn ảnh hợp lệ.")
 
 
 
