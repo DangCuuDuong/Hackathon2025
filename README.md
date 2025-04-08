@@ -1,7 +1,7 @@
 # 🧊 Fridgey – Trợ lý nhà bếp thông minh  
 
 **Repo**: Hackathon2025 - HCMUTE
-**Team**: Dare To Take Quest  
+**Team**: Dare To Take Quest  - The winner of HCMUTE - Hackathon 2025
 
 ---
 
