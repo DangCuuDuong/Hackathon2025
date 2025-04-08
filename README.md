@@ -74,12 +74,14 @@ streamlit run main.py
 
 ## 👨‍👩‍👧‍👦 Thành viên nhóm  
 
-| **Họ tên**       | **Vai trò**  |  
+| **Họ tên**        | **Vai trò**  |  
 |-------------------|--------------|  
-| Dương             | Backend      |  
+| Đặng Cửu Dương    | Backend      |  
 | Trịnh Hửu Thọ     | Backend      |  
-| Tường             | Frontend     |  
-| Quân              | Frontend     |  
+| Hoàng Mạnh Tường  | Frontend     |  
+| Phan Văn Quân     | Frontend     |  
+
+![image](https://github.com/user-attachments/assets/a48f0a04-2859-4093-85bd-94ddf018aa77)
 
 ---
 
