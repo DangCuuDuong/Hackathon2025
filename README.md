@@ -1,6 +1,6 @@
 # 🧊 Fridgey – Trợ lý nhà bếp thông minh  
 
-**Repo**: Hackathon2025  
+**Repo**: Hackathon2025 - HCMUTE
 **Team**: Dare To Take Quest  
 
 ---
