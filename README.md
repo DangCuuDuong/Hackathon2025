@@ -1,153 +1,124 @@
-# **HACKATHON 2025**
+# 🧊 Fridgey – Trợ lý nhà bếp thông minh  
 
-**Đề tài:** .
-
----
-
-## **Introduction**
-
-Đây là project nhằm vận dụng các kiến thức đã học vào thực tế thông qua việc xây dựng một website bán hàng.
-
-- Mục tiêu: Giúp sinh viên nắm vững kiến thức về Java Web, từ đó nâng cao khả năng phát triển ứng dụng thực tế.
-- Công nghệ được sử dụng:
-  - **Backend:** Servlet, JSP/JSTL, JPA
-  - **Frontend:** Bootstrap
-  - **Bảo mật:** HTTPS, TLS, JWT
-  - **Database:** SQLServer, MySQL, PostgreSQL
-  - **Khác:** OAuth, Sitemesh Decorator
+**Repo**: Hackathon2025 - HCMUTE
+**Team**: Dare To Take Quest  
 
 ---
 
-## **Features**
+## 🎯 Mục tiêu dự án  
 
-- **Tính năng 1:** Website bán hàng các loại thực phẩm sạch với các chức năng cơ bản:
+Fridgey là một trợ lý nhà bếp thông minh, giúp người dùng – đặc biệt là sinh viên, dân văn phòng và người bận rộn – quản lý nguyên liệu trong tủ lạnh và gợi ý thực đơn phù hợp.  
 
-  - Xem sản phẩm
-  - Tìm kiếm sản phẩm
-  - Thêm vào giỏ hàng và thanh toán
-  - Trang quản trị của admin
-
-- **Tính năng 2:** Đăng nhập và xác thực OAuth với **Google** và **Facebook**.
-
-- **Tính năng 3:** Bảo mật hệ thống với:
-
-  - **HTTPS** và **TLS**
-  - File cấu hình bảo mật: `Keystore.jks` và `.env`
-  - Bộ lọc bảo mật **Filter** trong Servlet
-
-- **Tính năng 4:** Tích hợp cơ sở dữ liệu **Cloud Database** để lưu trữ và truy xuất dữ liệu.
+Trong thực tế, nhiều bạn sinh viên nhận thực phẩm từ gia đình nhưng lại không biết nấu gì và nấu như thế nào. Fridgey ra đời để giải quyết vấn đề đó: giúp người dùng tiết kiệm thời gian suy nghĩ, nấu nướng nhanh chóng và khoa học hơn.  
 
 ---
 
-## **How To Setup**
+## ✨ Tính năng chính  
 
-### **Yêu Cầu Hệ Thống**
+- 🧾 **Quản lý nguyên liệu trong tủ lạnh**  
+   - Nhập tay  
+   - Quét ảnh nguyên liệu  
+   - *(Đang phát triển)* Quét hóa đơn mua hàng  
 
-- **IDE Java:** Spring Tool Suite 4, Eclipse
-- **Cơ sở dữ liệu:** SQLServer, MySQL hoặc PostgreSQL
-- **Server:** Apache Tomcat 10.1.24 (khuyến khích)
-- **Thư viện:** Apache Maven 3.9.9 (khuyến khích)
-- **Java Development Kit (JDK):** JDK 22 (khuyến khích)
+- 🍱 **Gợi ý thực đơn**  
+   - Dựa trên nguyên liệu có sẵn  
+   - Dựa trên sở thích, tình trạng sức khỏe  
 
----
+- 🛒 **Gợi ý danh sách thực phẩm cần mua thêm**  
 
-### **Steps**
+- 📆 **Kế hoạch ăn uống cho 3–5 ngày tới**  
 
-1. **Clone Project**
-
-   ```bash
-   git clone https://github.com/duyhao76/HKT_Shop
-   ```
-
-2. **Thêm File Cấu Hình Bảo Mật**
-
-   - Thêm file `Client_Secret.env` vào thư mục `src/main/resource/`.
-   - Thêm file`keystore.jks` vào thư mục chứa Project.
-
-3. **Cấu Hình Server**
-
-   - Mở file `server.xml` trong Apache Tomcat.
-   - Tìm đến dòng 64 và thay thế đoạn `<Connector>...</Connector>` như sau:
-
-   ```xml
-   <Connector connectionTimeout="20000" maxParameterCount="1000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
-   <Connector SSLEnabled="true" maxThreads="150" port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol" scheme="https" secure="true">
-       <SSLHostConfig protocols="+TLSv1.2,+TLSv1.3">
-           <Certificate certificateKeystoreFile="...\keystore.jks" certificateKeystorePassword="123456" type="RSA"/>
-       </SSLHostConfig>
-   </Connector>
-   ```
-
-   - Thay đường dẫn `"certificateKeystoreFile="...\keystore.jks"` bằng đường dẫn thực tế tới file `keystore.jks`.
-
-4. **Cập Nhật Maven và Restart Server**
-   - Update Maven Project.
-   - Restart Apache Tomcat.
+- 🍳 **Cách nấu chi tiết từng món**  
 
 ---
 
-## **Cách Sử Dụng**
+## 🛠 Công nghệ sử dụng  
 
-1. Chạy server trên Apache Tomcat.
-2. Truy cập vào đường dẫn:
-   ```plaintext
-   https://localhost:8443/HKT_Shop/
-   ```
+- **Ngôn ngữ**: `Python`, `HTML`, `CSS`  
+- **Thư viện & Framework**:  
+   - `Streamlit`  
+   - `OpenAI API`  
+   - Các model `Machine Learning / Deep Learning` tự huấn luyện  
 
 ---
 
-## **Cấu Trúc Thư Mục**
+## 🚀 Hướng dẫn cài đặt & chạy
 
 ```bash
-HKT_Shop/
-│
-├── src/                      # Mã nguồn chính
-│   ├── main/
-│   │   ├── java/             # Code backend
-│   │   │   └── vn/HKT/
-│   │   │       ├── configs/          # Cấu hình ứng dụng
-│   │   │       ├── controllers/      # Controller xử lý logic
-│   │   │       ├── daos/             # Lớp truy cập dữ liệu
-│   │   │       ├── dtos/             # Đối tượng truyền dữ liệu
-│   │   │       ├── entities/         # Entity ánh xạ cơ sở dữ liệu
-│   │   │       ├── services/         # Lớp dịch vụ xử lý logic nghiệp vụ
-│   │   │       ├── filters/          # Bộ lọc bảo mật
-│   │   │       └── utils/            # Các hàm tiện ích
-│   │   ├── resources/        # File cấu hình (META-INF, .env)
-│   │   │   └── META-INF/             # File cấu hình JPA
-│   │   └── webapp/           # Giao diện và cấu hình frontend
-│   │       ├── commons/             # Tài nguyên dùng chung (HTML, CSS)
-│   │       ├── WEB-INF/             # Cấu hình Sitemesh Decorator
-│   │       ├── views/               # Các file JSP giao diện
-│   │       └── assets/              # CSS, JS, Images
-│   └── test/                 # Các file kiểm thử
-│
-├── docs/                     # Tài liệu hướng dẫn
-├── pom.xml                   # File cấu hình Maven
-├── README.md                 # File mô tả dự án
-├── keystore.jks              # Chứng chỉ TSL
-└── .gitignore                # File bỏ qua khi commit lên GitHub
+# 1. Clone repository
+git clone https://github.com/yourusername/Hackathon2025.git
+cd Hackathon2025
+
+# 2. Tạo virtual environment (nếu muốn)
+python -m venv venv
+source venv/bin/activate  # hoặc .\venv\Scripts\activate trên Windows
+
+# 3. Cài đặt thư viện
+pip install -r requirements.txt
+
+# 4. Tạo file ".env" và thêm vào dòng sau:
+OPENAI_API_KEY = "your api key"
+
+# 5. Chạy ứng dụng
+streamlit run main.py
 ```
 
----
+💡 **Lưu ý**: Tên file chạy chính (như `app.py`) có thể thay đổi tuỳ theo cấu trúc repo của bạn.  
 
-## **Thông Tin Nhóm**
+### ⚙️ Yêu cầu hệ thống  
 
-- **Thành viên:**
-  1.  Đăng Cửu Dương
-  2.  Trịnh Hửu Thọ
-  3.  Phan Văn Quân
-  4.  Hoàng Mạnh Tường
+- Python >= 3.11  
+- Internet để gọi OpenAI API (nếu sử dụng)  
 
 ---
 
-## **Liên Hệ**
+## 👨‍👩‍👧‍👦 Thành viên nhóm  
 
-- **Email:** trinhuutho@gmail.com
-- **GitHub:** [https://github.com/username](https://github.com/TrinhHuuTho)
+| **Họ tên**       | **Vai trò**  |  
+|-------------------|--------------|  
+| Dương             | Backend      |  
+| Trịnh Hửu Thọ     | Backend      |  
+| Tường             | Frontend     |  
+| Quân              | Frontend     |  
 
 ---
 
-### **Ghi Chú**
+## 🧪 Trạng thái chức năng  
 
-Các tài nguyên như **keystore.jks** và **.env** cần được tạo trước khi chạy ứng dụng để đảm bảo bảo mật.
+| **Tính năng**                                | **Trạng thái**         |  
+|----------------------------------------------|-------------------------|  
+| Gợi ý thực đơn                               | ✅ Hoàn thành           |  
+| Kế hoạch ăn uống 3 ngày tới                  | ✅ Hoàn thành           |  
+| Quản lý nguyên liệu (nhập tay, quét ảnh)     | ✅ Hoàn thành           |  
+| Chi tiết cách nấu món ăn                     | ✅ Hoàn thành           |  
+| Gợi ý đi chợ                                 | ✅ Hoàn thành           |  
+| Quản lý nguyên liệu bằng hóa đơn            | 🔄 Đang phát triển      |  
+| Tinh chỉnh lượng nguyên liệu khi nấu        | 🔜 Dự kiến phát triển   |  
+| Hướng dẫn nấu bằng âm thanh/video           | 🔜 Dự kiến phát triển   |  
+| Tối ưu hoá gợi ý bằng database công thức riêng | 🔜 Dự kiến phát triển   |  
+| Công thức có ảnh minh hoạ                   | 🔜 Dự kiến phát triển   |  
+
+---
+
+## 🏁 Hướng phát triển tương lai  
+
+- Hướng dẫn nấu ăn bằng âm thanh/video trực quan  
+- Điều chỉnh linh hoạt lượng nguyên liệu khi nấu  
+- Tích hợp database công thức nấu ăn riêng, cải thiện khả năng gợi ý  
+- Minh hoạ từng công thức bằng hình ảnh hấp dẫn  
+
+---
+
+## 📸 Ảnh Demo  
+
+*(Sẽ được cập nhật sau khi hoàn thiện UI/UX và chức năng chính)*  
+
+📍 **Placeholder ảnh**:  
+
+---
+
+## 💬 Liên hệ  
+
+Nếu bạn có câu hỏi hoặc muốn đóng góp, đừng ngần ngại tạo Issue hoặc PR cho repo!  
+
+Made with ❤️ by Dare To Take Quest – Hackathon 2025  

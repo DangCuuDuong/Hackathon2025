@@ -1,0 +1,14 @@
+joblib==1.4.2
+matplotlib==3.10.1
+numpy==2.2.4
+openai==1.71.0
+opencv_python==4.11.0.86
+pandas==2.2.3
+Pillow==11.1.0
+pytesseract==0.3.13
+python-dotenv==1.1.0
+scikit_learn==1.6.1
+streamlit==1.42.2
+tensorflow==2.18.0
+tensorflow_intel==2.18.0
+tqdm==4.67.1
